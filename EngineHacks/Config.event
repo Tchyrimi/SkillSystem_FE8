@@ -27,7 +27,7 @@
 // If uncommented, a full str/split will be implemented without replacing any stats
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-// #define USE_STRMAG_SPLIT
+ #define USE_STRMAG_SPLIT
 
 // If uncommented, the statscreen will have a moving background similar to FE6 and FE7.
 // Customization of graphical assets is possible in Necessary/ModularStatScreen/Background/Graphics/Graphics.event.
@@ -37,7 +37,7 @@
 #define BATTLE_STATS
 
 //If uncommented, will enable Casual Mode (set by flag 0xB0).
-#define CASUAL_MODE
+//#define CASUAL_MODE
 
 //If uncommented, will enable Contemporary Talk & Support.
 #define CONTEMPORARY_TALK_SUPPORT
@@ -53,7 +53,7 @@
 #define TRAP_REWORK
 
 //If uncommented, will enable Dragon Veins.
-#define DRAGON_VEINS
+//#define DRAGON_VEINS
 
 //If uncommented, will enable Heal Tiles.
 #define HEAL_TILES
@@ -88,7 +88,7 @@
 //#define CHARACTER_CHAPTER_SPECIFIC_BATTTLETHEMES
 
 //If uncommented, will enable the Movement Arrow Hack.
-#define MOVEARROW_HACK
+//#define MOVEARROW_HACK
 
 //If uncommented, will enable Negative Weapon Wt/Crit Display.
 #define NEGATIVE_WTCRIT_DISPLAY
@@ -108,12 +108,12 @@
 // If uncommented, the Anima Triangle will be implemented.
 // Go to "AnimaTriangle/AnimaTriangle.event" to define your fire, thunder, and wind magic lists.
 // This patch normally conflicts with Tri-Adept, but installing here remedies this.
-// #define ANIMA_TRIANGLE
+ #define ANIMA_TRIANGLE
 
 // If uncomented, ModularEXP will be implemented.
 // Go to "ModularEXP/ModularEXP.event" and "Tables/FE8 Nightmare modules/Misc/Modular EXP Class Table.csv" to edit experience gains.
 // This patch normally conflicts with Paragon, but installing here remedies this.
-// #define MODULAR_EXP
+ #define MODULAR_EXP
 
 // If uncommented, PortraitSelectionASM will be implemented.
 // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
@@ -122,7 +122,7 @@
 
 // If uncommented, StairsASM will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
-// #define STAIRS_ASM
+ #define STAIRS_ASM
 
 // If uncommented, Raid will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -130,7 +130,7 @@
 
 // If uncommented, Escape-Arrive will be implemented.
 // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-// #define ESCAPE_ARRIVE
+ #define ESCAPE_ARRIVE
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
@@ -144,7 +144,7 @@
 
 //If uncommented, Reaver Split will be implemented.
 //Makes weapon ability 2 reaver bit just triangle reversal and weapon ability 3 bit 0x80 triple triangle effect.
-// #define REAVER_SPLIT
+ #define REAVER_SPLIT
 
 //If uncommented, Cannot Crit will be implemented.
 //Makes weapon crit of 255 negate crits.
@@ -159,7 +159,7 @@
 
 //If uncommented, Status-Inflicting Weapons will be implemented.
 //Setting weapon effect 0xD will apply the effect ID at item data +0x22.
-// #define STATUS_WEAPONS
+ #define STATUS_WEAPONS
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.
@@ -184,7 +184,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
 // This will automatically enable Narrow Font.
-#define ENABLE_PERSONAL_INFO
+//#define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
 #define ONLY_SHOW_USED_RANKS
@@ -203,7 +203,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 //#define INSTALL_AoE
 
 // If uncommented, Unlock staves will work on chests.
-// #define UNLOCK_WORKS_ON_CHESTS
+ #define UNLOCK_WORKS_ON_CHESTS
 
 // If uncommented, damage numbers will display over participants' heads during battle animations.
 // #define BATTLE_ANIMATION_NUMBERS
@@ -237,7 +237,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PASSIVE_SKILLS_STACK True
 
 // If set to true, units under roof tiles will be considered for aura skills
-#define ROOF_UNIT_AURAS True
+#define ROOF_UNIT_AURAS False
 
 // if uncommented units will be select automatically after galeforce (pressing b won't end their turn)
 // #define ENABLE_GALEFORCE_AUTOSELECT
@@ -265,13 +265,13 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define RESIDUAL_DAMAGE_REQUIRES_BATTLE_DAMAGE
 
 // If commented, Capture will be a global command and will not require the Capture skill.
-#define CAPTURE_SKILL_REQUIRED
+//#define CAPTURE_SKILL_REQUIRED
 
 // If commented, Dragon Veins will be a global command and will not require the Dragon's Blood skill.
 #define DRAGON_VEIN_SKILL_REQUIRED
 
 //If commented, Heroes Movement skills will use class checks and will not require their respective skills. Configure lists for each skill in 'SkillSystem/Skills/UnitMenuSkills/HeroesMovement/HeroesMovement.event', at the bottom of the file.
-#define HEROES_MOVEMENT_SKILL_REQUIRED
+//#define HEROES_MOVEMENT_SKILL_REQUIRED
 
 // If uncommented, the Charge mechanic will be disabled and Moonbow will use a skill% activation rate. This will not change Moonbow's description.
 // #define DISABLE_CHARGE
@@ -361,10 +361,10 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PRESS_SELECT_TO_VIEW_GROWTHS
 
 //If true, the stat colors for player units will reflect their growth in the stat.
-#define USE_STAT_COLORS True
+#define USE_STAT_COLORS False
 
 //When leveling up, the game rerolls (up to 5 times) until you gain at least this many points
-#define MIN_STAT_GAIN 1 // vanilla is 1 
+#define MIN_STAT_GAIN 2 // vanilla is 1 
 
 // If true, fixed/bracketed levels will consider your lowest level as the level inputted in the character table
 #define BRACKETING_USE_BASE_LEVEL False 
@@ -400,7 +400,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define STACKABLE_GROWTH_BOOSTS True
 
 //Amount for Metis Tome to boost growths by
-#define METIS_TOME_BOOST 5
+#define METIS_TOME_BOOST 10
 
 //If true, growths will be calculated as (char growth + class growth).
 #define USE_CHAR_AND_CLASS_GROWTHS False

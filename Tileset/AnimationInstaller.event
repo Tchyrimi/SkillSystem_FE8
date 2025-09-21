@@ -1,0 +1,144 @@
+EventPointerTable(0x05, NewMtnAnimation)
+EventPointerTable(0x12, UpdateVillageAnimation)
+
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+NewMtnAnimation0:
+#incext Png2Dmp "Frame0.png"
+ALIGN 4
+NewMtnAnimation1:
+#incext Png2Dmp "Frame1.png"
+ALIGN 4
+NewMtnAnimation2:
+#incext Png2Dmp "Frame2.png"
+ALIGN 4
+NewMtnAnimation3:
+#incext Png2Dmp "Frame3.png"
+ALIGN 4
+NewMtnAnimation4:
+#incext Png2Dmp "Frame4.png"
+ALIGN 4
+NewMtnAnimation5:
+#incext Png2Dmp "Frame5.png"
+ALIGN 4
+NewMtnAnimation6:
+#incext Png2Dmp "Frame6.png"
+ALIGN 4
+NewMtnAnimation7:
+#incext Png2Dmp "Frame7.png"
+ALIGN 4
+NewMtnAnimation8:
+#incext Png2Dmp "Frame8.png"
+ALIGN 4
+NewMtnAnimation9:
+#incext Png2Dmp "Frame9.png"
+ALIGN 4
+NewMtnAnimation10:
+#incext Png2Dmp "Frame10.png"
+ALIGN 4
+NewMtnAnimation11:
+#incext Png2Dmp "Frame11.png"
+ALIGN 4
+NewMtnAnimation12:
+#incext Png2Dmp "Frame12.png"
+ALIGN 4
+NewMtnAnimation13:
+#incext Png2Dmp "Frame13.png"
+ALIGN 4
+NewMtnAnimation14:
+#incext Png2Dmp "Frame14.png"
+ALIGN 4
+NewMtnAnimation15:
+#incext Png2Dmp "Frame15.png"
+
+ALIGN 4
+NewMtnAnimation:
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation0)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation1)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation2)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation3)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation4)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation5)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation6)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation7)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation8)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation9)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation10)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation11)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation12)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation13)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation14)
+tilesetAnimation(0x1C,0x1000,NewMtnAnimation15)
+WORD 0 0
+
+ALIGN 4
+UpdateVillageAnimation0:
+#incext Png2Dmp "VillageFrame0.png"
+ALIGN 4
+UpdateVillageAnimation1:
+#incext Png2Dmp "VillageFrame1.png"
+ALIGN 4
+UpdateVillageAnimation2:
+#incext Png2Dmp "VillageFrame2.png"
+ALIGN 4
+UpdateVillageAnimation3:
+#incext Png2Dmp "VillageFrame3.png"
+ALIGN 4
+UpdateVillageAnimation4:
+#incext Png2Dmp "VillageFrame4.png"
+ALIGN 4
+UpdateVillageAnimation5:
+#incext Png2Dmp "VillageFrame5.png"
+ALIGN 4
+UpdateVillageAnimation6:
+#incext Png2Dmp "VillageFrame6.png"
+ALIGN 4
+UpdateVillageAnimation7:
+#incext Png2Dmp "VillageFrame7.png"
+ALIGN 4
+UpdateVillageAnimation8:
+#incext Png2Dmp "VillageFrame8.png"
+ALIGN 4
+UpdateVillageAnimation9:
+#incext Png2Dmp "VillageFrame9.png"
+ALIGN 4
+UpdateVillageAnimation10:
+#incext Png2Dmp "VillageFrame10.png"
+ALIGN 4
+UpdateVillageAnimation11:
+#incext Png2Dmp "VillageFrame11.png"
+ALIGN 4
+UpdateVillageAnimation12:
+#incext Png2Dmp "VillageFrame12.png"
+ALIGN 4
+UpdateVillageAnimation13:
+#incext Png2Dmp "VillageFrame13.png"
+ALIGN 4
+UpdateVillageAnimation14:
+#incext Png2Dmp "VillageFrame14.png"
+ALIGN 4
+UpdateVillageAnimation15:
+#incext Png2Dmp "VillageFrame15.png"
+
+ALIGN 4
+UpdateVillageAnimation:
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation0)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation1)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation2)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation3)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation4)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation5)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation6)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation7)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation8)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation9)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation10)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation11)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation12)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation13)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation14)
+tilesetAnimation(0x1C,0x1000,UpdateVillageAnimation15)
+WORD 0 0

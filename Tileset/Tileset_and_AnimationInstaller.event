@@ -1,0 +1,34 @@
+//Every entry needs an Object png, Palette dmp, and mapchip_config
+#include AnimationInstaller.event
+
+ALIGN 4
+NewMtnObjects:
+#incext Png2Dmp "AlteredMountainousObject.png" --lz77 //A bit of a note: This isn't the tileset you see in Tiled when making a map; it's the compressed image for the metatiles used for the bigger scope. (Thanks to Snakey1 for pointing out)
+
+ALIGN 4
+NewMtnPalette:
+#incbin "AlteredMountainousPalette.dmp"
+
+ALIGN 4
+NewMtnTiles:
+#incext compress "AlteredMountainous.mapchip_config"
+
+EventPointerTable(0x6C, NewMtnObjects)
+EventPointerTable(0x6D, NewMtnPalette)
+EventPointerTable(0x6E, NewMtnTiles)
+
+ALIGN 4
+UpVilObjects:
+#incext Png2Dmp "updatedVillageObject.png" --lz77 //A bit of a note: This isn't the tileset you see in Tiled when making a map; it's the compressed image for the metatiles used for the bigger scope. (Thanks to Snakey1 for pointing out)
+
+ALIGN 4
+UpVilPalette:
+#incbin "updatedVillagePalette.dmp"
+
+ALIGN 4
+UpVilTiles:
+#incext compress "updatedVillage.mapchip_config"
+
+EventPointerTable(0xE, UpVilObjects)
+EventPointerTable(0xf, UpVilPalette)
+EventPointerTable(0x10, UpVilTiles)
