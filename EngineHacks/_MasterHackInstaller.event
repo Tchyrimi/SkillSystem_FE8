@@ -53,6 +53,9 @@ POP
 
 ////////////////////////////////FREE SPACE OUT OF BL RANGE
 
+//add group AI
+  #include "ExternalHacks/GroupAI/GroupAI.event"
+  
   // Expand unit promotion list
   #include "ExternalHacks/ClassChgExpansion/ClassChgExpansion.event"
 

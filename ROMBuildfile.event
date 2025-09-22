@@ -20,8 +20,11 @@
 
 	#ifdef USE_TEST_MAP
     //Events
+	MESSAGE SilentGiveGold starts at currentOffset
+	#incbin "Events/SilentGiveGold.dmp"
+	#include "Events/myPrologue.event"
     //#include "Events/Release_map.event"
-    #include "Events/WorldMapEvents.event"
+    //#include "Events/WorldMapEvents.event"
 
     //Maps
 	#include "Tileset/Tileset_and_AnimationInstaller.event"
