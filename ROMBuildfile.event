@@ -20,8 +20,10 @@
 
 	#ifdef USE_TEST_MAP
     //Events
-	MESSAGE SilentGiveGold starts at currentOffset
+	PUSH
+	ORG 0x000B04F8
 	#incbin "Events/SilentGiveGold.dmp"
+	POP
 	#include "Events/myPrologue.event"
     //#include "Events/Release_map.event"
     //#include "Events/WorldMapEvents.event"

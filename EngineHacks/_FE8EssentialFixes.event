@@ -2,6 +2,10 @@
 //Install with Event Assembler
 PUSH
 
+//crit and luck stuff (both Dragz I'm pretty sure, double check)
+#include "minimumcritedit.txt"
+#include "addlucktohitrate.txt"
+
 //Fix Stone's map animation crashing no$ due to a bad decompression
 ORG $7E2B4
 BYTE 0x8
@@ -103,8 +107,8 @@ SHORT $46c0
 
   
 //Skip Nintendo logo
- // ORG $CBDE2
- // BYTE 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+  ORG $CBDE2
+  BYTE 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
   
 //Skip IS logo
   ORG $CBDF6

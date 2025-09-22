@@ -42,5 +42,7 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
+#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
+
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

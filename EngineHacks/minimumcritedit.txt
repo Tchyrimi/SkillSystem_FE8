@@ -1,0 +1,4 @@
+PUSH
+ORG 0x02ACC0
+BYTE 0xA // battle crit below this number becomes set to 0
+POP
