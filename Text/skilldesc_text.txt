@@ -8,7 +8,7 @@ Adept: Gain a consecutive attack.[N]
 (Speed % activation)[X]
 
 ## SD_Acrobat
-Acrobat: All traversable[N]
+Trailblazer: All traversable[N]
 terrain costs 1 movement.[X]
 
 ## SD_Pass

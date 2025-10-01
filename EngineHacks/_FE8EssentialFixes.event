@@ -6,6 +6,24 @@ PUSH
 #include "minimumcritedit.txt"
 #include "addlucktohitrate.txt"
 
+//difficulty select skip
+
+{
+PUSH; ORG 0xA20164
+    POIN (prFixedDifficulty+1)
+POP
+
+prFixedDifficulty:
+    SHORT (0x2200 | 0) // Difficulty: 0 for easy, 1 for normal, 2 for hard
+    SHORT 0x2300
+    SHORT 0x212A
+    SHORT 0x5442
+    SHORT 0x213D
+    SHORT 0x5443
+    SHORT 0x4770
+    ALIGN 4
+}
+
 //Fix Stone's map animation crashing no$ due to a bad decompression
 ORG $7E2B4
 BYTE 0x8

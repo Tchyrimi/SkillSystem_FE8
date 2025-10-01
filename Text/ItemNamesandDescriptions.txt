@@ -1,0 +1,1306 @@
+//Item names
+
+# 0x0354 *
+Iron Sword[X]
+
+# 0x0355 *
+Slim Sword[X]
+
+# 0x0356 *
+Steel Sword[.][X]
+
+# 0x0357 *
+Silver Sword[X]
+
+# 0x0358 *
+Iron Blade[X]
+
+# 0x0359 *
+Steel Blade[.][X]
+
+# 0x035A *
+Silver Blade[X]
+
+# 0x035B *
+Poison Sword[X]
+
+# 0x035C *
+Old Friend[X]
+
+# 0x035D *
+Brave Sword[.][X]
+
+# 0x035E *
+Shamshir[X]
+
+# 0x035F *
+Killing Edge[X]
+
+# 0x0360 *
+Armorslayer[.][X]
+
+# 0x0361 *
+Wyrmslayer[X]
+
+# 0x0362 *
+Light Brand[.][X]
+
+# 0x0363 *
+Runesword[.][X]
+
+# 0x0364 *
+Lancereaver[.][X]
+
+# 0x0365 *
+Zanbato[.][X]
+
+# 0x0366 *
+Sieglinde[.][X]
+
+# 0x0367 *
+Audhulma[X]
+
+# 0x0368 *
+Wind Sword[X]
+
+# 0x0369 *
+Iron Lance[X]
+
+# 0x036A *
+Slim Lance[X]
+
+# 0x036B *
+Steel Lance[.][X]
+
+# 0x036C *
+Silver Lance[X]
+
+# 0x036D *
+Toxin Lance[.][X]
+
+# 0x036E *
+Brave Lance[.][X]
+
+# 0x036F *
+Killer Lance[X]
+
+# 0x0370 *
+Horseslayer[.][X]
+
+# 0x0371 *
+Javelin[.][X]
+
+# 0x0372 *
+Spear[.][X]
+
+# 0x0373 *
+Axereaver[.][X]
+
+# 0x0374 *
+Reginleif[.][X]
+
+# 0x0375 *
+Siegmund[X]
+
+# 0x0376 *
+Vidofnir[X]
+
+# 0x0377 *
+Dragonspear[.][X]
+
+# 0x0378 *
+Heavy Spear[.][X]
+
+# 0x0379 *
+Short Spear[.][X]
+
+# 0x037A *
+Iron Axe[X]
+
+# 0x037B *
+Steel Axe[.][X]
+
+# 0x037C *
+Silver Axe[X]
+
+# 0x037D *
+Poison Axe[X]
+
+# 0x037E *
+Brave Axe[.][X]
+
+# 0x037F *
+Killer Axe[X]
+
+# 0x0380 *
+Halberd[.][X]
+
+# 0x0381 *
+Hammer[X]
+
+# 0x0382 *
+Devil Axe[.][X]
+
+# 0x0383 *
+Hand Axe[X]
+
+# 0x0384 *
+Tomahawk[X]
+
+# 0x0385 *
+Swordreaver[.][X]
+
+# 0x0386 *
+Swordslayer[.][X]
+
+# 0x0387 *
+Dragon Axe[X]
+
+# 0x0388 *
+Battle Axe[X]
+
+# 0x0389 *
+Garm[X]
+
+# 0x038A *
+Hatchet[.][X]
+
+# 0x038B *
+Iron Bow[X]
+
+# 0x038C *
+Steel Bow[.][X]
+
+# 0x038D *
+Silver Bow[X]
+
+# 0x038E *
+Poison Bow[X]
+
+# 0x038F *
+Killer Bow[X]
+
+# 0x0390 *
+Brave Bow[.][X]
+
+# 0x0391 *
+Short Bow[.][X]
+
+# 0x0392 *
+Longbow[.][X]
+
+# 0x0393 *
+Iron Longbow[X]
+
+# 0x0394 *
+Steel Longbow[X]
+
+# 0x0395 *
+Silver Longbow[X]
+
+# 0x0396 *
+Nidhogg[.][X]
+
+# 0x0397 *
+Wretched Air[X]
+
+# 0x0398 *
+Dragonstone[.][X]
+
+# 0x0399 *
+Stone Shard[.][X]
+
+# 0x039A *
+Demon Light[.][X]
+
+# 0x039B *
+Ravager[.][X]
+
+# 0x039C *
+Nightmare[.][X]
+
+# 0x039D *
+Sharp Claw[X]
+
+# 0x039E *
+Rotten Claw[.][X]
+
+# 0x039F *
+Fetid Claw[X]
+
+# 0x03A0 *
+Poison Claw[.][X]
+
+# 0x03A1 *
+Lethal Talon[X]
+
+# 0x03A2 *
+Fiery Fang[X]
+
+# 0x03A3 *
+Hellfang[X]
+
+# 0x03A4 *
+Shadowkiller[X]
+
+# 0x03A5 *
+Bright Lance[X]
+
+# 0x03A6 *
+Fiendcleaver[X]
+
+# 0x03A7 *
+Beacon Bow[X]
+
+# 0x03A8 *
+Emblem Seal[.][X]
+
+# 0x03A9 *
+Fire[X]
+
+# 0x03AA *
+Thunder[.][X]
+
+# 0x03AB *
+Elfire[X]
+
+# 0x03AC *
+Alacalibur[X]
+
+# 0x03AD *
+Bolting[.][X]
+
+# 0x03AE *
+Fimbulvetr[X]
+
+# 0x03AF *
+Excalibur[.][X]
+
+# 0x03B0 *
+Lightning[.][X]
+
+# 0x03B1 *
+Shine[.][X]
+
+# 0x03B2 *
+Divine[X]
+
+# 0x03B3 *
+Purge[.][X]
+
+# 0x03B4 *
+Aura[X]
+
+# 0x03B5 *
+Ivaldi[X]
+
+# 0x03B6 *
+Flux[X]
+
+# 0x03B7 *
+Luna[X]
+
+# 0x03B8 *
+Nosferatu[.][X]
+
+# 0x03B9 *
+Eclipse[.][X]
+
+# 0x03BA *
+Fenrir[X]
+
+# 0x03BB *
+Gleipnir[X]
+
+# 0x03BC *
+Naglfar[.][X]
+
+# 0x03BD *
+Stone[.][X]
+
+# 0x03BE *
+Evil Eye[X]
+
+# 0x03BF *
+Crimson Eye[.][X]
+
+# 0x03C0 *
+Demon Surge[.][X]
+
+# 0x03C1 *
+Shadowshot[X]
+
+# 0x03C2 *
+Heal[X]
+
+# 0x03C3 *
+Mend[X]
+
+# 0x03C4 *
+Recover[.][X]
+
+# 0x03C5 *
+Physic[X]
+
+# 0x03C6 *
+Fortify[.][X]
+
+# 0x03C7 *
+Restore[.][X]
+
+# 0x03C8 *
+Silence[.][X]
+
+# 0x03C9 *
+Sleep[.][X]
+
+# 0x03CA *
+Berserk[.][X]
+
+# 0x03CB *
+Warp[X]
+
+# 0x03CC *
+Rescue[X]
+
+# 0x03CD *
+Torch[.][X]
+
+# 0x03CE *
+Hammerne[X]
+
+# 0x03CF *
+Unlock[X]
+
+# 0x03D0 *
+Barrier[.][X]
+
+# 0x03D1 *
+Latona[X]
+
+# 0x03D2 *
+Dance[.][X]
+
+# 0x03D3 *
+Play[X]
+
+# 0x03D4 *
+Angelic Robe[X]
+
+# 0x03D5 *
+Energy Ring[.][X]
+
+# 0x03D6 *
+Secret Book[.][X]
+
+# 0x03D7 *
+Speedwing[.][X]
+
+# 0x03D8 *
+Goddess Icon[X]
+
+# 0x03D9 *
+Dragonshield[X]
+
+# 0x03DA *
+Talisman[X]
+
+# 0x03DB *
+Swiftsole[.][X]
+
+# 0x03DC *
+Body Ring[.][X]
+
+# 0x03DD *
+Hero Crest[X]
+
+# 0x03DE *
+Knight Crest[X]
+
+# 0x03DF *
+Orion's Bolt[X]
+
+# 0x03E0 *
+Elysian Whip[X]
+
+# 0x03E1 *
+Guiding Ring[X]
+
+# 0x03E2 *
+Chest Key[.][X]
+
+# 0x03E3 *
+Door Key[X]
+
+# 0x03E4 *
+Lockpick[X]
+
+# 0x03E5 *
+Vulnerary[.][X]
+
+# 0x03E6 *
+Elixir[X]
+
+# 0x03E7 *
+Pure Water[X]
+
+# 0x03E8 *
+Antitoxin[.][X]
+
+# 0x03E9 *
+Torch[.][X]
+
+# 0x03EA *
+Fili Shield[.][X]
+
+# 0x03EB *
+Member Card[.][X]
+
+# 0x03EC *
+Silver Card[.][X]
+
+# 0x03ED *
+Gold Gem[X]
+
+# 0x03EE *
+Black Gem[.][X]
+
+# 0x03EF *
+White Gem[.][X]
+
+# 0x03F0 *
+Blue Gem[X]
+
+# 0x03F1 *
+Red Gem[.][X]
+
+# 0x03F2 *
+Gold[X]
+
+# 0x03F3 *
+Hoplon Guard[X]
+
+# 0x03F4 *
+Master Seal[.][X]
+
+# 0x03F5 *
+Metis's Tome[X]
+
+# 0x03F6 *
+Ocean Seal[X]
+
+# 0x03F7 *
+Lunar Brace[.][X]
+
+# 0x03F8 *
+Solar Brace[.][X]
+
+# 0x03F9 *
+1 Gold[X]
+
+# 0x03FA *
+5 Gold[X]
+
+# 0x03FB *
+10 Gold[.][X]
+
+# 0x03FC *
+50 Gold[.][X]
+
+# 0x03FD *
+100 Gold[X]
+
+# 0x03FE *
+150 Gold[X]
+
+# 0x03FF *
+200 Gold[X]
+
+# 0x0400 *
+3,000 Gold[X]
+
+# 0x0401 *
+5,000 Gold[X]
+
+# 0x0402 *
+Juna Fruit[X]
+
+# 0x0403 *
+Rushdown Blow[.][X]
+
+
+//Item descriptions
+
+# 0x0404
+ [.][X]
+
+# 0x0405
+ [.][X]
+
+# 0x0406
+ [.][X]
+
+# 0x0407
+ [.][X]
+
+# 0x0408
+ [.][X]
+
+# 0x0409
+ [.][X]
+
+# 0x040A
+ [.][X]
+
+# 0x040B
+Coated in lethal poison.[X]
+
+# 0x040C
+Effective against infantry.[.][X]
+
+# 0x040D
+Can strike consecutively.[.][X]
+
+# 0x040E
+Improves critical hit rate.[.][X]
+
+# 0x040F
+Improves critical hit rate.[.][X]
+
+# 0x0410
+Effective against knights.[X]
+
+# 0x0411
+Effective against wyverns.[X]
+
+# 0x0412
+Suffused with light magic.[X]
+
+# 0x0413
+Imbued with dark magic.[.][X]
+
+# 0x0414
+Strong against spears.[X]
+
+# 0x0415
+Effective against cavalry.[X]
+
+# 0x0416
+The Sacred Twin storm blade. Str +5.[X]
+
+# 0x0417
+The Sacred Twin ice blade. Res +5.[X]
+
+# 0x0418
+Capable of indirect attacks.[X]
+
+# 0x0419
+ [.][X]
+
+# 0x041A
+ [.][X]
+
+# 0x041B
+ [.][X]
+
+# 0x041C
+ [.][X]
+
+# 0x041D
+Coated in lethal poison.[X]
+
+# 0x041E
+Can strike consecutively.[.][X]
+
+# 0x041F
+Improves critical hit rate.[.][X]
+
+# 0x0420
+Effective against cavalry.[X]
+
+# 0x0421
+Doubles as ranged attack.[.][X]
+
+# 0x0422
+Doubles as ranged attack.[.][X]
+
+# 0x0423
+Strong against axes.[X]
+
+# 0x0424
+Strong against cavalry, knights.[X]
+
+# 0x0425
+The Sacred Twin fire lance. Str +5.[.][X]
+
+# 0x0426
+The Sacred Twin winged lance. Def +5.[.][X]
+
+# 0x0427
+Effective against wyverns.[X]
+
+# 0x0428
+Effective against knights.[X]
+
+# 0x0429
+Doubles as ranged attack.[.][X]
+
+# 0x042A
+ [.][X]
+
+# 0x042B
+ [.][X]
+
+# 0x042C
+ [.][X]
+
+# 0x042D
+Coated in lethal poison.[X]
+
+# 0x042E
+Can strike consecutively.[.][X]
+
+# 0x042F
+Improves critical hit rate.[.][X]
+
+# 0x0430
+Effective against cavalry.[X]
+
+# 0x0431
+Effective against knights.[X]
+
+# 0x0432
+Might injure its wielder.[.][X]
+
+# 0x0433
+Doubles as ranged attack.[.][X]
+
+# 0x0434
+Doubles as ranged attack.[.][X]
+
+# 0x0435
+Strong against swords.[X]
+
+# 0x0436
+Good against swordfighters.[.][X]
+
+# 0x0437
+Effective against wyverns.[X]
+
+# 0x0438
+The Sacred Twin black axe. Spd +5.[X]
+
+# 0x0439
+Strong, but difficult to wield.[.][X]
+
+# 0x043A
+Lightweight and easy to hit with.[.][X]
+
+# 0x043B
+ [.][X]
+
+# 0x043C
+ [.][X]
+
+# 0x043D
+ [.][X]
+
+# 0x043E
+Coated in lethal poison.[X]
+
+# 0x043F
+Improves critical hit rate.[.][X]
+
+# 0x0440
+Can strike consecutively.[.][X]
+
+# 0x0441
+Improves critical hit rate.[.][X]
+
+# 0x0442
+Extended attack range.[X]
+
+# 0x0443
+Long-range weapon.[X]
+
+# 0x0444
+Super long-range weapon.[X]
+
+# 0x0445
+Improves critical hit rate.[.][X]
+
+# 0x0446
+The Sacred Twin serpent bow. Luck +5.[.][X]
+
+# 0x0447
+The breath of a dragon corpse.[NL]
+It decays everything it touches. [.][X]
+
+# 0x0448
+A stone imbued with mysterious might.[.][NL]
+Myrrh draws strength from it.[.][X]
+
+# 0x0449
+DUMMY[.][X]
+
+# 0x044A
+A malefic flash that destroys[.][NL]
+everything it touches.[X]
+
+# 0x044B
+A horrific blow that invites[NL]
+the destruction of all.[.][X]
+
+# 0x044C
+Lulls all enemies within range[NL]
+into a deep slumber.[X]
+
+# 0x044D
+A keen, flesh-tearing claw.[.][X]
+
+# 0x044E
+A sharpened, decayed claw.[X]
+
+# 0x044F
+A foul talon meant to rend flesh.[.][X]
+
+# 0x0450
+A claw dripping with poison.[X]
+
+# 0x0451
+A claw slathered in deadly poison.[X]
+
+# 0x0452
+A sharp, piercing fang.[.][X]
+
+# 0x0453
+A long, daggerlike fang.[X]
+
+# 0x0454
+Effective against monsters.[.][X]
+
+# 0x0455
+Effective against monsters.[.][X]
+
+# 0x0456
+Effective against monsters.[.][X]
+
+# 0x0457
+Effective against monsters.[.][X]
+
+# 0x0458
+ [.][X]
+
+# 0x0459
+ [.][X]
+
+# 0x045A
+ [.][X]
+
+# 0x045B
+ [.][X]
+
+# 0x045C
+Long-range lightning strike.[X]
+
+# 0x045D
+ [.][X]
+
+# 0x045E
+A Sacred Twin tome. Spd +5.[.][X]
+
+# 0x045F
+ [.][X]
+
+# 0x0460
+ [.][X]
+
+# 0x0461
+ [.][X]
+
+# 0x0462
+Long-range magic attack.[X]
+
+# 0x0463
+ [.][X]
+
+# 0x0464
+A Sacred Twin tome. Def +5.[.][X]
+
+# 0x0465
+ [.][X]
+
+# 0x0466
+Negates enemy resistance.[.][X]
+
+# 0x0467
+Drains enemy HP into caster.[X]
+
+# 0x0468
+Reduces enemy HP by half.[.][X]
+
+# 0x0469
+ [.][X]
+
+# 0x046A
+A Sacred Twin tome. Skill +5.[.][X]
+
+# 0x046B
+ [.][X]
+
+# 0x046C
+Turns targets to stone for a while.[.][X]
+
+# 0x046D
+ [.][X]
+
+# 0x046E
+ [.][X]
+
+# 0x046F
+ [.][X]
+
+# 0x0470
+Long-range dark magic bolt.[.][X]
+
+# 0x0471
+Restores HP to allies in[NL]
+adjacent spaces.[X]
+
+# 0x0472
+Restores many HP to allies[NL]
+in adjacent spaces.[.][X]
+
+# 0x0473
+Restores all HP to allies[.][NL]
+in adjacent spaces.[.][X]
+
+# 0x0474
+Restores HP to allies[.][NL]
+at a distance.[X]
+
+# 0x0475
+Restores all HP to allies[.][NL]
+nearby.[.][X]
+
+# 0x0476
+Returns allies to normal[NL]
+condition. (Cures sleep, etc.)[X]
+
+# 0x0477
+Halts all enemy magic[.][NL]
+for several turns.[X]
+
+# 0x0478
+Puts enemies to sleep for[.][NL]
+several turns.[X]
+
+# 0x0479
+Sends enemies into a[NL]
+berserker rage.[.][X]
+
+# 0x047A
+Moves allies in adjacent[NL]
+spaces instantly elsewhere.[.][X]
+
+# 0x047B
+Moves allies from distant[.][NL]
+spaces to adjacent ones.[X]
+
+# 0x047C
+Lights an area. The light[.][NL]
+grows weaker each turn.[.][X]
+
+# 0x047D
+Restores an adjacent ally's[.][NL]
+weapons to new condition.[.][X]
+
+# 0x047E
+Unlocks doors, even from[NL]
+a distance.[.][X]
+
+# 0x047F
+Increases magic resistance[NL]
+of adjacent allies briefly.[.][X]
+
+# 0x0480
+A Sacred Twin staff. The[NL]
+ancient Staff of Latona.[X]
+
+# 0x0481
+A dance that allows[.][NL]
+allies to move again.[.][X]
+
+# 0x0482
+A song that allows[NL]
+allies to move again.[.][X]
+
+# 0x0483
+Increases HP by a max of[NL]
+7 points. Vanishes after use.[.][X]
+
+# 0x0484
+Increases Mag or Str by[.][NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x0485
+Increases Skill by 2 points.[NL]
+Vanishes after use.[.][X]
+
+# 0x0486
+Increases speed by[NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x0487
+Increases luck by[.][NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x0488
+Increases defense by[NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x0489
+Increases resistance by[.][NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x048A
+Increases movement by[.][NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x048B
+Increases constitution by[.][NL]
+2 points. Vanishes after use.[.][X]
+
+# 0x048C
+For mercenaries, myrmidons,[.][NL]
+and fighters Lv. 10 and up.[.][X]
+
+# 0x048D
+For knights and cavaliers[.][NL]
+Lv. 10 and up.[X]
+
+# 0x048E
+For archers[.][NL]
+Lv. 10 and up.[X]
+
+# 0x048F
+For pegasus knights and[.][NL]
+wyvern riders Lv. 10 and up.[X]
+
+# 0x0490
+For magic wielders and[NL]
+troubadours Lv. 10 and up.[X]
+
+# 0x0491
+Opens chests.[.][X]
+
+# 0x0492
+Opens doors in[NL]
+adjacent spaces.[X]
+
+# 0x0493
+Opens doors and chests.[.][NL]
+Usable only by thieves.[.][X]
+
+# 0x0494
+A medicinal solution used[.][NL]
+for healing minor wounds.[.][X]
+
+# 0x0495
+A powerful solution that[NL]
+restores all HP.[X]
+
+# 0x0496
+A draught that boosts Res.[NL]
+Grows weaker each turn.[.][X]
+
+# 0x0497
+A medicinal solution that[.][NL]
+cures poison.[.][X]
+
+# 0x0498
+A staff with burning pitch.[.][NL]
+Grows dimmer each turn.[.][X]
+
+# 0x0499
+An amulet that protects fliers[NL]
+from arrows.[X]
+
+# 0x049A
+If someone with this card[.][NL]
+stops in a suspicious space...[X]
+
+# 0x049B
+A special card that reduces[.][NL]
+the cost of all items by half.[X]
+
+# 0x049C
+A valuable gemstone worth[.][NL]
+20,000 gold.[X]
+
+# 0x049D
+A valuable gemstone worth[.][NL]
+15,000 gold.[X]
+
+# 0x049E
+A valuable gemstone worth[.][NL]
+10,000 gold.[X]
+
+# 0x049F
+A rare gemstone worth[.][NL]
+5,000 gold.[.][X]
+
+# 0x04A0
+An uncommon gemstone[NL]
+worth 2,500 gold.[.][X]
+
+# 0x04A1
+A bag full of money.[X]
+
+# 0x04A2
+A trap that damages units[.][NL]
+that step on it.[X]
+
+# 0x04A3
+A device that blocks units[NL]
+from entering spaces.[.][X]
+
+# 0x04A4
+A device that negates[.][NL]
+enemy critical attacks.[.][X]
+
+# 0x04A5
+For some units Lv. 10 and up[NL]
+who have not changed class.[.][X]
+
+# 0x04A6
+Gives a little treat to the[.][NL]
+unit that uses it.[X]
+
+# 0x04A7
+For use by thieves and[NL]
+pirates Lv. 10 and up.[X]
+
+# 0x04A8
+For use by Eirika,[NL]
+princess of Renais.[.][X]
+
+# 0x04A9
+For use by Ephraim,[.][NL]
+prince of Renais.[.][X]
+
+# 0x04AA
+Give this to a worthy unit[NL]
+and see what happens.[.][X]
+
+# 0x04AB
+Li's pragmatic fighting style. Get[.][NL]
+the jump on upstart swordsmen...[.][X]
+
+# 0x04AC
+Draco Zombie only.[X]
+
+# 0x04AD
+Manakete only.[X]
+
+# 0x04AE
+Creatures only.[.][X]
+
+# 0x04AF
+Restores some HP.[.][X]
+
+# 0x04B0
+Restores more HP.[.][X]
+
+# 0x04B1
+Restores all HP.[X]
+
+# 0x04B2
+Restores HP to[NL]
+distant allies.[.][X]
+
+# 0x04B3
+Restores HP to all[NL]
+allies in one area.[.][X]
+
+# 0x04B4
+Restores allies to[NL]
+normal status.[X]
+
+# 0x04B5
+Blocks enemy magic.[.][X]
+
+# 0x04B6
+Puts enemies to sleep.[X]
+
+# 0x04B7
+Drives enemies to[.][NL]
+attack wildly in a[NL]
+frenzy of rage.[.][X]
+
+# 0x04B8
+Warps allies to[.][NL]
+other spaces.[.][X]
+
+# 0x04B9
+Warps allies to a[.][NL]
+space adjacent to[.][NL]
+the staff wielder.[X]
+
+# 0x04BA
+Lights up an area.[X]
+
+# 0x04BB
+Restores items to[.][NL]
+new condition.[X]
+
+# 0x04BC
+Opens doors.[X]
+
+# 0x04BD
+Raises resistance.[X]
+
+# 0x04BE
+Restores all HP as[NL]
+well as allies' status.[.][X]
+
+# 0x04BF
+Allows allies[.][NL]
+to move again.[X]
+
+# 0x04C0
+Allows allies[.][NL]
+to move again.[X]
+
+# 0x04C1
+Raises Max HP.[X]
+
+# 0x04C2
+Raises either[.][NL]
+strength or magic.[X]
+
+# 0x04C3
+Raises skill.[.][X]
+
+# 0x04C4
+Raises speed.[.][X]
+
+# 0x04C5
+Raises luck.[X]
+
+# 0x04C6
+Raises defense.[.][X]
+
+# 0x04C7
+Raises resistance.[X]
+
+# 0x04C8
+Raises movement.[X]
+
+# 0x04C9
+Raises constitution.[X]
+
+# 0x04CA
+Use this on a worthy[NL]
+mercenary, fighter,[.][NL]
+or myrmidon.[X]
+
+# 0x04CB
+Use this on a worthy[NL]
+cavalier or knight.[.][X]
+
+# 0x04CC
+Use this on a worthy[NL]
+archer.[.][X]
+
+# 0x04CD
+Use this on a worthy[NL]
+master of a winged[NL]
+mount.[X]
+
+# 0x04CE
+Use this on a worthy[NL]
+wielder of magic[NL]
+power and staves.[.][X]
+
+# 0x04CF
+Opens chests.[.][X]
+
+# 0x04D0
+Opens doors.[X]
+
+# 0x04D1
+Universal lockpicks[.][NL]
+designed for thieves.[.][X]
+
+# 0x04D2
+Restores some HP.[.][X]
+
+# 0x04D3
+Restores all HP.[X]
+
+# 0x04D4
+Reduces damage[NL]
+from magic attacks.[.][X]
+
+# 0x04D5
+Cures poison.[.][X]
+
+# 0x04D6
+Lights an area.[.][X]
+
+# 0x04D7
+Protects airborne[.][NL]
+units from bows.[X]
+
+# 0x04D8
+Grants access to[NL]
+secret shops.[.][X]
+
+# 0x04D9
+Reduces the cost[NL]
+of items.[.][X]
+
+# 0x04DA
+ [.][X]
+
+# 0x04DB
+Units that enter[NL]
+spaces where these[NL]
+are take damage.[X]
+
+# 0x04DC
+Units cannot enter[NL]
+spaces where these[NL]
+have been placed.[.][X]
+
+# 0x04DD
+Negates enemies'[NL]
+critical attacks.[.][X]
+
+# 0x04DE
+Use this on a unit Lv.[NL]
+10 and up who has[.][NL]
+yet to change class.[X]
+
+# 0x04DF
+Give this to a[NL]
+unit you like.[X]
+
+# 0x04E0
+Use this on a worthy[NL]
+thief or pirate.[X]
+
+# 0x04E1
+Have Eirika use this[NL]
+when she's ready.[.][X]
+
+# 0x04E2
+Have Ephraim use this[.][NL]
+when he's ready.[X]
+
+# 0x04E3
+Use this, and...[X]
+
+# 0x04E4
+Dummy[.][X]

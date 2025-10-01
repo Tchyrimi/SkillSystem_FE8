@@ -1,0 +1,180 @@
+//Chapter Titles
+# 0x0160
+Third Parties[.][X]
+
+# 0x0161
+Mistrial by Fire[.][X]
+
+# 0x0162
+Treading on Coattails[.][X]
+
+# 0x0163
+The Bandits of Borgo[X]
+
+# 0x0164
+Ancient Horrors[.][X]
+
+# 0x0165
+Unbroken Heart[X]
+
+# 0x0166
+The Empire's Reach[X]
+
+# 0x0167
+Victims of War[X]
+
+# 0x0168
+Waterside Renvall[.][X]
+
+# 0x0169
+It's a Trap![X]
+
+# 0x016A
+Distant Blade[.][X]
+
+# 0x016B
+Revolt at Carcino[.][X]
+
+# 0x016C
+Village of Silence[X]
+
+# 0x016D
+Hamill Canyon[.][X]
+
+# 0x016E
+Queen of White Dunes[X]
+
+# 0x016F
+Scorched Sand[.][X]
+
+# 0x0170
+Ruled by Madness[X]
+
+# 0x0171
+River of Regrets[X]
+
+# 0x0172
+Two Faces of Evil[.][X]
+
+# 0x0173
+Last Hope[.][X]
+
+# 0x0174
+Darkling Woods[X]
+
+# 0x0175
+Sacred Stone[X]
+
+# 0x0176
+Sacred Stone[X]
+
+# 0x0177
+Fort Rigwald[X]
+
+# 0x0178
+Turning Traitor[.][X]
+
+# 0x0179
+Landing at Taizel[.][X]
+
+# 0x017A
+Fluorspar's Oath[X]
+
+# 0x017B
+Father and Son[X]
+
+# 0x017C
+Scorched Sand[.][X]
+
+# 0x017D
+Ruled by Madness[X]
+
+# 0x017E
+River of Regrets[X]
+
+# 0x017F
+Two Faces of Evil[.][X]
+
+# 0x0180
+Last Hope[.][X]
+
+# 0x0181
+Darkling Woods[X]
+
+# 0x0182
+Sacred Stone[X]
+
+# 0x0183
+Sacred Stone[X]
+
+# 0x0184
+Tower of Valni 1[X]
+
+# 0x0185
+Tower of Valni 2[X]
+
+# 0x0186
+Tower of Valni 3[X]
+
+# 0x0187
+Tower of Valni 4[X]
+
+# 0x0188
+Tower of Valni 5[X]
+
+# 0x0189
+Tower of Valni 6[X]
+
+# 0x018A
+Tower of Valni 7[X]
+
+# 0x018B
+Tower of Valni 8[X]
+
+# 0x018C
+Tower of Valni 9[X]
+
+# 0x018D
+Tower of Valni 10[.][X]
+
+# 0x018E
+Lagdou Ruins 1[X]
+
+# 0x018F
+Lagdou Ruins 2[X]
+
+# 0x0190
+Lagdou Ruins 3[X]
+
+# 0x0191
+Lagdou Ruins 4[X]
+
+# 0x0192
+Lagdou Ruins 5[X]
+
+# 0x0193
+Lagdou Ruins 6[X]
+
+# 0x0194
+Lagdou Ruins 7[X]
+
+# 0x0195
+Lagdou Ruins 8[X]
+
+# 0x0196
+Lagdou Ruins 9[X]
+
+# 0x0197
+Lagdou Ruins 10[.][X]
+
+# 0x0198
+Castle Frelia[.][X]
+
+# 0x0199
+Melkaen Coast[.][X]
+
+# 0x019A
+Creeping Darkness[.][X]
+
+# 0x019B
+Phantom Ship[X]

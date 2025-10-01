@@ -40,4 +40,18 @@ BYTE EirikaLord
 BYTE Rogue
 BYTE EndLockArray
 
+OldFriendArray:
+BYTE HardCharLock
+BYTE Daphne
+BYTE EndLockArray
+
+RushdownBlowArray:
+BYTE HardCharLock
+BYTE Li
+BYTE EndLockArray
+
+OldFriendWepBuffs:
+BYTE 0x00 0x00 0x00 0x00 0x02 0x02 0x00 0x00 0x02 0x00
+BYTE 0
+
 #endif // ADV_WEAPON_LOCKS

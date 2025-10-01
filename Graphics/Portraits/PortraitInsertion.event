@@ -1,0 +1,89 @@
+setMugEntry(0x2,DaphnePortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+DaphnePortrait:
+#incext PortraitFormatter "Daphne.png"
+
+setMugEntry(0x4,ArturoPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+ArturoPortrait:
+#incext PortraitFormatter "Arturo.png"
+
+setMugEntry(0x5,OctaviaPortrait,4,5,4,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+OctaviaPortrait:
+#incext PortraitFormatter "Octavia.png"
+
+setMugEntry(0x6,LiPortrait,3,6,3,4) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+LiPortrait:
+#incext PortraitFormatter "Li.png"
+
+setMugEntry(0x7,AltoPortrait,3,6,3,4) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+AltoPortrait:
+#incext PortraitFormatter "Alto.png"
+
+setMugEntry(0x8,KanPortrait,4,7,4,5) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+KanPortrait:
+#incext PortraitFormatter "Kan.png"
+
+setMugEntry(0xF,ErnestPortrait,2,5,2,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+ErnestPortrait:
+#incext PortraitFormatter "Ernest.png"
+
+setMugEntry(0x9,GenPortrait,3,6,3,4) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+GenPortrait:
+#incext PortraitFormatter "Gen.png"
+
+setMugEntry(0xA,JamPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+JamPortrait:
+#incext PortraitFormatter "Jam.png"
+
+setMugEntry(0xC,MerciusPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+MerciusPortrait:
+#incext PortraitFormatter "Mercius.png"
+
+setMugEntry(0x30,MorrisPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+MorrisPortrait:
+#incext PortraitFormatter "Morris.png"
+
+setMugEntry(0x31,WarrenPortrait,3,6,3,4) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+WarrenPortrait:
+#incext PortraitFormatter "Warren.png"
+
+setMugEntry(0x35,BensonPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+BensonPortrait:
+#incext PortraitFormatter "Benson.png"
+
+setMugEntry(0x54,NavarroPortrait,3,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+NavarroPortrait:
+#incext PortraitFormatter "Navarro.png"
+
+setMugEntry(0x50,ShadowPortrait,2,5,3,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+
+ALIGN 4
+ShadowPortrait:
+#incext PortraitFormatter "Faceless(AmBrosiac).png"

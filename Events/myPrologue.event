@@ -2,11 +2,10 @@
 //Modified by Nintenlord
 
 #include EAstdlib.event
-#include "myFE8Definitions.txt"
 #include "REDAs.event"
-EventPointerTable(0x7,ThisChapter)
+EventPointerTable(0x7,PThirdParties)
 
-ThisChapter:
+PThirdParties:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
 POIN LocationBasedEvents
@@ -16,9 +15,13 @@ POIN Tutorial
 POIN TrapData TrapData
 POIN ActualPlayerUnits ActualPlayerUnits //these pointers are just for prep screen unit placement
 POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
+POIN PBeginningScene PEndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(07,ShadowLeaves,4)
+TurnEventPlayer(08,BensonAppears,5)
+TurnEventPlayer(09,MorrisYells,6)
+TurnEventPlayer(10,ImpatientMorris,7)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 
@@ -30,7 +33,8 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
+DefeatBoss(PEndingScene)
+AREA 11 timerChange [1, 2] [4, 7]
 END_MAIN
 
 Dunno:
@@ -45,10 +49,10 @@ ENDTRAP
 ALIGN 4
 
 StartingCutsceneUnits:
-UNIT Daphne Soldier Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Daphne Soldier Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance,Rapier] NoAI
 UNIT Arturo Bishop Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
 UNIT Octavia Mage_F Daphne Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [Fire] NoAI
-UNIT Li Fighter Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Li Fighter Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,0xA] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [4,5] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [3,12] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [5,16] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
@@ -74,6 +78,20 @@ UNIT 0x80 Shaman Morris Level(2,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Flux] GroupT
 UNIT 0x80 Archer_F Morris Level(2,Enemy,True) [0,0] 0x0 0x0 0x0 0x0 [IronBow] GroupOneAI
 UNIT 0x80 Soldier Morris Level(2,Enemy,True) [11,7] 0x0 0x0 0x0 0x0 [IronLance] GroupTwoAI
 UNIT 0x80 Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
+UNIT
+
+Turn6Reinforcements:
+UNIT 0x80 Fighter Morris Level(5,Enemy,True) [15,0] 0x0 0x0 0x1 REDA15R2 [IronAxe] [0x00,0x00,0x04,0x00]
+UNIT 0x80 Brigand Morris Level(4,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R12 [SteelAxe] [0x00,0x00,0x04,0x00]
+UNIT
+
+Turn7Reinforcements:
+UNIT 0x80 Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [SteelAxe] [0x00,0x00,0x04,0x00]
+UNIT
+
+BensonCrew:
+UNIT 0x80 Shaman Morris Level(9,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Luna] [0x00,0x00,0x04,0x00]
+UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow] [0x00,0x00,0x04,0x00]
 UNIT
 
 MysteryFigure:
@@ -107,7 +125,105 @@ REDA [7,10] 0x0 0x0 0x0 0x0
 BardolphREDA:
 REDA [15,7] 0x0 0x1 0x0 0x0
 
-BeginningScene:
+ShadowLeaves:
+CAM1 ShadowFigure
+Text(0x922)
+MOVE 60 ShadowFigure [15,6]
+ENUN
+STAL 40
+MOVE 60 ShadowFigure [15,5]
+ENUN
+CLEN ShadowFigure
+Text(0x924)
+STAL 20
+NoFade
+ENDA
+
+BensonAppears:
+CHECK_EVENTID 11
+BNE 3 sC s0
+//if the flag is ON, go to LABEL 3 and delay Benson's AI, otherwise keep reading
+CAM1 [4,13]
+STAL 20
+LOAD1 0 BensonCrew
+ENUN
+SVAL s1 0x02
+SET_HP Benson
+UseVulnerary(Benson,25)
+ASMC 0x80790A5 //to end MMS of vulnerary use
+CUMO Benson
+STAL 60
+CURE
+Text(0x90D)
+STAL 5
+CAM1 Daphne
+STAL 10
+Text(0x909)
+GOTO 4
+LABEL 3
+CAM1 [4,13]
+STAL 20
+LOAD1 0 BensonCrew
+ENUN
+SVAL s1 0x02
+SET_HP Benson
+UseVulnerary(Benson,25)
+ASMC 0x80790A5 //to end MMS of vulnerary use
+CUMO Benson
+STAL 60
+CURE
+Text(0x926)
+STAL 5
+CAM1 Daphne
+STAL 10
+Text(0x909)
+SVAL s1 0x00001200
+CHAI Benson
+SVAL s1 0x00001200
+CHAI [9,16]
+LABEL 4
+NoFade
+ENDA
+
+MorrisYells:
+CAM1 Morris
+CUMO Morris
+STAL 60
+CURE
+Text(0x90F)
+SVAL s1 0x00000000
+CHAI 0x80
+LOAD1 0 Turn6Reinforcements
+ENUN
+NoFade
+ENDA
+
+ImpatientMorris:
+CAM1 Morris
+CUMO Morris
+STAL 60
+CURE
+Text(0x90E)
+SVAL s1 0x00000000
+CHAI Morris
+LOAD1 0 Turn7Reinforcements
+ENUN
+NoFade
+ENDA
+
+timerChange:
+//I need to figure out how the hell I made this work last time
+CHECK_ACTIVE //whichever check you want to use
+SVAL s1 0x80 //the value to compare the check result to; unnecessary if the value is 0
+BNE 1 s1 sC //if the check result != Cutthroat, go to label 1
+ENUF $11
+GOTO 2
+LABEL 1 //skips to here if the active unit is not Eirika
+LABEL 2
+NoFade
+ENDA
+
+PBeginningScene:
 ENUT $B4
 ENUT $B5
 ENUT $B6
@@ -118,29 +234,29 @@ ASMC 0x000B04F9
 LOMA MelkaenCoast
 LOAD1 2 StartingCutsceneUnits
 ENUN
-CAMERA Li
+CAM1 Li
 FADU 10
 STAL 60
 MOVE 60 Daphne [1,14]
 ENUN
 EVBIT_T 9
-CURSOR Daphne
+CUMO Daphne
 STAL 60
-REMOVE_CURSORS
+CURE
 //MUSC whatever ID I set DotR World Map to
 SetBackground(0x2A)
 Text(0x903)
 EndConvo
 MOVE 60 Daphne [5,7]
 ENUN
-CAMERA Arturo
+CAM1 Arturo
 Text(0x904)
 MOVE 60 Daphne [12,11]
 ENUN
 SetBackground(0x2A)
 Text(0x905)
 EndConvo
-CAMERA [7,19]
+CAM1 [7,19]
 EVBIT_F 9
 MOVE 60 Arturo [6,17]
 MOVE 60 Daphne [6,18]
@@ -158,20 +274,19 @@ MOVE 60 Li [14,20]
 ENUN
 MUSC 0x7FFF
 FADI 10
-REMOVEALL_BLUE
-REMOVEALL_RED
+CLEE Cutthroat
 CLEAN
 STAL 15
 LOMA Prologue
-CAMERA [6,13]
+CAM1 [6,13]
 FADU 10
 LOAD1 1 ActualPlayerUnits
 ENUN
 LOAD1 0 EnemyUnits
 ENUN
-CURSOR [7,10]
+CUMO [7,10]
 STAL 60
-REMOVE_CURSORS
+CURE
 MUSC 0x26 //SC2 Confrontation
 SetBackground(0x29)
 Text(0x907)
@@ -180,13 +295,13 @@ STAL 10
 EVBIT_T 9
 MoveByCoords(60, 7, 10, 13, 0)
 ENUN
-CURSOR Morris
+CUMO Morris
 STAL 60
-REMOVE_CURSORS
+CURE
 Text(0x908)
 MoveByCoords(60, 13, 0, 8, 7)
 ENUN
-CAMERA [6,13]
+CAM1 [6,13]
 STAL 30
 EVBIT_F 9
 MOVE 60 Daphne [6,12]
@@ -194,13 +309,13 @@ ENUN
 Text(0x90A)
 STAL 30
 MUSC 0x18 //Envoy from the Dark
-CAMERA [14,6]
+CAM1 [14,6]
 LOAD1 1 MysteryFigure
 ENUN
 Text(0x90B)
-CAMERA [6,13]
+CAM1 [6,13]
 STAL 60
-CAMERA [14,6]
+CAM1 [14,6]
 Text(0x90C)
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -210,8 +325,12 @@ REMA
 STAL 10
 ENDA
 
-EndingScene:
-MoveToChapter(Ch1)
+PEndingScene:
+MUSC 0x31
+SetBackground(0x21)
+Text(0x918)
+FADI 16
+MNC2 Ch1
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

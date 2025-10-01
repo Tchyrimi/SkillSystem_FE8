@@ -1,0 +1,567 @@
+//Class names
+
+# 0x02BE
+Temp.: Enemy Boss[.][X]
+
+# 0x02BF
+Lord[X]
+
+# 0x02C0
+Great Lord[X]
+
+# 0x02C1
+Cavalier[X]
+
+# 0x02C2
+Paladin[.][X]
+
+# 0x02C3
+Knight[X]
+
+# 0x02C4
+General[.][X]
+
+# 0x02C5
+Thief[.][X]
+
+# 0x02C6
+Mercenary[.][X]
+
+# 0x02C7
+Hero[X]
+
+# 0x02C8
+Myrmidon[X]
+
+# 0x02C9
+Swordmaster[.][X]
+
+# 0x02CA
+Assassin[X]
+
+# 0x02CB
+Archer[X]
+
+# 0x02CC
+Sniper[X]
+
+# 0x02CD
+Ranger[X]
+
+# 0x02CE
+Wyvern Rider[X]
+
+# 0x02CF
+Wyvern Lord[.][X]
+
+# 0x02D0
+Wyvern Kn.[X]
+
+# 0x02D1
+Mage[X]
+
+# 0x02D2
+Sage[X]
+
+# 0x02D3
+Mage Knight[.][X]
+
+# 0x02D4
+Bishop[X]
+
+# 0x02D5
+Nomad[.][X]
+
+# 0x02D6
+Nmd Trooper[.][X]
+
+# 0x02D7
+Manakete[X]
+
+# 0x02D8
+Journeyman[X]
+
+# 0x02D9
+Pupil[.][X]
+
+# 0x02DA
+Recruit[.][X]
+
+# 0x02DB
+Rogue[.][X]
+
+# 0x02DC
+Fighter[.][X]
+
+# 0x02DD
+Warrior[.][X]
+
+# 0x02DE
+Brigand[.][X]
+
+# 0x02DF
+Berserker[.][X]
+
+# 0x02E0
+Great Knight[X]
+
+# 0x02E1
+Shaman[X]
+
+# 0x02E2
+Druid[.][X]
+
+# 0x02E3
+Summoner[X]
+
+# 0x02E4
+Monk[X]
+
+# 0x02E5
+Bard[X]
+
+# 0x02E6
+Priest[X]
+
+# 0x02E7
+Pegasus Kn.[.][X]
+
+# 0x02E8
+Falcoknight[.][X]
+
+# 0x02E9
+Cleric[X]
+
+# 0x02EA
+Troubadour[X]
+
+# 0x02EB
+Valkyrie[X]
+
+# 0x02EC
+Dancer[X]
+
+# 0x02ED
+Soldier[.][X]
+
+# 0x02EE
+Pirate[X]
+
+# 0x02EF
+Necromancer[.][X]
+
+# 0x02F0
+Fleet[.][X]
+
+# 0x02F1
+Phantom[.][X]
+
+# 0x02F2
+Revenant[X]
+
+# 0x02F3
+Entombed[X]
+
+# 0x02F4
+Bonewalker[X]
+
+# 0x02F5
+Wight[.][X]
+
+# 0x02F6
+Bael[X]
+
+# 0x02F7
+Elder Bael[X]
+
+# 0x02F8
+Cyclops[.][X]
+
+# 0x02F9
+Mauthe Doog[.][X]
+
+# 0x02FA
+Gwyllgi[.][X]
+
+# 0x02FB
+Tarvos[X]
+
+# 0x02FC
+Maelduin[X]
+
+# 0x02FD
+Mogall[X]
+
+# 0x02FE
+Arch Mogall[.][X]
+
+# 0x02FF
+Gorgon[X]
+
+# 0x0300
+Gorgon Egg[X]
+
+# 0x0301
+Gargoyle[X]
+
+# 0x0302
+Deathgoyle[X]
+
+# 0x0303
+Draco Zombie[X]
+
+# 0x0304
+Demon King[X]
+
+# 0x0305
+Civilian[X]
+
+# 0x0306
+Pontifex[X]
+
+# 0x0307
+Queen[.][X]
+
+# 0x0308
+Statesman[.][X]
+
+#0x1000
+Opportunist[.][X]
+
+#0x1001
+Brawler[.][X]
+
+#0x1002
+Mender[.][X]
+
+#0x1003
+Conduit[.][X]
+
+//#0x1004
+//OpportunistT2[.][X]
+
+//#0x1005
+//BrawlerT2[.][X]
+
+//#0x1006
+//MenderT2[.][X]
+
+//#0x1007
+//ConduitT2[.][X]
+
+//Class descriptions
+
+#0x1008
+Mercenaries who hold their lances[NL]
+high, and their aspirations higher.[.][X]
+
+#0x1009
+Gritty axe wielders with a good[NL]
+arm and a grudge.[.][X]
+
+#0x100A
+Battlefield medics with the steel[NL]
+to protect their wards.[.][X]
+
+#0x100B
+Powerful spellcasters blunted, yet[NL]
+freed by their inexperience.[.][X]
+
+# 0x0309
+Noble heirs to a ruling house.[NL]
+They possess great potential.[.][X]
+
+# 0x030A
+Noble heirs to a ruling house.[NL]
+They possess great potential.[.][X]
+
+# 0x030B
+Mounted lords whose fine qualities[NL]
+set them apart from their peers.[X]
+
+# 0x030C
+Mounted lords whose fine qualities[NL]
+set them apart from their peers.[X]
+
+# 0x030D
+Mounted knights with swift movement.[NL]
+Equip: Swords, lances.[X]
+
+# 0x030E
+Mounted knights with superior[.][NL]
+abilities. Equip: Swords, lances.[.][X]
+
+# 0x030F
+Heavily armored knights with poor[.][NL]
+movement. Equip: Lances.[X]
+
+# 0x0310
+Knights of great skill. Equip: Swords,[NL]
+lances, axes. Skill: Great Shield.[X]
+
+# 0x0311
+Multitalented knaves with an eye for[NL]
+riches. Equip: Swords.[X]
+
+# 0x0312
+Well-balanced professional soldiers-[NL]
+for-hire. Equip: Swords.[X]
+
+# 0x0313
+Seasoned veterans with remarkable[.][NL]
+skill. Equip: Swords, axes.[.][X]
+
+# 0x0314
+Talented swordsmen skilled in swift[.][NL]
+killing strokes. Equip: Swords.[.][X]
+
+# 0x0315
+Lightning-fast swordsmen of peerless[NL]
+and lethal skill. Equip: Swords.[X]
+
+# 0x0316
+Masters of the killing arts.[NL]
+Equip: Swords. Skill: Silencer.[.][X]
+
+# 0x0317
+Warriors who use bows to attack from[NL]
+afar. Equip: Bows.[X]
+
+# 0x0318
+Archers of unparalleled accuracy.[.][NL]
+Equip: Bows. Skill: Sure Strike.[X]
+
+# 0x0319
+Fighters skilled in both sword and bow.[.][NL]
+Equip: Swords, bows.[X]
+
+# 0x031A
+High-flying knights vulnerable only to[NL]
+bows and magic. Equip: Lances.[X]
+
+# 0x031B
+Wyvern-mounted knights of superior[NL]
+skill. Equip: Swords, lances.[.][X]
+
+# 0x031C
+Wyvern riders who can pierce enemy[NL]
+defenses. Equip: Lances. Skill: Pierce.[.][X]
+
+# 0x031D
+Magic wielders with solid skills but low[NL]
+physical strength. Equip: Anima.[X]
+
+# 0x031E
+Advanced scholars of magical codices.[.][NL]
+Equip: Anima, light, staves.[X]
+
+# 0x031F
+Knights trained in both anima and[.][NL]
+staves. Equip: Anima, staves.[.][X]
+
+# 0x0320
+Users of monster-slaying light magic.[.][NL]
+Equip: Light, staves. Skill: Slayer.[X]
+
+# 0x0321
+Mounted plainsmen with good[.][NL]
+movement. Armed with bows.[X]
+
+# 0x0322
+An honorific given to nomads of[.][NL]
+great skill. Equip: Bows, swords.[.][X]
+
+# 0x0323
+Mysterious tribesmen who can turn[.][NL]
+into dragons. Equip: Dragonstone.[.][X]
+
+# 0x0324
+Young fighters with high[NL]
+expectations. Equip: Axes.[X]
+
+# 0x0325
+Mages in training with lofty[NL]
+aspirations. Equip: Anima.[X]
+
+# 0x0326
+Knaves who need no tools or keys to[.][NL]
+open locks. Equip: Swords. Skill: Pick.[.][X]
+
+# 0x0327
+Ruffians with great strength but[NL]
+poor defense. Equip: Axes.[X]
+
+# 0x0328
+Stalwart warriors whose power is[NL]
+their pride. Equip: Axes, bows.[.][X]
+
+# 0x0329
+Mighty mercenaries who thrive[.][NL]
+in mountains. Equip: Axes.[X]
+
+# 0x032A
+Fighters at home both in mountains[NL]
+and at sea. Equip: Axes.[X]
+
+# 0x032B
+Knights with great mobility and[.][NL]
+defense. Equip: Swords, lances, axes.[.][X]
+
+# 0x032C
+Wielders of magic who are stronger,[.][NL]
+but slower, than mages. Equip: Dark.[X]
+
+# 0x032D
+Wielders of deep and ancient magic.[.][NL]
+Equip: Dark, anima, staves.[.][X]
+
+# 0x032E
+Master sorcerers who summon fighters.[.][NL]
+Equip: Dark, staves. Skill: Summon.[.][X]
+
+# 0x032F
+Users of light magic with high[NL]
+resistance. Equip: Light.[.][X]
+
+# 0x0330
+Spiritual guides who use sacred[.][NL]
+staves to heal allies. Equip: Staves.[.][X]
+
+# 0x0331
+Musicians whose melodies aid[NL]
+allies. Unable to attack.[.][X]
+
+# 0x0332
+Unproven knights with dreams[NL]
+of glory. Equip: Lances.[X]
+
+# 0x0333
+Airborne knights who resist magic but[.][NL]
+are weak against bows. Equip: Lances.[.][X]
+
+# 0x0334
+Swift sky warriors who shrug off[NL]
+magic attacks. Equip: Swords, lances.[.][X]
+
+# 0x0335
+Holy women who use sacred staves to[.][NL]
+heal their allies. Equip: Staves.[.][X]
+
+# 0x0336
+Maidens who wield staves from[.][NL]
+horseback. Equip: Staves.[.][X]
+
+# 0x0337
+Battle maidens who wield both staves[NL]
+and light magic. Equip: Light, staves.[X]
+
+# 0x0338
+Dancers whose dances revitalize[.][NL]
+their allies. They cannot attack.[.][X]
+
+# 0x0339
+Average soldiers possessing[.][NL]
+no special abilities.[.][X]
+
+# 0x033A
+Tough brawlers who call the[.][NL]
+sea their home. Equip: Axes.[X]
+
+# 0x033B
+Master of the Dark Stone who uses[.][NL]
+dark magic to command corpses.[X]
+
+# 0x033C
+Warships that patrol the open seas.[.][NL]
+They carry powerful ballistae.[X]
+
+# 0x033D
+Phantom warriors who possess great[NL]
+strength but vanish when attacked.[X]
+
+# 0x033E
+Walking corpses that move slowly[NL]
+but attack with sharp claws.[X]
+
+# 0x033F
+Reanimated corpses. They're not fast,[.][NL]
+but their talons rend flesh with ease.[X]
+
+# 0x0340
+Dead warriors given will by dark magic.[.][NL]
+They wield a variety of weapons.[X]
+
+# 0x0341
+Skeletons driven by terrible magic.[.][NL]
+They can wield many weapons.[X]
+
+# 0x0342
+Giant poisonous mountain spiders with[.][NL]
+venom-filled fangs.[.][X]
+
+# 0x0343
+Magic-infused giant spiders.[NL]
+Their venom is lethal.[X]
+
+# 0x0344
+One-eyed giants who use their[.][NL]
+strength to wield huge axes.[X]
+
+# 0x0345
+Blood-hungry demon dogs that attack[.][NL]
+with keen-edged fangs.[X]
+
+# 0x0346
+Savage, three-headed hellhounds.[NL]
+Their fangs are cruel death dealers.[X]
+
+# 0x0347
+Vile man-beasts who thunder into[NL]
+combat with colossal axes.[X]
+
+# 0x0348
+Immensely fast and strong creatures[.][NL]
+who hunt with axes and bows.[X]
+
+# 0x0349
+Perilous floating orbs filled with[NL]
+blighting dark magic.[.][X]
+
+# 0x034A
+Mogall whose dread power exceeds[NL]
+that of their lesser cousins.[.][X]
+
+# 0x034B
+Comely and cursed, these creatures[NL]
+turn all who behold them into stone.[X]
+
+# 0x034C
+Eggs of lovely and deadly gorgons.[X]
+
+# 0x034D
+Malignant fiends who hunt with[NL]
+lances. They ride on fell wings.[X]
+
+# 0x034E
+Gargoyles empowered by magic. They[NL]
+are both swift and brutal.[X]
+
+# 0x034F
+The revived corpse of a dragon. Its[.][NL]
+putrid breath decays all it touches.[X]
+
+# 0x0350
+This foul being is the master of the[NL]
+dark. Its power exceeds mortal ken.[.][X]
+
+# 0x0351
+An innocent peasant lacking any[.][NL]
+combat skills at all.[.][X]
+
+# 0x0352
+Spiritual leader of Rausten. He claims[NL]
+ancestry with the saintly Latona.[.][X]
+
+# 0x0353
+The kingdom's highest authority. She[NL]
+is a popular ruler of great virtue.[.][X]

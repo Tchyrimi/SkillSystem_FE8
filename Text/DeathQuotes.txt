@@ -1,0 +1,130 @@
+//Death Quotes
+# 0x0C23
+[OpenMidRight][LoadFace][0x02][0x01]Everything...[....] for my family[ToggleMouthMove]...[....]
+[ToggleMouthMove]Everyone...[....][A][CloseEyes] I'm sorry...[ToggleMouthMove]...[A][X]
+
+# 0x0C24
+[OpenMidRight][LoadFace][0x14][0x01][OpenMidRight]Forgive me, Eirika.[.][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C25
+[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight][....]Urghk- honey[ToggleMouthMove]...[....][A] [ToggleMouthMove]I'll wait for you[ToggleMouthMove][CloseEyes]...[.][A]
+[X]
+
+# 0x0C26
+[OpenMidRight][LoadFace][0x06][0x01]Bastards![A] Get back here![A]...[....]Get... back[ToggleMouthMove]...[....][CloseEyes][A][X]
+
+# 0x0C27
+[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]I could have done[ToggleMouthMove]...[....][A][ToggleMouthMove] So much more[ToggleMouthMove][CloseEyes]...[A][X]
+
+# 0x0C28
+[OpenMidRight][LoadFace][0x07][0x01]Heh,[....] I figured this would have 
+happened back in the army days[ToggleMouthMove]...[....][ToggleMouthMove][A]
+Not-...[....][CloseEyes] not now...[....][A][X]
+
+# 0x0C29
+[OpenMidRight][LoadFace][0x08][0x01]Alto[ToggleMouthMove]...[.][ToggleMouthMove] I'm bleeding pretty bad.[ToggleMouthMove][....] Alto?[ToggleMouthMove][A][CloseEyes]
+[X]
+
+# 0x0C2A
+[ToggleSmile][OpenMidRight][LoadFace][0x0E][0x01][OpenMidRight]I have no regrets.[NL]
+This was always my fate.[A][OpenMidRight][CloseEyes][X]
+
+# 0x0C2B
+[OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]I never found what I was 
+looking for...[....][A] Maybe...[....] this is
+where I was meant to go[ToggleMouthMove]...[....][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C2C
+[OpenMidRight][LoadFace][0x0C][0x01][OpenMidRight]Blood[ToggleMouthMove]...[....] [ToggleMouthMove]You want it?[....][ToggleMouthMove]... [ToggleMouthMove]It's yours, my friend[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes]
+[X]
+
+# 0x0C2D
+[OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]Look at me. I am on fucking 
+dead guy right now.[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C2E
+[OpenMidRight][LoadFace][0x1A][0x01][OpenMidRight]The rest[ToggleMouthMove]...[.][ToggleMouthMove]is up to you.[.][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C2F
+[OpenMidRight][LoadFace][0x10][0x01][OpenMidRight]I[.][ToggleMouthMove]... [ToggleMouthMove]I don't want to die[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C30
+[OpenMidRight][LoadFace][0x11][0x01][OpenMidRight]My fate is irrelevant[.][ToggleMouthMove]...[.][ToggleMouthMove][NL]
+The world must have[.][ToggleMouthMove]...[.][ToggleMouthMove]light.[A][OpenMidRight][CloseEyes][X]
+
+# 0x0C31
+[ToggleSmile][OpenMidRight][LoadFace][0x2A][0x01][OpenMidRight]I[.][ToggleMouthMove]... [ToggleMouthMove]I guess my luck[.][NL]
+finally ran out[.][ToggleMouthMove]... [ToggleMouthMove]Heh.[A][OpenMidRight][CloseEyes][X]
+
+# 0x0C32
+[OpenMidRight][LoadFace][0x18][0x01][OpenMidRight]Prince Ephraim! Lead[NL]
+us to glory[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C33
+[ToggleSmile][OpenMidRight][LoadFace][0x16][0x01][OpenMidRight]Ah, Prince Ephraim[ToggleMouthMove]... [ToggleMouthMove]It[ToggleMouthMove]...[.][ToggleMouthMove][NL]
+It was fun while it lasted.[.][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C34
+[OpenMidRight][LoadFace][0x2C][0x01][OpenMidRight]I've long been prepared for[.][NL]
+this day[ToggleMouthMove]... [ToggleMouthMove]Too long[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C35
+[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I won't give up[.][ToggleMouthMove]... [ToggleMouthMove]Not here[ToggleMouthMove]...[.][ToggleMouthMove][NL]
+Not in this place[.][ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
+I'll keep going, even if I have[.][NL]
+to crawl[ToggleMouthMove]...[.][ToggleMouthMove][A][X]
+
+# 0x0C36
+[OpenMidRight][LoadFace][0x1B][0x01][OpenMidRight]If you live on the battlefield,[.][NL]
+you know this day will come[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C37
+[ToggleSmile][OpenMidRight][LoadFace][0x1C][0x01][OpenMidRight]The dark rider I foresaw[ToggleMouthMove]...[.][ToggleMouthMove][NL]
+He was coming for me[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C38
+[OpenMidRight][LoadFace][0x1E][0x01][OpenMidRight]I lost[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C39
+[OpenMidRight][LoadFace][0x20][0x01][OpenMidRight]I'm sorry, Grandmother[ToggleMouthMove]...[.][ToggleMouthMove][NL]
+My duty[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C3A
+[OpenMidRight][LoadFace][0x21][0x01][OpenMidRight]I'm sorry, Teacher[ToggleMouthMove]...[.][ToggleMouthMove][NL]
+I never[.][ToggleMouthMove]--[ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C3B
+[OpenMidRight][LoadFace][0x22][0x01][OpenMidRight]This will never do![.][A][NL]
+I find it hard to say, but[NL]
+I must beg your leave[.][ToggleMouthMove]...[.][ToggleMouthMove][A][X]
+
+# 0x0C3C
+[ToggleSmile][OpenMidRight][LoadFace][0x23][0x01][OpenMidRight]Ha ha ha! I couldn't have[.][NL]
+asked for a better ending![A][OpenMidRight][CloseEyes][X]
+
+# 0x0C3D
+[OpenMidRight][LoadFace][0x13][0x01][OpenMidRight]Blast! My brother would never[.][NL]
+have gone out like this[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C3E
+[OpenMidRight][LoadFace][0x19][0x01][OpenMidRight]I[.][ToggleMouthMove]... [ToggleMouthMove]I did well, didn't I?[.][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C3F
+[OpenMidRight][LoadFace][0x24][0x01][OpenMidRight]Great. This is just[.][NL]
+what I needed[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
+
+# 0x0C40
+[OpenMidRight][LoadFace][0x25][0x01][OpenMidRight]This[ToggleMouthMove]... [ToggleMouthMove]This is nothing![A][OpenMidRight][CloseEyes][X]
+
+# 0x0C41
+[OpenMidRight][LoadFace][0x26][0x01][OpenMidRight][ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
+I'm so sorry[ToggleMouthMove]... [ToggleMouthMove]I can't[.][NL]
+help you any longer.[A][X]
+
+# 0x0C42
+[OpenMidRight][LoadFace][0x29][0x01][OpenMidRight]In this darkness,[.][NL]
+I will find peace.[A][OpenMidRight][CloseEyes][X]
+
+# 0x0C43
+[OpenMidRight][LoadFace][0x2B][0x01][OpenMidRight]So this is the end.[.][.....][NL]
+[ToggleMouthMove]...[.][ToggleMouthMove]Vanessa[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]

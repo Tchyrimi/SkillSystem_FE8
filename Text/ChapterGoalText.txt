@@ -1,0 +1,134 @@
+//Chapter goals
+
+# 0x019C
+Survive[.][X]
+
+//# 0x019D
+//Defeat boss[X]
+
+# 0x019E
+Defeat enemy[X]
+
+# 0x019F
+Seize gate[X]
+
+# 0x01A0
+Seize gate[X]
+
+# 0x01A1
+Seize throne[X]
+
+# 0x01A2
+Defeat Morris[X]
+
+# 0x01A3
+Seize the castle[NL]
+gate[X]
+
+# 0x01A4
+Defeat all bandits[X]
+
+# 0x01A5
+Seize the throne[X]
+
+# 0x01A6
+Defeat all monsters[.][X]
+
+# 0x01A7
+Defeat Saar[.][X]
+
+# 0x01A8
+Seize the throne[X]
+
+# 0x01A9
+Defeat Novala[.][X]
+
+# 0x01AA
+Seize the castle[NL]
+gate[X]
+
+# 0x01AB
+Seize the throne[X]
+
+# 0x01AC
+Defeat all[NL]
+enemy units[.][X]
+
+# 0x01AD
+Seize the castle[NL]
+gate[X]
+
+# 0x01AE
+Defeat all monsters[.][X]
+
+# 0x01AF
+Defeat all monsters[.][X]
+
+# 0x01B0
+Defend Bardolph for[NL]
+10 turns, or kill boss[X]
+
+# 0x01B1
+Seize the throne[X]
+
+# 0x01B2
+Defeat all[NL]
+enemy units[.][X]
+
+# 0x01B3
+Seize the throne[X]
+
+# 0x01B4
+Defeat Lyon[.][X]
+
+# 0x01B5
+Defeat all monsters[.][X]
+
+# 0x01B6
+Guard Mansel for 13[.][NL]
+turns/Defeat Riev[.][X]
+
+# 0x01B7
+Seize the lair gate[.][X]
+
+# 0x01B8
+Defeat Lyon[.][X]
+
+# 0x01B9
+Defeat Fomortiis, the[.][NL]
+Demon King[X]
+
+# 0x01BA
+Seize the throne[X]
+
+# 0x01BB
+Guard Duessel for 10[NL]
+turns/Defeat Beran[X]
+
+# 0x01BC
+Defeat all monsters[.][X]
+
+# 0x01BD
+Defeat boss[.][X]
+
+# 0x01BE
+Defeat all[NL]
+enemy units[.][X]
+
+# 0x01BF
+Seize the throne[X]
+
+# 0x01C0
+Defeat all monsters[.][X]
+
+# 0x01C1
+Left[X]
+
+# 0x01C2
+Turn[X]
+
+# 0x01C3
+Last Turn[.][X]
+
+# 0x01C4
+[X]
