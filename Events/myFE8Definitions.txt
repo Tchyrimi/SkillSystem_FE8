@@ -7,7 +7,7 @@
 #define Li 0x04
 #define Alto 0x05
 #define Kan 0x06
-#define Ernest 0x07
+#define Gen 0x07
 #define Jam 0x08
 #define Mercius 0x09
 #define Martin 0x0A
@@ -18,7 +18,7 @@
 //#define Ephraim 0x0F
 //#define Forde 0x10
 //#define Kyle 0x11
-#define Gen 0x12
+#define Ernest 0x12
 //#define Artur 0x13
 //#define Gerik 0x14
 //#define Tethys 0x15
@@ -103,6 +103,15 @@
 //#define OldCivilian 0xFC
 //#define Wall 0xFE
 //#define Snag 0xFF
+#define Saboteurs1 0x6E
+#define Saboteurs2 0x82
+#define Saboteurs3 0x8E
+#define Saboteurs4 0x7E
+#define CityGuardFighter 0x8D
+#define CityGuardKnight 0x90
+#define CityGuardMage 0x8F
+#define CityGuardExtra 0x91
+#define Bandit 0x80
 
 //Classes
 //#define EphraimLord 0x01

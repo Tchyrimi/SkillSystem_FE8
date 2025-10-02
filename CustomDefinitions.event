@@ -22,6 +22,10 @@
 #define sB 0xB
 #define sC 0xC
 
+#define PlayerInRange "SVAL s2 0; CALL 0x89EE1B8"
+#define NPCInRange "SVAL s2 1; CALL 0x89EE1B8" 
+#define EnemyInRange "SVAL s2 2; CALL 0x89EE1B8"
+
 //Vanilla FE8 AP definitions
 #define NormalAP        $81C3D7C
 #define GeneralAP       $81C8A80

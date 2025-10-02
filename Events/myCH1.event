@@ -1,0 +1,196 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+#include "REDAs.event"
+EventPointerTable(0xA,Ch1Events)
+
+Ch1Events:
+POIN Ch1TurnBasedEvents
+POIN Ch1CharacterBasedEvents
+POIN Ch1LocationBasedEvents
+POIN Ch1MiscBasedEvents
+POIN Ch1Dunno Ch1Dunno Ch1Dunno
+POIN Ch1Tutorial
+POIN Ch1TrapData Ch1TrapData
+POIN DaphneParty DaphneParty
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch1BeginningScene Ch1EndingScene
+
+Ch1TurnBasedEvents:
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+Ch1CharacterBasedEvents:
+END_MAIN
+
+Ch1LocationBasedEvents:
+END_MAIN
+
+Ch1MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Ch1Dunno:
+END_MAIN
+
+Ch1Tutorial:
+END_MAIN
+
+Ch1TrapData:
+ENDTRAP
+
+ALIGN 4
+
+DaphneParty:
+UNIT Daphne Soldier Daphne Level(1,Ally,False) [16,19] 0x0 0x0 0x1 REDA16R18 [IronLance] NoAI
+UNIT Arturo Bishop Daphne Level(3,Ally,False) [16,19] 0x0 0x0 0x1 REDA17R19 [Heal,Vulnerary] NoAI
+UNIT Octavia Mage_F Daphne Level(1,Ally,False) [16,19] 0x0 0x0 0x1 REDA15R19 [Fire] NoAI
+UNIT Li Fighter Daphne Level(2,Ally,False) [17,19] 0x0 0x0 0x1 REDA16R19 [IronAxe,0xA] NoAI
+UNIT
+
+AltoParty:
+UNIT Alto Cavalier Daphne Level(2,Ally,False) [1,9] 0x0 0x0 0x1 REDA3R9 [IronLance,IronSword] NoAI
+UNIT Kan Archer Daphne Level(2,Ally,False) [3,6] 0x0 0x0 0x1 REDA3R8 [IronBow] NoAI
+UNIT
+
+MainEnemy:
+UNIT Navarro Peer Navarro Level(1,NPC,False) [13,3] 0x0 0x0 0x0 0x0 [Vulnerary] [0x03,0x03,0x04,0x20]
+UNIT CityGuardFighter Fighter Navarro Level(6,NPC,True) [6,16] 0x0 0x0 0x0 0x0 [HandAxe] [0x03,0x03,0x04,0x00]
+UNIT CityGuardKnight Knight Navarro Level(5,NPC,True) [4,4] 0x0 0x0 0x0 0x0 [SteelLance,Javelin] [0x03,0x03,0x04,0x00]
+UNIT CityGuardMage Mage Navarro Level(5,NPC,True) [8,2] 0x0 0x0 0x0 0x0 [Fire,Vulnerary] [0x03,0x03,0x02,0x00]
+UNIT Warren Fighter Warren Level(6,Enemy,False) [13,6] DropItem 0x0 0x0 0x0 [SteelAxe,HandAxe,DoorKey] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs1 Archer Warren Level(3,Enemy,True) [12,8] 0x0 0x0 0x0 0x0 [PoisonBow,Antitoxin] [0x03,0x03,0x04,0x00]
+UNIT Saboteurs1 Archer_F Warren Level(3,Enemy,True) [14,8] 0x0 0x0 0x0 0x0 [PoisonBow,Antitoxin] [0x03,0x03,0x04,0x00]
+UNIT
+
+MainEnemy2:
+UNIT Saboteurs2 Fighter Warren Level(3,Enemy,True) [18,1] 0x0 0x0 0x0 0x0 [Halberd] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Fighter Warren Level(4,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [IronAxe,Vulnerary] [0x00,0x00,0x01,0x00]
+UNIT Saboteurs2 Shaman Warren Level(3,Enemy,True) [8,9] 0x0 0x0 0x0 0x0 [Flux] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Monk Warren Level(3,Enemy,True) [7,8] 0x0 0x0 0x0 0x0 [Lightning] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Shaman Warren Level(1,Enemy,True) [0,6] 0x0 0x0 0x0 0x0 [Flux] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mercenary Warren Level(3,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [SteelSword,DoorKey] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Archer Warren Level(1,Enemy,True) [13,19] 0x0 0x0 0x0 0x0 [Longbow] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Myrmidon Warren Level(1,Enemy,True) [8,0] 0x0 0x0 0x0 0x0 [Armorslayer,Vulnerary] [0x00,0x00,0x02,0x00]
+UNIT Saboteurs2 Knight Warren Level(2,Enemy,True) [14,12] 0x0 0x0 0x0 0x0 [Javelin] [0x03,0x03,0x04,0x00]
+UNIT Saboteurs2 Knight Warren Level(3,Enemy,True) [14,13] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x00]
+UNIT Saboteurs2 Monk Warren Level(3,Enemy,True) [5,19] 0x0 0x0 0x0 0x0 [Lightning] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Soldier Warren Level(3,Enemy,True) [8,18] 0x0 0x0 0x0 0x0 [Axereaver] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mercenary Warren Level(3,Enemy,True) [2,17] 0x0 0x0 0x0 0x0 [SteelSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Shaman Warren Level(3,Enemy,True) [5,14] 0x0 0x0 0x0 0x0 [Luna] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Shaman Warren Level(3,Enemy,True) [4,2] 0x0 0x0 0x0 0x0 [Luna] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Myrmidon Warren Level(4,Enemy,True) [9,9] 0x0 0x0 0x0 0x0 [Zanbato] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Soldier Warren Level(5,Enemy,True) [11,17] 0x0 0x0 0x0 0x0 [Javelin] [0x03,0x03,0x04,0x00]
+UNIT Saboteurs2 Fighter Warren Level(3,Enemy,True) [2,12] 0x0 0x0 0x0 0x0 [IronAxe] [0x00,0x12,0x04,0x00]
+UNIT
+
+ErnestBlock:
+UNIT Ernest Knight Daphne Level(4,NPC,False) [19,6] 0x0 0x0 0x2 ErnestREDAs [Javelin,IronLance] [0x06,0x00,0x04,0x00]
+UNIT
+
+ScrubSoldier:
+UNIT CityGuardExtra Soldier Navarro Level(4,NPC,True) [8,0] 0x0 0x0 0x1 REDA8R1 [SlimLance] [0x00,0x00,0x04,0x00]
+UNIT
+
+RaiderGroup:
+UNIT Saboteurs1 Fighter Warren Level(4,Enemy,True) [19,6] 0x0 0x0 0x0 0x0 [PoisonAxe] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Fighter Warren Level(3,Enemy,True) [7,19] 0x0 0x0 0x1 REDA7R18 [IronAxe] [0x00,0x00,0x04,0x00]
+UNIT CityGuardExtra Myrmidon Navarro Level(1,NPC,True) [8,19] 0x0 0x0 0x0 0x0 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Pirate Warren Level(4,Enemy,True) [0,10] 0x0 0x0 0x1 REDA1R12 [PoisonAxe] [0x06,0x05,0x04,0x00]
+UNIT
+
+Turn5EnemyLancers:
+UNIT Saboteurs2 Soldier Warren Level(4,Enemy,True) [8,0] 0x0 0x0 0x1 REDA8R0 [HeavySpear] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Cavalier Warren Level(5,Enemy,True) [18,0] 0x0 0x0 0x1 REDA18R2 [SteelLance,IronSword] [0x00,0x00,0x04,0x00]
+UNIT
+
+Turn10CleanupThief:
+UNIT Saboteurs2 Thief Warren Level(5,Enemy,True) [19,6] DropItem 0x0 0x0 0x0 [IronSword,DoorKey] [0x00,0x0D,0x04,0x00]
+UNIT
+
+ErnestREDAs:
+REDA [19,7] 0x0 1 0x0 20
+REDA [18,7] 0x0 1 0x0 0
+
+Ch1BeginningScene:
+LOAD1 0 MainEnemy
+ENUN
+LOAD1 0 MainEnemy2
+ENUN
+CAM1 [15,17]
+STAL 10
+FADU 16
+STAL 10
+LOAD1 1 DaphneParty
+ENUN
+CUMO Daphne
+STAL 60
+CURE
+SetBackground(0x2)
+Text(0x910)
+EndConvo
+EVBIT_T 9
+STAL 5
+CUMO [13,19]
+STAL 60
+CURE
+Text(0x912)
+CAM1 [11,17]
+MoveByCoords(60, 11, 17, 12, 19)
+ENUN
+Text(0x913)
+STAL 10
+MoveByCoords(60, 12, 19, 13, 8)
+ENUN
+SetBackground(0x5)
+Text(0x914)
+EndConvo
+STAL 30
+CAM1 Daphne
+Text(0x911)
+STAL 10
+MUSC 0x25 //Tension, currently
+SetBackground(0x2)
+Text(0x915)
+EndConvo
+CUMO Daphne
+STAL 30
+CURE
+SetBackground(0x2)
+Text(0x91E)
+EndConvo
+STAL 20
+LOAD1 1 AltoParty
+ENUN
+CUMO Alto
+STAL 60
+CURE
+SetBackground(0x5)
+Text(0x91F)
+ENDA
+
+Ch1EndingScene:
+FADI 16
+CLEN Navarro
+CLEA Daphne
+CAM1 [13,3]
+FADU 20
+STAL 60
+SetBackground(0xF)
+CHECK_EXISTS Ernest
+BNE 1 sC s0 //if Ernest is alive, jump to LABEL 1, otherwise keep reading
+Text(0x938) //dead
+GOTO 3
+LABEL 1
+CHECK_ALLEGIANCE Ernest
+BEQ 2 sC s0 // if Ernest is allied, jump to LABEL 2, otherwise keep reading
+Text(0x9F7) //alive but not allied
+GOTO 3
+LABEL 2
+Text(0x937) //alive and allied
+LABEL 3
+MNC2 Ch2
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

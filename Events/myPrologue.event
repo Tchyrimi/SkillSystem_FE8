@@ -49,7 +49,7 @@ ENDTRAP
 ALIGN 4
 
 StartingCutsceneUnits:
-UNIT Daphne Soldier Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance,Rapier] NoAI
+UNIT Daphne Soldier Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT Arturo Bishop Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
 UNIT Octavia Mage_F Daphne Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [Fire] NoAI
 UNIT Li Fighter Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,0xA] NoAI
@@ -191,6 +191,7 @@ CUMO Morris
 STAL 60
 CURE
 Text(0x90F)
+EVBIT_T 9
 SVAL s1 0x00000000
 CHAI 0x80
 LOAD1 0 Turn6Reinforcements
@@ -204,6 +205,7 @@ CUMO Morris
 STAL 60
 CURE
 Text(0x90E)
+EVBIT_T 9
 SVAL s1 0x00000000
 CHAI Morris
 LOAD1 0 Turn7Reinforcements
@@ -212,15 +214,10 @@ NoFade
 ENDA
 
 timerChange:
-//I need to figure out how the hell I made this work last time
-CHECK_ACTIVE //whichever check you want to use
-SVAL s1 0x80 //the value to compare the check result to; unnecessary if the value is 0
-BNE 1 s1 sC //if the check result != Cutthroat, go to label 1
-ENUF $11
-GOTO 2
-LABEL 1 //skips to here if the active unit is not Eirika
-LABEL 2
-NoFade
+ENUF $11 
+PlayerInRange
+ENUT $11 
+NoFade 
 ENDA
 
 PBeginningScene:
@@ -323,6 +320,7 @@ TEXTSHOW 0x927
 TEXTEND
 REMA
 STAL 10
+ENUF $11
 ENDA
 
 PEndingScene:
