@@ -2,42 +2,41 @@
 //Modified by Nintenlord
 
 #include EAstdlib.event
-#include "REDAs.event"
 EventPointerTable(EventTableID,ThisChapter)
 
 ThisChapter:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
+POIN XXXXTurnBasedEvents
+POIN XXXXCharacterBasedEvents
+POIN XXXXLocationBasedEvents
+POIN XXXXMiscBasedEvents
+POIN XXXXDunno XXXXDunno XXXXDunno
+POIN XXXXTutorial
+POIN XXXXTrapData XXXXTrapData
 POIN Units Units
 POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
+POIN XXXXBeginningScene XXXXEndingScene
 
-TurnBasedEvents:
+XXXXTurnBasedEvents:
 END_MAIN
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+ALIGN 32 //For some reason, XXXXCharacterBasedEvents have to be 32-Aligned?
 
-CharacterBasedEvents:
-END_MAIN
-
-LocationBasedEvents:
+XXXXCharacterBasedEvents:
 END_MAIN
 
-MiscBasedEvents:
+XXXXLocationBasedEvents:
+END_MAIN
+
+XXXXMiscBasedEvents:
 CauseGameOverIfLordDies
 END_MAIN
 
-Dunno:
+XXXXDunno:
 END_MAIN
 
-Tutorial:
+XXXXTutorial:
 END_MAIN
 
-TrapData:
+XXXXTrapData:
 ENDTRAP
 
 ALIGN 4
@@ -45,10 +44,10 @@ ALIGN 4
 Units:
 UNIT
 
-BeginningScene:
+XXXXBeginningScene:
 ENDA
 
-EndingScene:
+XXXXEndingScene:
 MoveToChapter(NextChapter)
 ENDA
 

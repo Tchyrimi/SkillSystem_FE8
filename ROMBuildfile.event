@@ -28,8 +28,9 @@
 	PUSH
 	ORG 0x000B04F8
 	#incbin "Events/SilentGiveGold.dmp"
+	MESSAGE DMP ends at currentOffset
 	POP
-	#include "Events/myPrologue.event"
+	#include "Events/MasterChapterEventInstaller.event"
     //#include "Events/Release_map.event"
     //#include "Events/WorldMapEvents.event"
 
@@ -37,6 +38,9 @@
 	#include "Tileset/Tileset_and_AnimationInstaller.event"
     #include "Maps/MasterMapInstaller.event"
     //#endif // USE_TEST_MAP
+	
+	//Graphics
+	#include "Graphics/MasterGraphicInstaller.event"
 	
 	//ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	

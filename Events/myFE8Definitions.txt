@@ -1,4 +1,6 @@
-//random bullshit
+//random bullshit and macros
+#define SetToPursue(UnitID) "SVAL s1 0x00000000; CHAI UnitID"
+#define SetToPursue(x,y) "SVAL s1 0x00000000; CHAI [x,y]"
 #define EndConvo "CALL $9EE2C4"
 //Characters
 #define Daphne 0x01
@@ -11,14 +13,14 @@
 #define Jam 0x08
 #define Mercius 0x09
 #define Martin 0x0A
-//#define Innes 0x0B
+#define Ernest 0x0B
 //#define Lute 0x0C
 //#define Natasha 0x0D
 //#define Cormag 0x0E
 //#define Ephraim 0x0F
 //#define Forde 0x10
 //#define Kyle 0x11
-#define Ernest 0x12
+//#define Amelia 0x12
 //#define Artur 0x13
 //#define Gerik 0x14
 //#define Tethys 0x15
@@ -111,7 +113,7 @@
 #define CityGuardKnight 0x90
 #define CityGuardMage 0x8F
 #define CityGuardExtra 0x91
-#define Bandit 0x80
+#define Badguy 0x80
 
 //Classes
 //#define EphraimLord 0x01
@@ -250,7 +252,7 @@
 //#define SteelBlade 0x06
 //#define SilverBlade 0x07
 //#define PoisonSword 0x08
-//#define Rapier 0x09
+#define OldFriend 0x09
 //#define ManiKatti 0x0A
 //#define BraveSword 0x0B
 //#define Shamshir 0x0C

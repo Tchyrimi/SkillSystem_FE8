@@ -1,0 +1,6 @@
+//to apply REDA macros to all chapters, included here
+#include "REDAs.event"
+
+//Chapters
+#include "myPrologue.event"
+#include "myCH1.event"
