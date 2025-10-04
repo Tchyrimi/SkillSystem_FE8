@@ -528,8 +528,26 @@ Juna Fruit[X]
 # 0x0403 *
 Rushdown Blow[.][X]
 
+# 0x1013 *
+Iron Longbow[X]
+
+# 0x1014 *
+Steel Longbow[X]
+
+# 0x1015 *
+Silver Longbow[X]
 
 //Item descriptions
+
+# 0x1010
+Basic longbow.[.][NL]
+Higher range than average.[.][X]
+
+# 0x1011
+Stronger and heavier longbow.[.][X]
+
+# 0x1012
+Highest quality longbows.[.][X]
 
 # 0x0404
  [.][X]

@@ -235,6 +235,7 @@ POP
   #include "Necessary/CalcLoops/CalcLoops.event"
   
   #include "ExternalHacks/StatscreenTerrainBonus/Installer.event"
+  #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
   //#include "ExternalHacks/ASMCs/BadStatus/BadStatusInstaller.event"
   //#include "ExternalHacks/ASMCs/GiveExp/GiveExpInstaller.event"
   //#include "ExternalHacks/ASMCs/ItemChecks/ItemInstaller.event"
