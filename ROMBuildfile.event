@@ -6,6 +6,7 @@
 
     #include "Events/myFE8Definitions.txt"
 	#include "repointedTextTable.event"
+	#include "Repointers.event"
 
     //Text first for Text ID definitions
     #include "Text/InstallTextData.event"

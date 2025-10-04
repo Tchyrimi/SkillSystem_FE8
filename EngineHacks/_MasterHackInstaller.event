@@ -243,6 +243,8 @@ POP
   #include "ExternalHacks/ASMCs/UseItemEffect/Installer.event"
   #include "QualityOfLife/ModularMinimugBox/Installers/MMBInstallerCatball_1.event"
   #include "LongerClassName.event"
+  #include "addlucktohitrate.txt"
+  #include "minimumcritedit.txt"
 
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"

@@ -64,7 +64,7 @@ UNIT 0x80 Brigand Morris Level(1,Enemy,True) [2,2] 0x0 0x0 0x1 Brig1REDA [IronAx
 UNIT Octavia Mage_F Daphne Level(1,Ally,False) [0,12] 0x0 0x0 1 OctaviaREDA [Fire] NoAI
 UNIT Li Fighter Daphne Level(2,Ally,False) [0,13] 0x0 0x0 1 LiREDA [IronAxe] NoAI
 UNIT Daphne Soldier Daphne Level(3,Ally,False) [0,12] 0x0 0x0 1 DaphneREDA [IronLance] NoAI
-UNIT 0x80 Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
+UNIT 0x80 Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe,0xCE] GroupTwoAI
 UNIT
 
 EnemyUnits:
