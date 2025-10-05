@@ -1,0 +1,10 @@
+#define SetIcon(ID) "ORG NewItemIconTable + ID * 128"
+
+
+PUSH //PUSHing because SetIcon ORGs
+ALIGN 4
+SetIcon(0x9)
+#incext Png2Dmp "RushdownBlow.png"
+POP
+
+//0x36 putting Fire icon ID here to replace after testing

@@ -1,0 +1,11 @@
+#define IconTable NewItemIconTable
+
+ALIGN 16
+ORG CurrentOffset + 0x08
+NewItemIconTable:
+ORG CurrentOffset + 0x20 * 0xFF
+PUSH
+ORG NewItemIconTable
+#incbin "IconTable.dmp"
+POP
+

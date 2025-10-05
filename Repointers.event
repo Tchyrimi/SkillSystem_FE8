@@ -7,7 +7,8 @@
 //0x9A2E00 vanilla MMS table offset
 #define ClassTable NewClassTable
 //0x807110 vanilla class table offset
-
+//#define IconTable 0x5926F4
+//0x5926F4 vanilla item icon table offset
 PUSH
 
 ORG $16410
@@ -142,6 +143,11 @@ ORG $1C1FB8
 POIN ItemTable
 ORG $1C20E0
 POIN ItemTable
+
+//ORG $36B4
+//POIN IconTable
+//ORG $3788
+//POIN IconTable
 
 //ORG $28E88
 //POIN ItemTargetTable
