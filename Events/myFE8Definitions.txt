@@ -116,10 +116,10 @@
 #define Badguy 0x80
 
 //Classes
-//#define Opportunist 0x80
-//#define Brawler 0x81
-//#define Mender 0x82
-//#define Conduit 0x83
+#define LanceMerc 0x80
+#define Brawler 0x81
+#define Mender 0x82
+#define Conduit 0x83
 //#define EphraimLord 0x01
 //#define EirikaLord 0x02
 //#define EphraimMasterLord 0x03
@@ -248,6 +248,9 @@
 //#define Pupil_2 0x7F
 
 //Items
+#define IronLongbow 0xCE
+#define SteelLongbow 0xCF
+#define SilverLongbow 0xD0
 //#define IronSword 0x01
 //#define SlimSword 0x02
 //#define SteelSword 0x03
