@@ -1,3 +1,38 @@
+// sms/ 
+
+ALIGN 4
+OpportunistStanding:
+#incext Png2Dmp "sms/SoldierFLance_StandRexacusePeerlessAlusqWarPath.png" --lz77
+
+ALIGN 4
+BrawlerStanding:
+#incext Png2Dmp "sms/Fighter_F_Axe_Standing_Alusq.png" --lz77
+
 ALIGN 4
 MenderStanding:
 #incext Png2Dmp "sms/Mender_byTchyrimi_Standing.png" --lz77
+
+ALIGN 4
+ConduitStanding:
+#incext Png2Dmp "sms/Mage_F_Magistra_Brunette_Cynonstand.png" --lz77
+
+
+
+// mms/
+
+ALIGN 4
+OpportunistMoving:
+#incext Png2Dmp "mms/SoldierF_Lance_Moving_RexacusePeerlessAlusqWarPath.png" --lz77
+
+ALIGN 4
+BrawlerMoving:
+#incext Png2Dmp "mms/Fighter_F_Axe_Moving_Alusq.png" --lz77
+
+ALIGN 4
+MenderMoving:
+#incext Png2Dmp "mms/Bishop_M_Hatless_Pants_Permafrostwalk.png" --lz77
+
+ALIGN 4
+ConduitMoving:
+#incext Png2Dmp "mms/Mage_F_Magistra_Brunette_Cynonwalk.png" --lz77
+

@@ -5,6 +5,9 @@
 //0x8af880 vanilla SMS table offset
 #define MovingMapSpriteTable NewMovingMapSpriteTable
 //0x9A2E00 vanilla MMS table offset
+#define ClassTable NewClassTable
+//0x807110 vanilla class table offset
+
 PUSH
 
 ORG $16410
@@ -149,14 +152,14 @@ POIN ItemTable
 //ORG $2FC8C
 //POIN ItemEffectTable
 
-//ORG $19458
-//POIN ClassTable
-//ORG $18DAC
-//POIN ClassTable
-//ORG $17DBC
-//POIN ClassTable
-//ORG $17AB8
-//POIN ClassTable
+ORG $19458
+POIN ClassTable
+ORG $18DAC
+POIN ClassTable
+ORG $17DBC
+POIN ClassTable
+ORG $17AB8
+POIN ClassTable
 
 //ORG $17D64
 //POIN CharacterTable

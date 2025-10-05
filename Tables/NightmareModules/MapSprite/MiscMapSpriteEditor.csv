@@ -126,7 +126,7 @@ Cyclops,0x81f40f8,0x81f49b8
 Elder Bael,0x81f38ec,0x81f3fa0
 Trainee Fighter (2),0x81e0f98,0x81e173c
 Trainee Mage (2),0x81e189c,0x81e2088
-Opportunist,0x81cb438,DemonKingAP
-Brawler,0x81cb438,DemonKingAP
-Mender,0x81cb438,DemonKingAP
-Conduit,0x81cb438,DemonKingAP
+LanceMerc,OpportunistMoving|IsPointer,0x81c3d7c
+Brawler,BrawlerMoving|IsPointer,0x81c3d7c
+Mender,MenderMoving|IsPointer,0x81c3d7c
+Conduit,ConduitMoving|IsPointer,0x81c3d7c
