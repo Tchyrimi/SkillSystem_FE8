@@ -1,7 +1,10 @@
 //adding definitions of vanilla pointer locations to stop errors
 #define ItemTable NewItemTable
-//0x809B10 vanilla table offset
-
+//0x809B10 vanilla Item table offset
+#define StandingMapSpriteTable NewStandingMapSpriteTable
+//0x8af880 vanilla SMS table offset
+#define MovingMapSpriteTable NewMovingMapSpriteTable
+//0x9A2E00 vanilla MMS table offset
 PUSH
 
 ORG $16410
@@ -197,39 +200,39 @@ POIN ItemTable
 //ORG $B6500
 //POIN ChapterDataTable
 
-//ORG $26730
-//POIN StandingMapSpriteTable
-//ORG $267B0
-//POIN StandingMapSpriteTable
-//ORG $26838
-//POIN StandingMapSpriteTable
-//ORG $26C88
-//POIN StandingMapSpriteTable
-//ORG $272D0
-//POIN StandingMapSpriteTable
-//ORG $27BB0
-//POIN StandingMapSpriteTable
-//ORG $27C9C
-//POIN StandingMapSpriteTable
-//ORG $27D48
-//POIN StandingMapSpriteTable
-//ORG $27E0C
-//POIN StandingMapSpriteTable
-//ORG $27E9C
-//POIN StandingMapSpriteTable
-//ORG $27F74
-//POIN StandingMapSpriteTable
-//ORG $28064
-//POIN StandingMapSpriteTable
+ORG $26730
+POIN StandingMapSpriteTable
+ORG $267B0
+POIN StandingMapSpriteTable
+ORG $26838
+POIN StandingMapSpriteTable
+ORG $26C88
+POIN StandingMapSpriteTable
+ORG $272D0
+POIN StandingMapSpriteTable
+ORG $27BB0
+POIN StandingMapSpriteTable
+ORG $27C9C
+POIN StandingMapSpriteTable
+ORG $27D48
+POIN StandingMapSpriteTable
+ORG $27E0C
+POIN StandingMapSpriteTable
+ORG $27E9C
+POIN StandingMapSpriteTable
+ORG $27F74
+POIN StandingMapSpriteTable
+ORG $28064
+POIN StandingMapSpriteTable
 
-//ORG $79584
-//POIN MovingMapAnimTable
-//ORG $79598
-//POIN MovingMapAnimTable
-//ORG $BAC2C
-//POIN MovingMapAnimTable
-//ORG $BAC40
-//POIN MovingMapAnimTable
+ORG $79584
+POIN MovingMapSpriteTable
+ORG $79598
+POIN MovingMapSpriteTable
+ORG $BAC2C
+POIN MovingMapSpriteTable
+ORG $BAC40
+POIN MovingMapSpriteTable
 
 //ORG $8472C
 //POIN DeathQuoteTable

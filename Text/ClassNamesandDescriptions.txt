@@ -267,6 +267,18 @@ to protect their wards.[.][X]
 Powerful spellcasters blunted, yet[NL]
 freed by their inexperience.[.][X]
 
+//#0x100C
+//OpportunistT2 class desc
+
+//#0x100D
+//BrawlerT2 clas desc
+
+//#0x100E
+//MenderT2 class desc
+
+//#0x100F
+//ConduitT2 class desc
+
 # 0x0309
 Noble heirs to a ruling house.[NL]
 They possess great potential.[.][X]
