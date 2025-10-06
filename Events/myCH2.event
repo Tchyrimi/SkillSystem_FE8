@@ -1,0 +1,138 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+EventPointerTable(0xD,Ch2Events)
+
+Ch2Events:
+POIN Ch2TurnBasedEvents
+POIN Ch2CharacterBasedEvents
+POIN Ch2LocationBasedEvents
+POIN Ch2MiscBasedEvents
+POIN Ch2Dunno Ch2Dunno Ch2Dunno
+POIN Ch2Tutorial
+POIN Ch2TrapData Ch2TrapData
+POIN PlayerParty PlayerParty
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch2BeginningScene Ch2EndingScene
+
+Ch2TurnBasedEvents:
+END_MAIN
+ALIGN 32 //For some reason, Ch2CharacterBasedEvents have to be 32-Aligned?
+
+Ch2CharacterBasedEvents:
+END_MAIN
+
+Ch2LocationBasedEvents:
+END_MAIN
+
+Ch2MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Ch2Dunno:
+END_MAIN
+
+Ch2Tutorial:
+END_MAIN
+
+Ch2TrapData:
+ENDTRAP
+
+ALIGN 4
+
+FirstCutscenePlayerUnits:
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [14,8] 0x0 0x0 0x1 REDA11R7 [IronLance] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [14,9] 0x0 0x0 0x1 REDA12R7 [Heal] NoAI
+UNIT Octavia Conduit Daphne Level(1,Ally,False) [14,9] 0x0 0x0 0x1 REDA13R8 [Fire] NoAI
+UNIT Li Brawler Daphne Level(1,Ally,False) [14,9] 0x0 0x0 0x1 REDA14R7 [IronAxe] NoAI
+UNIT
+
+FirstCutsceneBardolph:
+UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [5,0] 0x0 0x0 0x1 REDA5R6 [SilverAxe] NoAI
+UNIT
+
+SecondCutscenePlayerUnits:
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [9,32] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [10,31] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Octavia Conduit Daphne Level(1,Ally,False) [10,32] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Li Brawler Daphne Level(1,Ally,False) [11,31] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT
+
+SecondCutsceneEnemyUnits:
+UNIT Invicil Mage Invicil Level(7,Enemy,False) [6,5] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT
+
+SecondCutsceneBardolph:
+UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [6,32] 0x0 0x0 0x1 REDA6R29 [SilverAxe] NoAI
+UNIT
+
+EnemiesInHiding:
+UNIT Saboteurs2 Pirate Invicil Level(5,Enemy,True) [19,11] 0x0 0x0 0x1 REDA19R13 [Hammer,HandAxe] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [19,10] 0x0 0x0 0x1 REDA19R9 [Thunder] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [9,11] 0x0 0x0 0x1 REDA8R12 [Fire] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Myrmidon Invicil Level(6,Enemy,True) [0,13] 0x0 0x0 0x1 REDA4R13 [Lancereaver,Armorslayer] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Archer_F Invicil Level(4,Enemy,True) [1,6] 0x0 0x0 0x1 REDA0R6 [IronBow] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Fighter Invicil Level(6,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronAxe] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Myrmidon Invicil Level(3,Enemy,True) [11,8] 0x0 0x0 0x1 REDA9R7 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [1,6] 0x0 0x0 0x1 REDA2R7 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [16,6] 0x0 0x0 0x1 REDA14R7 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT
+
+ExtraBoss:
+UNIT Bazba Cavalier Invicil Level(8,Enemy,False) [7,0] 0x0 0x0 0x1 REDA4R3 [SteelLance,IronSword] [0x03,0x03,0x04,0x20]
+UNIT
+
+ChainGang:
+UNIT Saboteurs2 Sage Invicil Level(10,Enemy,True) [4,4] 0x0 0x0 0x0 0x0 [Elfire] NoAI
+UNIT Saboteurs2 Cavalier Invicil Level(8,Enemy,False) [5,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT Saboteurs2 Mercenary Invicil Level(1,Enemy,False) [7,6] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
+UNIT Saboteurs2 Soldier Invicil Level(1,Enemy,True) [11,8] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
+UNIT Saboteurs2 Soldier Invicil Level(1,Enemy,True) [13,4] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
+UNIT Saboteurs2 Cavalier Invicil Level(1,Enemy,True) [15,4] 0x0 0x0 0x0 0x0 [SteelSword] NoAI
+UNIT Saboteurs2 Cavalier Invicil Level(1,Enemy,True) [16,7] 0x0 0x0 0x0 0x0 [SteelSword] NoAI
+UNIT FakeGen Civilian_3 Invicil Level(1,Enemy,True) [9,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT RiverFolk Civilian_3 Invicil Level(1,Enemy,True) [10,6] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
+UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [11,6] 0x0 0x0 0x0 0x0 [Thunder] NoAI
+UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [12,6] 0x0 0x0 0x0 0x0 [Javelin] NoAI
+UNIT
+
+PlayerParty:
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA6R27 [IronLance] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA7R27 [Heal] NoAI
+UNIT Octavia Conduit Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA7R26 [Fire] NoAI
+UNIT Li Brawler Daphne Level(1,Ally,False) [5,32] 0x0 0x0 0x1 REDA5R26 [IronAxe] NoAI
+UNIT Alto Cavalier Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA8R26 [IronSword] NoAI
+UNIT Kan Archer Daphne Level(1,Ally,False) [7,32] 0x0 0x0 0x1 REDA8R27 [IronBow] NoAI
+UNIT Ernest Knight Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA5R27 [IronLance] NoAI
+UNIT
+
+GenBlock:
+UNIT Gen Myrmidon Gen Level(1,NPC,False) [9,0] 0x0 0x0 0x1 REDA9R2 [IronSword,KillingEdge] [0x03,0x03,0x04,0x20]
+UNIT
+
+JamParty:
+UNIT Jam Shaman Daphne Level(4,Ally,False) [17,12] 0x0 0x0 0x1 REDA16R13 [Flux,Vulnerary] NoAI
+UNIT Mercius Monk Daphne Level(4,Ally,False) [17,12] 0x0 0x0 0x1 REDA18R13 [Lightning,Vulnerary] NoAI
+UNIT
+
+Ch2BeginningScene:
+LOMA 0x3D //first cutscene back at the Black Cat hideout
+STAL 240
+LOMA 0x3E //second set of cutscenes where the actual chapter map is expanded
+STAL 240
+LOMA 0x02 //the actual map
+STAL 60
+ENDA
+
+Ch2EndingScene:
+MoveToChapter(NextChapter)
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

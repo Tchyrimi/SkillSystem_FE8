@@ -51,7 +51,7 @@ StartingCutsceneUnits:
 UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT Arturo Mender Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [Fire] NoAI
-UNIT Li Brawler Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,0xA] NoAI
+UNIT Li Brawler Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,RushdownBlow] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [4,5] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [3,12] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [5,16] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
@@ -59,37 +59,37 @@ UNIT
 
 ActualPlayerUnits:
 UNIT Arturo Mender Daphne Level(3,Ally,False) [0,13] 0x0 0x0 1 ArturoREDA [Heal,Vulnerary] NoAI
-UNIT 0x80 Archer Morris Level(1,Enemy,True) [15,10] 0x0 0x0 0x1 Archer1REDA [IronBow] GroupThreeAI
-UNIT 0x80 Brigand Morris Level(1,Enemy,True) [2,2] 0x0 0x0 0x1 Brig1REDA [IronAxe] GroupOneAI
+UNIT Badguy Archer Morris Level(1,Enemy,True) [15,10] 0x0 0x0 0x1 Archer1REDA [IronBow] GroupThreeAI
+UNIT Badguy Brigand Morris Level(1,Enemy,True) [2,2] 0x0 0x0 0x1 Brig1REDA [IronAxe] GroupOneAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [0,12] 0x0 0x0 1 OctaviaREDA [Fire] NoAI
-UNIT Li Brawler Daphne Level(2,Ally,False) [0,13] 0x0 0x0 1 LiREDA [IronAxe] NoAI
+UNIT Li Brawler Daphne Level(2,Ally,False) [0,13] 0x0 0x0 1 LiREDA [IronAxe,RushdownBlow] NoAI
 UNIT Daphne LanceMerc Daphne Level(3,Ally,False) [0,12] 0x0 0x0 1 DaphneREDA [IronLance] NoAI
-UNIT 0x80 Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
+UNIT Badguy Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
 UNIT
 
 EnemyUnits:
 UNIT Morris Thief Morris Level(1,Enemy,False) [14,0] DropItem 0x0 0x0 0x0 [SteelSword,Vulnerary] [0x03,0x03,0x04,0x00]
-UNIT 0x80 Myrmidon Morris Level(1,Enemy,True) [15,12] 0x0 0x0 0x1 Myrm1REDA [SteelSword] GroupThreeAI
-UNIT 0x80 Mercenary Morris Level(1,Enemy,True) [6,0] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] GroupOneAI
-UNIT 0x80 Myrmidon_F Morris Level(1,Enemy,True) [13,2] 0x0 0x0 0x0 0x0 [IronSword] GroupThreeAI
-UNIT 0x80 Soldier Morris Level(1,Enemy,True) [9,1] 0x0 0x0 0x0 0x0 [IronLance] GroupThreeAI
-UNIT 0x80 Brigand Morris Level(1,Enemy,True) [10,2] 0x0 0x0 0x0 0x0 [IronAxe] GroupTwoAI
-UNIT 0x80 Shaman Morris Level(2,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Flux] GroupTwoAI
-UNIT 0x80 Archer_F Morris Level(2,Enemy,True) [0,0] 0x0 0x0 0x0 0x0 [IronBow] GroupOneAI
-UNIT 0x80 Soldier Morris Level(2,Enemy,True) [11,7] 0x0 0x0 0x0 0x0 [IronLance] GroupTwoAI
+UNIT Badguy Myrmidon Morris Level(1,Enemy,True) [15,12] 0x0 0x0 0x1 Myrm1REDA [SteelSword] GroupThreeAI
+UNIT Badguy Mercenary Morris Level(1,Enemy,True) [6,0] 0x0 0x0 0x0 0x0 [IronSword,Vulnerary] GroupOneAI
+UNIT Badguy Myrmidon_F Morris Level(1,Enemy,True) [13,2] 0x0 0x0 0x0 0x0 [IronSword] GroupThreeAI
+UNIT Badguy Soldier Morris Level(1,Enemy,True) [9,1] 0x0 0x0 0x0 0x0 [IronLance] GroupThreeAI
+UNIT Badguy Brigand Morris Level(1,Enemy,True) [10,2] 0x0 0x0 0x0 0x0 [IronAxe] GroupTwoAI
+UNIT Badguy Mage Morris Level(2,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Thunder] GroupTwoAI
+UNIT Badguy Archer_F Morris Level(2,Enemy,True) [0,0] 0x0 0x0 0x0 0x0 [IronBow] GroupOneAI
+UNIT Badguy Soldier Morris Level(2,Enemy,True) [11,7] 0x0 0x0 0x0 0x0 [IronLance] GroupTwoAI
 UNIT
 
 Turn6Reinforcements:
-UNIT 0x80 Fighter Morris Level(5,Enemy,True) [15,0] 0x0 0x0 0x1 REDA15R2 [IronAxe] [0x00,0x00,0x04,0x00]
-UNIT 0x80 Brigand Morris Level(4,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R12 [SteelAxe] [0x00,0x00,0x04,0x00]
+UNIT Badguy Fighter Morris Level(5,Enemy,True) [15,0] 0x0 0x0 0x1 REDA15R2 [IronAxe] [0x00,0x00,0x04,0x00]
+UNIT Badguy Brigand Morris Level(4,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R12 [SteelAxe] [0x00,0x00,0x04,0x00]
 UNIT
 
 Turn7Reinforcements:
-UNIT 0x80 Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [SteelAxe] [0x00,0x00,0x04,0x00]
+UNIT Badguy Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [SteelAxe] [0x00,0x00,0x04,0x00]
 UNIT
 
 BensonCrew:
-UNIT 0x80 Shaman Morris Level(9,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Luna] [0x00,0x00,0x04,0x00]
+UNIT Badguy Shaman Morris Level(11,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Luna] [0x00,0x00,0x04,0x00]
 UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow] [0x00,0x00,0x04,0x00]
 UNIT
 
@@ -149,7 +149,7 @@ ENUN
 SVAL s1 0x02
 SET_HP Benson
 UseVulnerary(Benson,25)
-ASMC 0x80790A5 //to end MMS of vulnerary use
+ASMC Badguy790A5 //to end MMS of vulnerary use
 CUMO Benson
 STAL 60
 CURE
@@ -167,7 +167,7 @@ ENUN
 SVAL s1 0x02
 SET_HP Benson
 UseVulnerary(Benson,25)
-ASMC 0x80790A5 //to end MMS of vulnerary use
+ASMC Badguy790A5 //to end MMS of vulnerary use
 CUMO Benson
 STAL 60
 CURE
@@ -192,7 +192,7 @@ CURE
 Text(0x90F)
 EVBIT_T 9
 SVAL s1 0x00000000
-CHAI 0x80
+CHAI Badguy
 LOAD1 0 Turn6Reinforcements
 ENUN
 NoFade

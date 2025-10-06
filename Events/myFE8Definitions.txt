@@ -114,6 +114,7 @@
 #define CityGuardMage 0x8F
 #define CityGuardExtra 0x91
 #define Badguy 0x80
+#define FakeGen 0xA6
 
 //Classes
 #define LanceMerc 0x80
@@ -260,7 +261,7 @@
 //#define SilverBlade 0x07
 //#define PoisonSword 0x08
 #define OldFriend 0x09
-//#define ManiKatti 0x0A
+#define RushdownBlow 0x0A
 //#define BraveSword 0x0B
 //#define Shamshir 0x0C
 //#define KillingEdge 0x0D
