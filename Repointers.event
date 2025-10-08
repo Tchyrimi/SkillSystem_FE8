@@ -7,7 +7,7 @@
 //0x9A2E00 vanilla MMS table offset
 #define ClassTable NewClassTable
 //0x807110 vanilla class table offset
-//#define NewClassAnimTable ClassAnimTable
+#define ClassAnimTable NewClassAnimTable
 //0xC00008 vanilla ClassAnimTable offset
 PUSH
 
