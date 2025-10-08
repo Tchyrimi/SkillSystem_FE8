@@ -537,6 +537,9 @@ Steel Longbow[X]
 # 0x1015 *
 Silver Longbow[X]
 
+# 0x1016 *
+Gust[X]
+
 //Item descriptions
 
 # 0x1010
@@ -548,6 +551,9 @@ Stronger and heavier longbow.[.][X]
 
 # 0x1012
 Highest quality longbows.[.][X]
+
+#0x1017 *
+Basic wind magic.[.][X]
 
 # 0x0404
  [.][X]
@@ -574,7 +580,8 @@ Highest quality longbows.[.][X]
 Coated in lethal poison.[X]
 
 # 0x040C
-Effective against infantry.[.][X]
+Held longer than her husband.[.][NL]
+Def,Res,Con+2[.][X]
 
 # 0x040D
 Can strike consecutively.[.][X]

@@ -249,6 +249,7 @@
 //#define Pupil_2 0x7F
 
 //Items
+#define Gust 0xD1
 #define IronLongbow 0xCE
 #define SteelLongbow 0xCF
 #define SilverLongbow 0xD0

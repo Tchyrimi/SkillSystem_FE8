@@ -249,7 +249,7 @@ BYTE 0 0 0 0
 ALIGN 4
 
 ch1Shop:
-SHLI Fire Heal Vulnerary Antitoxin DoorKey
+SHLI Gust Heal Vulnerary Antitoxin DoorKey
 BYTE 0 0 0 0
 ALIGN 4
 

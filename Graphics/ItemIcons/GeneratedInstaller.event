@@ -1,0 +1,42 @@
+//Generated - do not edit!
+//Copy paste the /* */ section into your definitions if desired.
+ 
+ 
+ 
+/* 
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define GustIcon 222 
+#define image_palIcon 223 
+#define OldFriendIcon 224 
+#define RushdownBlowIcon 225 
+#define StrawberryJamIcon 226 
+#define VoraciousFlameIcon 227 
+*/ 
+ 
+ 
+ 
+ 
+//Image Data 
+ 
+PUSH 
+ 
+ItemIconEntry(GustIcon) 
+#incbin "dmp/Gust.dmp" 
+ 
+ItemIconEntry(image_palIcon) 
+#incbin "dmp/image_pal.dmp" 
+ 
+ItemIconEntry(OldFriendIcon) 
+#incbin "dmp/OldFriend.dmp" 
+ 
+ItemIconEntry(RushdownBlowIcon) 
+#incbin "dmp/RushdownBlow.dmp" 
+ 
+ItemIconEntry(StrawberryJamIcon) 
+#incbin "dmp/StrawberryJam.dmp" 
+ 
+ItemIconEntry(VoraciousFlameIcon) 
+#incbin "dmp/VoraciousFlame.dmp" 
+ 
+POP 

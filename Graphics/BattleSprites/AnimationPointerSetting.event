@@ -1,0 +1,24 @@
+// Opportunist Anims
+LanceMercAnimPointer:
+AddClassAnimation(0xCA,Lances,0x0)
+AddClassAnimation(0xCB,Disarmed,0x0)
+EndClassAnimation
+
+//Brawler Anims
+BrawlerAnimPointer:
+AddClassAnimation(0xCC,Axes,0x0)
+AddHandAxeAnimation(0xCD)
+AddClassAnimation(0xCE,Disarmed,0x0)
+EndClassAnimation
+
+MenderAnimPointer:
+//Mender Anims
+AddClassAnimation(0xCF,Swords,0x0)
+AddClassAnimation(0xD0,Staves,0x0)
+AddClassAnimation(0xD1,Disarmed,0x0)
+EndClassAnimation
+
+ConduitAnimPointer:
+//Conduit Anims
+AddClassAnimation(0xD2,Anima,0x0)
+EndClassAnimation

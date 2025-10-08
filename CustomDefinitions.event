@@ -82,5 +82,7 @@
 
 #define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
 
+#include "Graphics/ItemIcons/Defs.event"
+
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

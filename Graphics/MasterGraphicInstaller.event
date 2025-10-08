@@ -1,4 +1,4 @@
 #include "Portraits/PortraitInsertion.event"
 #include "MapSprites/MapSpriteInsertion.event"
-//#include "ItemIcons/ItemIconTableExpansion.event"
-//#include "ItemIcons/ItemIconInsertion.event"
+#include "BattleSprites/MasterAnimationInstaller.event"
+#include "ItemIcons/Installer.event"

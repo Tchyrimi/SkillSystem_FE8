@@ -1,0 +1,34 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+//////////////Installed animations go here:
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+#include "AnimationPointerSetting.event"
+
+  {
+  #include "LightweightLancerFbyAlusq/Lance/LanceInstaller.event"
+  #include "LightweightLancerFbyAlusq/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "ShortHairFighterFbyBlack_Mage/Axe/AxeInstaller.event"
+  #include "ShortHairFighterFbyBlack_Mage/Handaxe/HandaxeInstaller.event"
+  #include "ShortHairFighterFbyBlack_Mage/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "SwMasterStefanwStaffRepalbyGreentea/Sword/SwordInstaller.event"
+  #include "SwMasterStefanwStaffRepalbyGreentea/Staff/StaffInstaller.event"
+  #include "SwMasterStefanwStaffRepalbyGreentea/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "MonkVarNinobyMikey_Seregon/Magic/MagicInstaller.event"
+  }
+  
