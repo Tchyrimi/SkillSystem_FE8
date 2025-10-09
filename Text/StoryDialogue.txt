@@ -213,7 +213,7 @@ before either.[A] Something's[NL]
 fishy here...[A][X]
 
 # 0x0912
-[OpenMidLeft][LoadFace][0x70][OpenMidRight][LoadFace][0x02][0x01][OpenMidLeft]Who goes there!?[A][NL]
+[OpenMidLeft][LoadFace][0x70][0x01][OpenMidRight][LoadFace][0x02][0x01][OpenMidLeft]Who goes there!?[A][NL]
 [OpenMidRight]Daphne Iglesias, mercenary.[A][NL]
 [OpenMidLeft]Purpose for entering the town?[A][NL]
 [OpenMidRight]We have business with[NL]
@@ -221,18 +221,18 @@ Navarro, our employer.[A]
 [OpenMidLeft]One moment, please.[A][OpenMidLeft][0x0080][LoadFace][0x00E]Hey, newbie![A][X]
 
 # 0x0913
-[OpenMidRight][LoadFace][0x70][OpenFarFarLeft][LoadFace][0x6B][OpenFarFarLeft][MoveLeft][OpenLeft]Sir?[A][OpenMidRight]
+[OpenMidRight][LoadFace][0x70][0x01][OpenFarFarLeft][LoadFace][0x6B][0x01][OpenFarFarLeft][MoveLeft][OpenLeft]Sir?[A][OpenMidRight]
 Run and inform the commander[NL]
 that our targets have arrived.[A]
 [OpenLeft]Right away, sir![A][X]
 
 # 0x0914
-[OpenMidRight][LoadFace][0x31][OpenMidRight]You'd think someone with such[NL]
+[OpenMidRight][LoadFace][0x31][0x01][OpenMidRight]You'd think someone with such[NL]
 an obsession with wealth would[NL]
 hire stronger arms to protect it.[A][NL]
 Well, it's not like they're not putting[NL]
 up a decent fight;[A] I just expected[NL]
-more difficulty in razing an entire town.[A][OpenFarFarLeft][LoadFace][0x6B][OpenFarFarLeft][MoveMidLeft]
+more difficulty in razing an entire town.[A][OpenFarFarLeft][LoadFace][0x6B][0x01][OpenFarFarLeft][MoveMidLeft]
 [OpenMidLeft]Commander![A] I am here[NL]
 to relay the arrival of our[NL]
 targets, sir![A] The sentry[NL]
@@ -258,7 +258,7 @@ This guy is gonna get us[NL]
 all killed.[A][X]
 
 # 0x0915
-[OpenMidRight][LoadFace][0x02][0x01][OpenFarFarLeft][LoadFace][0x70][MoveMidLeft]
+[OpenMidRight][LoadFace][0x02][0x01][OpenFarFarLeft][LoadFace][0x70][0x01][MoveMidLeft]
 [OpenMidLeft]By order of the mayor,[A] you[NL]
 are barred from entry into[NL]
 the city![A] Any attempts to[NL]
@@ -319,13 +319,14 @@ anyone else decides we're a problem, hm?[A]
 [OpenFarLeft]No arguments here.[A][X]
 
 # 0x0919
-[OpenMidRight][LoadFace][0x0B][0x01][OpenMidRight]Somebody get me a healer![A][NL]
+[OpenMidRight][LoadFace][0x0B][0x01]
+[OpenMidRight]Somebody get me a healer![A][NL]
 I've been hit with something![A][NL]
 Hard to ngh... swing this lance[NL]
 around...[A][X]
 
 # 0x091A
-[OpenMidLeft][LoadFace][0xFFFF][OpenMidRight][LoadFace][0x5C]
+[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x5C][0x01]
 [OpenMidRight]Thanks again for keeping us[NL]
 safe.[A] The city guard does[NL]
 certainly help[A], but we all[NL]
@@ -338,7 +339,7 @@ upside the head for me, will ya?[A][NL]
 If you do, I'll buy you all a round![A][X]
 
 # 0x091B
-[LoadFace][0xFFFF][OpenMidRight][LoadFace][0x59]
+[LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x59][0x01]
 [OpenMidRight]It's pretty scary living so close[NL]
 to the front lines.[A] This town[NL]
 has walls, sure,[A] but they[NL]
@@ -444,10 +445,10 @@ mayor.[A] If we see 'em, we should[NL]
 go ahead and give her the supplies[NL]
 we bought.[A] I'm not about to[NL]
 start swinging her lance around.[A][NL]
-Let's move out![A][X]
+Come on, Mirabella![A][X]
 
 # 0x0920
-[OpenMidLeft][LoadFace][0x4D]
+[OpenMidLeft][LoadFace][0x4D][0x01]
 [OpenMidLeft]Those dolts think they can press[NL]
 me into service?[A] Bah! As if![A][NL]
 I might strip myself some supplies[NL]
@@ -483,7 +484,7 @@ a myriad of headaches.[A][NL]
 I need to make preparations...[....][A][X]
 
 # 0x0923
-[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x54]
+[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x54][0x01]
 [OpenMidRight]Ah, don't hurt me![A]
 [OpenMidLeft]Shut up, Navarro![A] It's just me.[A][NL]
 Time for us to have a little[NL]
@@ -630,12 +631,13 @@ Let me give it to you.[A][X]
 [OpenMidLeft][LoadFace][0x02][0x01][OpenMidLeft]Alright, we're almost there.[A][X]
 
 # 0x0935
-[OpenMidLeft][LoadFace][0x31]
+[OpenMidLeft][LoadFace][0x31][0x01]
 [OpenMidLeft]So you're the group[NL]
 we're looking for![A][X]
 
 # 0x0936
-[OpenMidLeft][LoadFace][0x31]Bardolph[ToggleMouthMove]...[....][ToggleMouthMove] was this[NL]
+[OpenMidLeft][LoadFace][0x31][0x01]
+Bardolph[ToggleMouthMove]...[....][ToggleMouthMove] was this[NL]
 your plan all along?[A][NL]
 Dgh-[.....]Death to Ombala[ToggleMouthMove]...[....][A][CloseEyes][X]
 
@@ -657,7 +659,7 @@ Is that really you?[.][A][X]
 can catch him in the valley.[A][X]
 
 # 0x093B
-[OpenMidLeft][LoadFace][0x132][OpenMidRight][LoadFace][0x1AD][OpenMidLeft]Well, well, well...[....] How our fortunes turn...[A]
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0xAD][0x01][OpenMidLeft]Well, well, well...[....] How our fortunes turn...[A]
 When that toady little man told us our prize
 had been stolen,[A] we were dreading the 
 grueling march out here to hunt down 
@@ -676,7 +678,7 @@ outright killing you?[A][X]
 talking about.[A] Move up everyone! Quietly...[A][X]
 
 # 0x093D
-[OpenMidLeft][LoadFace][0x132][OpenMidRight][LoadFace][0x1AD][OpenMidRight]I think not.[A] I feel sorry for the numbers
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0xAD][0x01][OpenMidRight]I think not.[A] I feel sorry for the numbers
 your leaders felt necessary to deploy to
 bring down a single, simple thief.[A] You'll 
 find that I'm much harder prey to ensnare.[A][OpenMidLeft]Bah![A] You've fought one pigheaded cur,
@@ -700,58 +702,58 @@ What the hell are you doing, girl?[A]
 Stay out of this![A][X]
 
 # 0x0940
-[OpenMidLeft][LoadFace][0x148][OpenFarRight][LoadFace][0x133][OpenMidLeft]everybody move up[A][X]
+[OpenMidLeft][LoadFace][0x48][0x01][OpenFarRight][LoadFace][0x33][0x01][OpenMidLeft]everybody move up[A][X]
 
 # 0x0941
-[OpenMidRight][LoadFace][0x16B][OpenMidRight]enemy spotted![A][X]
+[OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]enemy spotted![A][X]
 
 # 0x0942
-[OpenMidLeft][LoadFace][0x16C][OpenMidRight][LoadFace][0x10F][OpenMidLeft]time to go fight[A][OpenMidRight]YYYAAA!![A][X]
+[OpenMidLeft][LoadFace][0x6C][0x01][OpenMidRight][LoadFace][0x0F][0x01][OpenMidLeft]time to go fight[A][OpenMidRight]YYYAAA!![A][X]
 
 # 0x0943
-[OpenMidRight][LoadFace][0x16B][OpenMidRight]that guy died[A][OpenMidLeft][LoadFace][0x148][OpenMidLeft]might as well kill these guys[A][X]
+[OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]that guy died[A][OpenMidLeft][LoadFace][0x48][0x01][OpenMidLeft]might as well kill these guys[A][X]
 
 # 0x0944
-[OpenMidLeft][LoadFace][0x148][OpenMidLeft]now let's go already![A][X]
+[OpenMidLeft][LoadFace][0x48][0x01][OpenMidLeft]now let's go already![A][X]
 
 # 0x0945
-[OpenMidRight][LoadFace][0x1AD][OpenLeft][LoadFace][0x02][0x01][OpenMidRight]come on get up[A][OpenLeft]huh what[A][OpenLeft][ClearFace][OpenMidRight]you face an elite general of Mogepso[A]
+[OpenMidRight][LoadFace][0xAD][0x01][OpenLeft][LoadFace][0x02][0x01][OpenMidRight]come on get up[A][OpenLeft]huh what[A][OpenLeft][ClearFace][OpenMidRight]you face an elite general of Mogepso[A]
 [X]
 
 # 0x0946
-[OpenMidLeft][LoadFace][0x132][OpenMidLeft]I guess it's time to show my hand too.[A]
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidLeft]I guess it's time to show my hand too.[A]
 Come on out everyone![A][X]
 
 # 0x0947
 [OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]Oh no, enemies![A][X]
 
 # 0x0948
-[OpenMidLeft][LoadFace][0x132][OpenMidLeft]Whatever, go, my red units![A][X]
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidLeft]Whatever, go, my red units![A][X]
 
 # 0x0949
 [OpenMidRight][LoadFace][0x04][0x01][OpenMidRight]we have to get back to my
 sexy wife[A][X]
 
 # 0x094A
-[OpenMidLeft][LoadFace][0x10F][OpenMidRight][LoadFace][0x16B][OpenMidLeft]sorry, but I need to be free[A][X]
+[OpenMidLeft][LoadFace][0x0F][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidLeft]sorry, but I need to be free[A][X]
 
 # 0x094B
-[OpenMidRight][LoadFace][0x10F][OpenMidRight]I am not going to move[A]
+[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I am not going to move[A]
 just defend myself[A][X]
 
 # 0x094C
-[OpenMidLeft][LoadFace][0xFFFF][OpenFarRight][LoadFace][0x0C][0x01][OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]I'm Jam.[A] Both of us have Supply access.[A][OpenFarRight]I'm pretty odd.[A]
+[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenFarRight][LoadFace][0x0C][0x01][OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]I'm Jam.[A] Both of us have Supply access.[A][OpenFarRight]I'm pretty odd.[A]
 [X]
 
 # 0x094D
-[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x10F][OpenMidLeft]Join us.[A]
+[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x0F][0x01][OpenMidLeft]Join us.[A]
 Don't worry, we'll protect you.[A][X]
 
 # 0x094E
-[OpenMidLeft][LoadFace][0xFFFF][OpenMidRight][LoadFace][0x161][OpenMidRight]I have something to say.[A][X]
+[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x61][0x01][OpenMidRight]I have something to say.[A][X]
 
 # 0x094F
-[OpenMidRight][LoadFace][0x138][OpenMidRight]If I see that sword dude imma kill 
+[OpenMidRight][LoadFace][0x38][0x01][OpenMidRight]If I see that sword dude imma kill 
 him.[A] Might as well just sit here.[A][X]
 
 # 0x0950
@@ -823,7 +825,7 @@ I'm getting you out of here,[NL]
 Ross. You stay close to me![.][A][X]
 
 # 0x0957
-[OpenMidRight][LoadFace][0x132][ToggleSmile][OpenMidRight]hjonk.[A][X]
+[OpenMidRight][LoadFace][0x32][0x01][ToggleSmile][OpenMidRight]hjonk.[A][X]
 
 # 0x0958
 [OpenMidLeft][LoadFace][0x09][0x01][OpenMidRight][LoadFace][0x0E][0x01][OpenMidLeft][MoveMidLeft][OpenMidLeft]Unnnng![.][A][OpenMidRight]Ross? What is it?[.][NL]

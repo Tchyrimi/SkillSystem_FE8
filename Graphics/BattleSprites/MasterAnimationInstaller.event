@@ -7,8 +7,10 @@
   #endif
 #endif
 
-//////////////Installed animations go here:
 #define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+//////////////Installed animations go here:
+
 #include "AnimationPointerSetting.event"
 
   {

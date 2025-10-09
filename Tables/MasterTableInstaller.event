@@ -1,9 +1,9 @@
 #include "TableInstaller.event"
 
 ALIGN 16
-ORG CurrentOffset + 0x08
+ORG currentOffset + 0x08
 NewClassAnimTable:
-ORG CurrentOffset + 0x20 * 0xFF
+ORG currentOffset + 0x20 * 0xFF
 PUSH
 ORG NewClassAnimTable
 #incbin "ClassAnimTable.dmp"
