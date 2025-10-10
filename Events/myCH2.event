@@ -60,13 +60,13 @@ UNIT Li Brawler Daphne Level(1,Ally,False) [11,31] 0x0 0x0 0x0 0x0 [IronAxe] NoA
 UNIT
 
 SecondCutsceneEnemyUnits:
-UNIT Invicil Mage Invicil Level(7,Enemy,False) [6,5] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Invicil Mage Invicil Level(7,Enemy,False) [6,19] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
 UNIT
 
 SecondCutsceneBardolph:
@@ -103,7 +103,7 @@ UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [11,6] 0x0 0x0 0x0 0x0 [
 UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [12,6] 0x0 0x0 0x0 0x0 [Javelin] NoAI
 UNIT
 
-PlayerParty:
+Cutscene3PlayerUnits:
 UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA6R27 [IronLance] NoAI
 UNIT Arturo Mender Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA7R27 [Heal] NoAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA7R26 [Fire] NoAI
@@ -111,6 +111,30 @@ UNIT Li Brawler Daphne Level(1,Ally,False) [5,32] 0x0 0x0 0x1 REDA5R26 [IronAxe]
 UNIT Alto Cavalier Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA8R26 [IronSword] NoAI
 UNIT Kan Archer Daphne Level(1,Ally,False) [7,32] 0x0 0x0 0x1 REDA8R27 [IronBow] NoAI
 UNIT Ernest Knight Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA5R27 [IronLance] NoAI
+UNIT
+
+Cutscene3EnemyUnits:
+UNIT Invicil Mage Invicil Level(7,Enemy,False) [6,5] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT
+
+NPCBardolph:
+UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [6,8] 0x0 0x0 0x0 0x0 [SilverAxe,Vulnerary] [0x03,0x03,0x02,0x20]
+UNIT
+
+PlayerParty:
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [6,7] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [7,13] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Octavia Conduit Daphne Level(1,Ally,False) [7,12] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Li Brawler Daphne Level(1,Ally,False) [5,12] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
+UNIT Alto Cavalier Daphne Level(1,Ally,False) [8,12] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT Kan Archer Daphne Level(1,Ally,False) [8,13] 0x0 0x0 0x0 0x0 [IronBow] NoAI
+UNIT Ernest Knight Daphne Level(1,Ally,False) [5,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT
 
 GenBlock:
@@ -124,11 +148,205 @@ UNIT
 
 Ch2BeginningScene:
 LOMA 0x3D //first cutscene back at the Black Cat hideout
-STAL 240
-LOMA 0x3E //second set of cutscenes where the actual chapter map is expanded
-STAL 240
-LOMA 0x02 //the actual map
+FADU 16
+MUSC 0x48 //birds and wind sfx
+LOAD1 2 FirstCutscenePlayerUnits
+ENUN
+CUMO Daphne
 STAL 60
+CURE
+SetBackground(0x1B)
+Text(0x934)
+EndConvo
+LOAD1 0 FirstCutsceneBardolph
+ENUN
+STAL 60
+MOVE 60 ShadowFigure [2,9]
+ENUN
+CLEN ShadowFigure
+SetBackground(0x1B)
+Text(0x939)
+EndConvo
+STAL 10
+MOVE Daphne 60 [14,9]
+MOVE Arturo 60 [14,9]
+MOVE Octavia 60 [14,9]
+STAL 5
+MOVE Li 60 [14,9]
+ENUN
+CLEA Daphne
+MUSC 0x7FFF
+FADI 16
+STAL 10
+LOMA 0x3E //second set of cutscenes where the actual chapter map is expanded
+CAM1 [6,30]
+LOAD1 2 SecondCutscenePlayerUnits
+ENUN
+STAL 10
+FADU 16
+MUSC 0x4
+LOAD1 1 SecondCutsceneBardolph
+ENUN
+CUMO Daphne
+STAL 60
+CURE
+MUSI
+Text(0x93A)
+STAL 20
+MOVE 60 ShadowFigure [6,15]
+ENUN
+//command to instantly move to [6,22]
+LOAD1 1 SecondCutsceneEnemyUnits
+ENUN
+STAL 5
+MOVE 60 Octavia [9,32]
+MOVE 60 Arturo [9,32]
+MOVE 60 Li [9,32]
+ENUN
+CLEA Daphne
+LOAD1 0 Cutscene3PlayerUnits
+ENUN
+STAL 10
+CAM1 [6,24]
+STAL 30
+CUMO Invicil
+STAL 60
+CURE
+MUSC 0xC //I'm not sure I actually set anything for this yet
+SetBackground(0x1D)
+Text(0x93B)
+EndConvo
+CUMO Daphne
+STAL 30
+CURE
+Text(0x93C)
+Text(0x93D)
+CAM1 Daphne
+CUMO Daphne
+STAL 60
+CURE
+Text(0x93E)
+MOVE 60 Daphne [6,21]
+ENUN
+SOUN 0xD3
+FADI 16
+//SetBackground(0x36) loading the CG and displaying the CG convo
+//textID 0x93F
+//FADI 16
+//CLEAN
+STAL 120
+CAM1 [8,7]
+LOAD1 0 ChainGang
+ENUN
+STAL 10
+FADU 16
+//BROWNBOXTEXT 0x735 figure out how to auto set it to top right corner
+CUMO [4,4]
+STAL 60
+CURE
+Text(0x940)
+MOVE 60 FakeGen [8,6]
+ENUN
+MoveByCoords(60, 10, 6, 9, 6)
+ENUN
+MoveByCoords(60, 11, 6, 10,6)
+ENUN
+MoveByCoords(60, 12, 6, 11, 6)
+ENUN
+STAL 20
+CUMO [11,8]
+STAL 60
+CURE
+Text(0x941)
+CUMO [7,6]
+STAL 60
+CURE
+SetBackground(0x1D)
+Text(0x942)
+EndConvo
+STAL 10
+RECLASS_FROMCHAR Gen
+CUSN FakeGen
+//Battle script here
+KILL [7,6]
+STAL 20
+MOVE 60 FakeGen [8,16]
+ENUN
+DISA FakeGen
+CAM1 [6,4]
+CUMO [4,4]
+STAL 60
+CURE
+Text(0x943)
+//battle script for killing the villagers
+KILL [9,6]
+KILL [11,6]
+STAL 10
+Text(0x944)
+FADI 16
+CLEE Invicil
+CLEA Daphne
+LOMA 0x02 //the actual map
+LOAD1 2 PlayerParty
+ENUN
+LOAD1 1 NPCBardolph
+ENUN
+LOAD1 1 Cutscene3EnemyUnits
+ENUN
+CAM1 [6,9]
+STAL 10
+FADU 120
+STAL 30
+Text(0x945)
+MOVE 60 Daphne [6,8]
+MOVE 60 ShadowFigure [6,9]
+LOAD1 1 EnemiesInHiding
+ENUN
+CAM1 Octavia
+STAL 5
+Text(0x947)
+CAM1 [6,9]
+Text(0x948)
+EVBIT_T 9
+MOVE 60 Invicil [0,3]
+ENUN
+EVBIT_F 9
+//still need to find out how to make a unit play their map select animation, then put that here
+STAL 180
+//warping commands for the knights
+MoveByCoords(60, 5, 4, 4, 4)
+ENUN
+CAM1 [15,12]
+MoveByCoords(60, 7, 4, 10, 2)
+MoveByCoords(60, 6, 3, 5, 6)
+MoveByCoords(60, 8, 3, 16, 2)
+MOVE 60 Octavia [14,11]
+MOVE 60 Li [13,11]
+MOVE 60 Arturo [15,11]
+MOVE 60 Alto [14,12]
+MOVE 60 Kan [15,13]
+MOVE 60 Ernest [15,10]
+ENUN
+CUMO Arturo
+STAL 60
+CURE
+Text(0x949)
+STAL 10
+CAM1 [10,1]
+STAL 5
+LOAD1 0 GenBlock
+ENUN
+SetBackground(0x1D)
+Text(0x94A)
+EndConvo
+//map battle script where Gen kills the dude
+STAL 30
+MOVE 60 Gen [14,6]
+ENUN
+Text(0x94B)
+STAL 10
+//also double check all the dead units actually don't get loaded when skipping events
+NoFade
 ENDA
 
 Ch2EndingScene:

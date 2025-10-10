@@ -1,0 +1,4 @@
+PUSH
+ORG $2FEC6
+BYTE 0x0F //set vulnerary heal to 15 (0F in hex)
+POP

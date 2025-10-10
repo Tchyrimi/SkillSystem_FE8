@@ -13,7 +13,7 @@
   <property name="TileConfig" value="0x10"/>
  </properties>
  <tileset firstgid="1" name="0E000F10" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../SkillSystem_FE8FourthAllegianceOLD-master/Tileset/0E000F10.png" trans="ffffff" width="512" height="512"/>
+  <image source="../Tileset/0E000F10.png" trans="ffffff" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="20" height="20">
   <properties>
