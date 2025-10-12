@@ -7,7 +7,7 @@
 //0x9A2E00 vanilla MMS table offset
 #define ClassTable NewClassTable
 //0x807110 vanilla class table offset
-//#define NewClassAnimTable ClassAnimTable
+#define ClassAnimTable NewClassAnimTable
 //0xC00008 vanilla ClassAnimTable offset
 PUSH
 
@@ -360,20 +360,22 @@ POIN MovingMapSpriteTable
 //ORG $CD1A0
 //POIN CharClassTable
 
-ORG $59BD8
-POIN NewClassAnimTable
-ORG $5A600
-POIN NewClassAnimTable
-ORG $5A694
-POIN NewClassAnimTable
-ORG $5A82C
-POIN NewClassAnimTable
-ORG $6F6A8
-POIN NewClassAnimTable
-ORG $70940
-POIN NewClassAnimTable
-ORG $70A60
-POIN NewClassAnimTable
+//ORG $59BD8
+//POIN ClassAnimTable
+//ORG $5A600
+//POIN ClassAnimTable
+//ORG $5A694
+//POIN ClassAnimTable
+//ORG $5A82C
+//POIN ClassAnimTable
+//ORG $6F6A8
+//POIN ClassAnimTable
+//ORG $70940
+//POIN ClassAnimTable
+//ORG $70A60
+//POIN ClassAnimTable
+//ORG $8ACBFC
+//POIN ClassAnimTable
 
 //ORG $29398
 //POIN HeroCrestList
@@ -390,4 +392,28 @@ POIN NewClassAnimTable
 //ORG 0x29408
 //POIN OceanSealList
 
+POP
+
+PUSH
+    ORG $59BD8
+    POIN NewClassAnimTable 
+
+    ORG $5A600
+    POIN NewClassAnimTable 
+
+    ORG $5A694
+    POIN NewClassAnimTable 
+
+    ORG $5A82C
+    POIN NewClassAnimTable 
+
+    ORG $6F6A8
+    POIN NewClassAnimTable 
+
+    ORG $70940
+    POIN NewClassAnimTable 
+
+    ORG $70A60
+    POIN NewClassAnimTable 
+    
 POP

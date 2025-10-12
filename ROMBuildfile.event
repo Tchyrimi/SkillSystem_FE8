@@ -1,7 +1,7 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "CustomDefinitions.event"
-//PROTECT $25224
+//PROTECT $59BD8
     ORG FreeSpace
 
     #include "Events/myFE8Definitions.txt"

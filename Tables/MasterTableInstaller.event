@@ -1,10 +1,8 @@
 #include "TableInstaller.event"
 
-ALIGN 16
-ORG currentOffset + 0x08
-NewClassAnimTable:
-ORG currentOffset + 0x20 * 0xFF
 PUSH
-ORG NewClassAnimTable
-#incbin "ClassAnimTable.dmp"
+ALIGN 4
+NewClassAnimTable:
+    #incbin "ClassAnimTable.dmp"
+    ORG NewClassAnimTable + (0xFF * 32)
 POP

@@ -7,7 +7,7 @@
   #endif
 #endif
 
-#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+#define AnimTableEntry(index) "ORG ClassAnimTable + ((index-1) * 0x20)"
 
 //////////////Installed animations go here:
 
