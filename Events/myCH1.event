@@ -209,7 +209,7 @@ AltoSupply:
 MUSI
 Text(0x91C)
 MUNO
-SVAL s1 0x09
+SVAL s3 0x09
 GIVEITEMTO Daphne
 NoFade
 ENDA
@@ -218,7 +218,7 @@ KanSupply:
 MUSI
 Text(0x921)
 MUNO
-SVAL s1 0x6C //change this to whatever the strawberry jam is
+SVAL s3 0x6C //change this to whatever the strawberry jam is
 GIVEITEMTO Daphne
 NoFade
 ENDA
@@ -229,7 +229,7 @@ SetBackground(0x0)
 Text(0x91B)
 EndConvo
 MUNO
-SVAL s1 0x28
+SVAL s3 0x28
 GIVEITEMTO 0xFFFF
 TILECHANGE 0x2
 NoFade

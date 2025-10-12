@@ -1,8 +1,8 @@
 #include "TableInstaller.event"
 
-PUSH
 ALIGN 4
 NewClassAnimTable:
     #incbin "ClassAnimTable.dmp"
     ORG NewClassAnimTable + (0xFF * 32)
-POP
+
+PROTECT NewClassAnimTable
