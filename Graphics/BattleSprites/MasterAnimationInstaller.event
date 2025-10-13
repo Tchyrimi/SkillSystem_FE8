@@ -12,6 +12,7 @@
 //////////////Installed animations go here:
 
 #include "AnimationPointerSetting.event"
+#include "Palette Setup.event"
 
   {
   #include "LightweightLancerFbyAlusq/Lance/LanceInstaller.event"

@@ -178,7 +178,7 @@ Benson[.][X]
 Vigarde[.][X]
 
 # 0x024D *
-Soldier[.][X]
+Cutthroat[.][X]
 
 # 0x024E *
 City Guard[.][X]

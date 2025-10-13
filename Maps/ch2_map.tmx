@@ -3,7 +3,7 @@
  <properties>
   <property name="Anims1" value="5"/>
   <property name="Anims2" value="0"/>
-  <property name="ChapterID" value="0x4"/>
+  <property name="ChapterID" value="2"/>
   <property name="Main" value=""/>
   <property name="MapChangesID" value="0xC"/>
   <property name="MapID" value="0xB"/>
@@ -19,7 +19,7 @@
   <properties>
    <property name="Anims1" value="5"/>
    <property name="Anims2" value="0"/>
-   <property name="ChapterID" value="0x4"/>
+   <property name="ChapterID" value="2"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0xC"/>
    <property name="MapID" value="0xB"/>

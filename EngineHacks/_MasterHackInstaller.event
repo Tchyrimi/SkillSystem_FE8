@@ -245,6 +245,7 @@ POP
   #include "QualityOfLife/ModularMinimugBox/Installers/MMBInstallerCatball_1.event"
   #include "QualityOfLife/FE8New_CHAI/New_CHAI.event"
   #include "QualityOfLife/FE8ShowHealAmount/ShowHealAmountFE8.event"
+  #include "QualityOfLife/LimitlessTrading.event"
   #include "LongerClassName.event"
   #include "addlucktohitrate.txt"
   #include "minimumcritedit.txt"

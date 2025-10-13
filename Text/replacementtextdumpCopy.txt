@@ -9,6 +9,9 @@
 //#include "SupportConversations.txt"
 //#include "WorldMapNarrationText.txt"
 
+# 0x1018
+->[X]
+
 //Terrain tile names
 
 # 0x01C5

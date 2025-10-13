@@ -552,7 +552,7 @@ Stronger and heavier longbow.[.][X]
 # 0x1012
 Highest quality longbows.[.][X]
 
-#0x1017 *
+#0x1017
 Basic wind magic.[.][X]
 
 # 0x0404

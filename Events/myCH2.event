@@ -232,9 +232,11 @@ ENUN
 SOUN 0xD3
 FADI 16
 //SetBackground(0x36) loading the CG and displaying the CG convo
-//textID 0x93F
-//FADI 16
-//CLEAN
+CGTEXTSTART 
+TEXTSHOW 0x93F
+TEXTEND
+FADI 16
+CLEAN
 STAL 120
 CAM1 [8,7]
 LOAD1 0 ChainGang
@@ -316,8 +318,8 @@ EVBIT_T 9
 MOVE 60 Invicil [0,3]
 ENUN
 EVBIT_F 9
-//still need to find out how to make a unit play their map select animation, then put that here
-STAL 180
+//still need to find out how to make a unit play their map select animation, then put that here instead of the torch effect
+UseTorch(Invicil, 1)
 //warping commands for the knights
 MoveByCoords(60, 5, 4, 4, 4)
 ENUN

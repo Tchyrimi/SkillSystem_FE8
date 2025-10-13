@@ -48,7 +48,7 @@ ENDTRAP
 ALIGN 4
 
 StartingCutsceneUnits:
-UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Daphne LanceMerc Daphne Level(3,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT Arturo Mender Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [Gust] NoAI
 UNIT Li Brawler Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,RushdownBlow] NoAI
@@ -64,7 +64,7 @@ UNIT Badguy Brigand Morris Level(1,Enemy,True) [2,2] 0x0 0x0 0x1 Brig1REDA [Iron
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [0,12] 0x0 0x0 1 OctaviaREDA [Gust] NoAI
 UNIT Li Brawler Daphne Level(2,Ally,False) [0,13] 0x0 0x0 1 LiREDA [IronAxe,RushdownBlow] NoAI
 UNIT Daphne LanceMerc Daphne Level(3,Ally,False) [0,12] 0x0 0x0 1 DaphneREDA [IronLance] NoAI
-UNIT Badguy Fighter Morris Level(1,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
+UNIT Badguy Fighter Morris Level(2,Enemy,True) [7,2] 0x0 0x0 0x1 Fighter1REDA [IronAxe] GroupTwoAI
 UNIT
 
 EnemyUnits:
