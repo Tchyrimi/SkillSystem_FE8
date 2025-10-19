@@ -130,3 +130,4 @@ LanceMerc,OpportunistMoving|IsPointer,0x81c3d7c
 Brawler,BrawlerMoving|IsPointer,0x81c3d7c
 Mender,MenderMoving|IsPointer,0x81c3d7c
 Conduit,ConduitMoving|IsPointer,0x81c3d7c
+Vagabond,BetaMercMoving|IsPointer,0x81c3d7c

@@ -1,3 +1,8 @@
+//mercenary weapon type fix
+Mercenary_ManimPointer:
+AddClassAnimation(0x0B,Swords,0x1)
+AddClassAnimation(0x0C,Disarmed,0x1)
+EndClassAnimation
 
 // Opportunist Anims
 LanceMercAnimPointer:
@@ -25,4 +30,10 @@ EndClassAnimation
 //Conduit Anims
 ConduitAnimPointer:
 AddClassAnimation(0xD2,Anima,0x1)
+EndClassAnimation
+
+//Vagabond Anims
+VagabondAnimPointer:
+AddClassAnimation(0xD3,Swords,0x1)
+AddClassAnimation(0xD4,Disarmed,0x1)
 EndClassAnimation

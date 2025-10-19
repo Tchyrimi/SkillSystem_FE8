@@ -1,21 +1,5 @@
-#include "AnyUnitHasItem.lyn.event"
-#include "AnyUnitHasWeapon.lyn.event"
-#include "TakeItemAll.lyn.event"
-#include "TakeUnitItem.lyn.event"
-#include "TakeUnitOneItem.lyn.event"
-#include "UnitHasItem.lyn.event"
+ALIGN 4; gASMC_ItemFind:
+#incbin "item_find.bin"
 
-/*
-ALIGN 4
-item_collect:
-#incbin "item_collect.bin" //HINT=ASM
-
-ALIGN 4
-item_find:
-#incbin "item_find.bin" //HINT=ASM
-*/
-
-//#define LoseItem(ITEM) "BYTE 0x40 0x0D ; SHORT ITEM ; POIN item_collect|1;"
-
-//#define TakeItemAll(ITEM) "BYTE 0x40 0x0D ; SHORT ITEM ; POIN TakeItemAll|1;"
+#define ItemCheck(ItemID) "ALIGN 4; SHORT 0x0D40; BYTE ItemID 0x00; POIN (gASMC_ItemFind | 1);"
 

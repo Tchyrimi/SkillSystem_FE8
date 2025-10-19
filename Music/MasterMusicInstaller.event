@@ -1,0 +1,5 @@
+SongTable(0x30,TogetherWeRideFE7,1)
+#include "TogetherWeRideFE7.event"
+
+SongTable(0x04,WorldMapDOTR,1)
+#include "WorldMapDOTR.event"

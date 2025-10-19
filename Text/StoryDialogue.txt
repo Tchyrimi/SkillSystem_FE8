@@ -16,7 +16,7 @@ he gave us the description.[A]
 [OpenMidLeft][ClearFace][OpenMidLeft][LoadFace][0x02][0x01][OpenMidLeft]For all our sakes I hope so.[A] Besides,[NL]
 how many different bandit groups would[A][NL]
 go and get a cat tattoo carved into[NL]
-their arms?[A][OpenMidLeft][MoveMidLeft][ClearFace][OpenMidLeft][LoadFace][0x02][0x01][MoveFarFarRight][ClearFace][X]
+their arms?[A][MoveMidLeft][MoveFarFarRight][ClearFace][X]
 
 # 0x0904
 [OpenLeft][LoadFace][0x04][0x01][OpenLeft][MoveMidRight][OpenFarFarLeft][LoadFace][0x02][0x01][OpenFarFarLeft][MoveFarLeft][OpenFarLeft]
@@ -35,7 +35,7 @@ if these rooms have been untouched[NL]
 for ages.[A][OpenMidLeft]Hmm...[....] That's odd...[....][A][NL]
 You'd figure the loot stash would be[NL]
 a high traffic area for caravan raiders.[....][A][NL]
-Ah, well.[A][OpenMidLeft][MoveRight][OpenRight]We gave it our best,[A] but I[NL]
+Ah, well.[A][OpenMidLeft][MoveRight][OpenRight][MoveRight][OpenRight]We gave it our best,[A] but I[NL]
 don't think we're going to find this[NL]
 thing without more information.[A][NL]
 Let's go round up the others and[NL]
@@ -53,7 +53,7 @@ are going to move it from wherever it is.[A]
 [OpenMidLeft]Perhaps it would be prudent to have[NL]
 someone stay behind and keep searching?[A][NL]
 Knowing that man, he'd probably take our[NL]
-return as a sign of failure,[A] or anything[NL]
+return as a sign of failure,[.....][A] or anything[NL]
 that could justify skimping on our pay,[NL]
 really.[A]
 [OpenRight]Probably, but I don't think any of us[NL]
@@ -88,7 +88,8 @@ PROBLEM OUT HERE![A][X]
 # 0x0908
 [OpenMidRight][LoadFace][0x30][0x01][OpenFarFarLeft][LoadFace][0x4C][0x01]
 [OpenFarFarLeft]Boss-hey, move it-boss! BOSS![A][OpenFarFarLeft][MoveLeft]
-[OpenLeft]Boss you gotta hear this![A][OpenMidRight]What the hell's going on, idiot?[A][NL]
+[OpenLeft]Boss you gotta hear this![A][OpenMidRight]
+What the hell's going on, idiot?[A][NL]
 Can't it wait until we settle back down[NL]
 at base?[A]
 [OpenLeft]That's just it though![A] Some pack o' dogs[NL]
@@ -100,10 +101,10 @@ too- That's not the point![A] Point[NL]
 is: they just walked outta there with[NL]
 blood all over 'em![A] Said they just[NL]
 killed the big boss an' everyone else[NL]
-back home.[A]
-[OpenMidRight]-and you didn't strike 'em down?[A]
+back home-[A]
+[OpenMidRight]-and you don't have their heads?[A][NL]
 What are you running over here for?[A][NL]
-Get back over there and put 'em to steel![A][NL] 
+Get back over there and end 'em![A][NL]
 Show 'em what it means to mess[NL]
 with the Black Cats.[A]
 [OpenLeft]Are you nuts!?[A] I ain't goin' toe to toe with[NL]
@@ -122,7 +123,7 @@ Go prove you're fit to be more than[NL]
 arrow fodder,[A] and bring me their heads[NL]
 before I take yours, you mewling little[NL]
 whelps![A]
-[OpenLeft][MoveLeft][OpenLeft]Aiee![A][OpenLeft][ClearFace][OpenFarFarRight][0x0080][LoadFace][0x00C][MoveMidRight]
+[OpenLeft][MoveLeft][OpenLeft]Aiee![A][OpenLeft][ClearFace][OpenFarFarRight][MoveFarFarLeft][OpenMidRight][MoveMidRight]
 [OpenMidRight]Go on, get![A][NL]
 That goes for the rest of you too![A][NL]
 The Black Cats are no cowards,[NL]
@@ -176,7 +177,7 @@ a close eye on how this plays out...[A][X]
 
 # 0x090D
 [OpenMidLeft][LoadFace][0x35][0x01][OpenMidLeft]Gah...hah.[A] Phew,[....] those rats almost[NL]
-had me.[A] I oughtta- hrk- pay 'em[NL]
+had me.[A] I oughtta-[ToggleMouthMove] hrk-[ToggleMouthMove] pay 'em[NL]
 back in kind.[....][A] You hear me, Blondie!?[A][NL]
 These wounds ain't nothin'![A][NL]
 I'm gonna rip you to shreds![A][X]
@@ -196,13 +197,11 @@ Everyone get moving![A][X]
 [OpenFarLeft][LoadFace][0x06][0x01][OpenMidLeft][LoadFace][0x02][0x01][OpenRight][LoadFace][0x04][0x01][OpenFarRight][LoadFace][0x05][0x01]
 [OpenMidLeft]Good to finally be back in[NL]
 civilization.[A] I could use a[NL]
-seat.[A] I'll just go unlock the[NL]
-supply cache first, so we can put[NL]
-our weapons up.[A][NL]
+seat.[A][NL]
 Tavi dear, why don't you book us[NL]
 a room while we talk to Navarro?[A][NL]
 [OpenFarRight]Alright.[A]
-[OpenFarRight][ClearFace][OpenFarFarLeft][LoadFace][0x70][OpenFarFarLeft]Halt![A][X]
+[OpenFarRight][ClearFace][OpenFarFarLeft][LoadFace][0x70][0x01][OpenFarFarLeft]Halt![A][X]
 
 # 0x0911
 [OpenMidRight][LoadFace][0x02][0x01]
@@ -221,7 +220,8 @@ fishy here...[A][X]
 [OpenMidLeft]Purpose for entering the town?[A][NL]
 [OpenMidRight]We have business with[NL]
 Navarro, our employer.[A]
-[OpenMidLeft]One moment, please.[A][OpenMidLeft][0x0080][LoadFace][0x00E]Hey, newbie![A][X]
+[OpenMidLeft]One moment, please.[A][OpenMidRight][ClearFace][OpenMidLeft][ClearFace]
+[OpenMidRight][LoadFace][0x70][0x01][MoveMidRight]Hey, newbie![A][X]
 
 # 0x0913
 [OpenMidRight][LoadFace][0x70][0x01][OpenFarFarLeft][LoadFace][0x6B][0x01][OpenFarFarLeft][MoveLeft][OpenLeft]Sir?[A][OpenMidRight]
@@ -322,14 +322,14 @@ anyone else decides we're a problem, hm?[A]
 [OpenFarLeft]No arguments here.[A][X]
 
 # 0x0919
-[OpenMidRight][LoadFace][0x0B][0x01]
+[OpenMidRight][LoadFace][0x0F][0x01]
 [OpenMidRight]Somebody get me a healer![A][NL]
 I've been hit with something![A][NL]
-Hard to ngh... swing this lance[NL]
+Hard to ngh...[HalfCloseEyes] swing this lance[NL]
 around...[A][X]
 
 # 0x091A
-[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x5C][0x01]
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadFace][0x5C][0x01]
 [OpenMidRight]Thanks again for keeping us[NL]
 safe.[A] The city guard does[NL]
 certainly help[A], but we all[NL]
@@ -342,7 +342,7 @@ upside the head for me, will ya?[A][NL]
 If you do, I'll buy you all a round![A][X]
 
 # 0x091B
-[LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x59][0x01]
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadFace][0x59][0x01]
 [OpenMidRight]It's pretty scary living so close[NL]
 to the front lines.[A] This town[NL]
 has walls, sure,[A] but they[NL]
@@ -429,11 +429,11 @@ Now let's go![A][X]
 
 # 0x091F
 [OpenMidLeft][LoadFace][0x07][0x01][OpenMidRight][LoadFace][0x08][0x01][OpenMidLeft]Kan![A] Are the villagers secured?[A]
-[OpenMidRight]Yeah![A] W-w-we should be able to[NL]
-take on these raiders now.[A] You[NL]
+[OpenMidRight][ToggleSmile]Yeah![A] We should b-b-be able to[NL]
+take on these raiders now.[A][ToggleSmile] You[NL]
 weren't g-getting too sloshed before[NL]
 this, were you?[A]
-[OpenMidLeft]Relax, buddy. I would never![A][NL]
+[OpenMidLeft][ToggleSmile]Relax, buddy. I would never![A][NL]
 Besides, we had all our errands[NL]
 finished anyway.[A] It's not like[NL]
 I was drinking on the job.[A] I'm[NL]
@@ -663,46 +663,50 @@ Is that really you?[.][A][X]
 can catch him in the valley.[A][X]
 
 # 0x093B
-[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0xAD][0x01][OpenMidLeft]Well, well, well...[....] How our fortunes turn...[A]
-When that toady little man told us our prize
-had been stolen,[A] we were dreading the 
-grueling march out here to hunt down 
-whatever lowbrow cutpurse had claimed it.[A]
-Thankfully our voyage has just been made 
-far shorter.[A] There really is no loyalty
-among Mogepsians, is there?[A] You all 
-kick and scratch at each other, vying
-desperately to improve your station.[A]
-Why don't you just hand that attenuator
-over,[A] and we'll take you prisoner instead of
-outright killing you?[A][X]
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0x14][0x01][OpenMidLeft]
+Well, well, well...[....] How our fortunes turn...[A][NL]
+When that toady little man told us our prize[NL]
+had been stolen,[A] we were dreading the[NL]
+grueling march out here to hunt down[NL]
+whatever lowbrow cutpurse had claimed it.[A][NL]
+Thankfully our voyage has just been made[NL]
+far shorter.[A] There really is no loyalty[NL]
+among Mogepsians, is there?[A] You all[NL]
+kick and scratch at each other, vying[NL]
+desperately to improve your station.[A][NL]
+Why don't you just hand that attenuator[NL]
+over, and we'll take you prisoner[A][NL]
+instead of outright killing you?[A][X]
 
 # 0x093C
-[OpenMidRight][LoadFace][0x02][0x01]Blast![A] I can't hear a word of what they're
+[OpenMidRight][LoadFace][0x02][0x01]
+Blast![A] I can't hear a word of what they're[NL]
 talking about.[A] Move up everyone! Quietly...[A][X]
 
 # 0x093D
-[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0xAD][0x01][OpenMidRight]I think not.[A] I feel sorry for the numbers
-your leaders felt necessary to deploy to
-bring down a single, simple thief.[A] You'll 
-find that I'm much harder prey to ensnare.[A][OpenMidLeft]Bah![A] You've fought one pigheaded cur,
-you've fought them all.[A] I don't care
-whose loins you sprang from, Mogepsian.[A]
-Your fall will be the herald of your
-nation's.[A] Just remember we offered 
+[OpenMidLeft][LoadFace][0x32][0x01][OpenMidRight][LoadFace][0x14][0x01][OpenMidRight]
+I think not.[A] I feel sorry for the numbers[NL]
+your leaders felt necessary to deploy to[NL]
+bring down a single, simple thief.[A] You'll[NL]
+find that I'm much harder prey to ensnare.[A]
+[OpenMidLeft]Bah![A] You've fought one pigheaded cur,[NL]
+you've fought them all.[A] I don't care[NL]
+whose loins you sprang from, Mogepsian.[A][NL]
+Your fall will be the herald of your[NL]
+nation's.[A] Just remember we offered[NL]
 you a chance at life.[A][X]
 
 # 0x093E
-[OpenMidRight][LoadFace][0x02][0x01][OpenMidRight]It looks like they're about to cross steel.[A]
-If this blustery thief gets himself killed,[A] 
-we're gonna have to deal with a whole host 
-of Ombalan soldiers to get that thing back.[A]
-You all keep hidden, but be ready to back 
+[OpenMidRight][LoadFace][0x02][0x01][OpenMidRight]It looks like they're about to cross steel.[A][NL]
+If this blustery thief gets himself killed,[A][NL]
+we're gonna have to deal with a whole host[NL]
+of Ombalan soldiers to get that thing back.[A][NL]
+You all keep hidden, but be ready to back[NL]
 me up if things get dicey.[A] HYAAAAH!![A][OpenMidRight][ClearFace][OpenRight][LoadFace][0x02][0x01][OpenRight][MoveFarFarLeft][X]
 
 # 0x093F
 EAAARGH!![....][A][NL]
-What the hell are you doing, girl?[A]
+What the hell are you doing, girl?[A][NL]
 Stay out of this![A][X]
 
 # 0x0940
@@ -715,14 +719,19 @@ Stay out of this![A][X]
 [OpenMidLeft][LoadFace][0x6C][0x01][OpenMidRight][LoadFace][0x0F][0x01][OpenMidLeft]time to go fight[A][OpenMidRight]YYYAAA!![A][X]
 
 # 0x0943
-[OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]that guy died[A][OpenMidLeft][LoadFace][0x48][0x01][OpenMidLeft]might as well kill these guys[A][X]
+[OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]that guy died[A]
+[OpenMidLeft][LoadFace][0x48][0x01]
+[OpenMidLeft]might as well kill these guys[A][X]
 
 # 0x0944
 [OpenMidLeft][LoadFace][0x48][0x01][OpenMidLeft]now let's go already![A][X]
 
 # 0x0945
-[OpenMidRight][LoadFace][0xAD][0x01][OpenLeft][LoadFace][0x02][0x01][OpenMidRight]come on get up[A][OpenLeft]huh what[A][OpenLeft][ClearFace][OpenMidRight]you face an elite general of Mogepso[A]
-[X]
+[OpenMidRight][LoadFace][0x14][0x01][OpenLeft][LoadFace][0x02][0x01]
+[OpenMidRight]come on get up[A]
+[OpenLeft]huh what[A][OpenLeft][ClearFace]
+[OpenMidRight]you face an elite general of[NL]
+Mogepso[A][X]
 
 # 0x0946
 [OpenMidLeft][LoadFace][0x32][0x01][OpenMidLeft]I guess it's time to show my hand too.[A]
@@ -735,18 +744,21 @@ Come on out everyone![A][X]
 [OpenMidLeft][LoadFace][0x32][0x01][OpenMidLeft]Whatever, go, my red units![A][X]
 
 # 0x0949
-[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight]we have to get back to my
+[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight]we have to get back to my[NL]
 sexy wife[A][X]
 
 # 0x094A
 [OpenMidLeft][LoadFace][0x0F][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidLeft]sorry, but I need to be free[A][X]
 
 # 0x094B
-[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I am not going to move[A]
+[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I am not going to move[A][NL]
 just defend myself[A][X]
 
 # 0x094C
-[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenFarRight][LoadFace][0x0C][0x01][OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]I'm Jam.[A] Both of us have Supply access.[A][OpenFarRight]I'm pretty odd.[A]
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenFarRight][LoadFace][0x0C][0x01][OpenMidRight][LoadFace][0x0A][0x01]
+[OpenMidRight]I'm Jam.[A][NL]
+Both of us have Supply access.[A]
+[OpenFarRight]I'm pretty odd.[A]
 [X]
 
 # 0x094D
@@ -754,10 +766,11 @@ just defend myself[A][X]
 Don't worry, we'll protect you.[A][X]
 
 # 0x094E
-[OpenMidLeft][LoadFace][0xFFFF][0x01][OpenMidRight][LoadFace][0x61][0x01][OpenMidRight]I have something to say.[A][X]
+[OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadFace][0x61][0x01][OpenMidRight]I have something to say.[A][X]
 
 # 0x094F
-[OpenMidRight][LoadFace][0x38][0x01][OpenMidRight]If I see that sword dude imma kill 
+[OpenMidRight][LoadFace][0x38][0x01]
+[OpenMidRight]If I see that sword dude imma kill[NL]
 him.[A] Might as well just sit here.[A][X]
 
 # 0x0950
@@ -2240,43 +2253,38 @@ Until that day of glory comes, we will[NL]
 wait unbowed and filled with hope.[A][X]
 
 # 0x09CC
-[OpenMidLeft][LoadFace][0x11][0x01][OpenMidRight][LoadFace][0x2A][0x01][OpenMidLeft]You[.][ToggleMouthMove]... [ToggleMouthMove]You're that man I met[.][ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
-Are you here to capture me? You've been[.][NL]
-hired to silence me, haven't you[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight]Yeah, Grado's paying the bill.[NL]
-They want you dead, you know?[.][A][NL]
-But don't feel bad. It's not personal.[A][OpenMidLeft]Wait, please[ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
-It doesn't matter what happens to[.][NL]
-me, but you must hear my words.[.][A][NL]
-The emperor of Grado is changed.[NL]
-He is not the man he once was.[A][NL]
-The other nations must be warned before[.][NL]
-he extinguishes all light from our lands.[.][A][OpenMidRight]Hey, no offense, but I'm just a mercenary.[NL]
-I don't care about Grado or its emperor.[A][NL]
-Everything you say may be true, or it may[.][NL]
-be lies. I don't care either way.[.][A][OpenMidLeft]But that's[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight]Even so[.][ToggleMouthMove]... [ToggleMouthMove]Killing a beautiful lady like[.][NL]
-you would leave a bad taste in my mouth.[A][0x02][NL]
-Tell me, do you like to gamble?[.][A][OpenMidLeft]What?![A][OpenMidRight]Gambling's what I live for. Even[NL]
-when I lose, I never want to stop.[A][NL]
-Let's have us a little wager.[.][NL]
-If you win, I'll believe you.[.][A][NL]
-Heads or tails, you call it.[A][OpenMidLeft]You can't[.][ToggleMouthMove]...[.][ToggleMouthMove][NL]
-This is no time for games[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight]Would you rather I get on with the[NL]
-job I was hired for?[A][OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][NL]
-Um, heads[.][ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
-No! Tails![A][OpenMidRight]All right. So I'm heads,[NL]
-and you're tails.[.][A][NL]
-Here we go.[.][.......][NL]
-[ToggleMouthMove]... ... ...[.][ToggleMouthMove][A][OpenMidLeft][ToggleMouthMove]......[ToggleMouthMove][NL]
-Which[.][ToggleMouthMove]... [ToggleMouthMove]Which is it?[A][LoadOverworldFaces][ToggleSmile][OpenMidRight]What do you know?![A][0x02][NL]
-It's tails. You win. Figures.[.][NL]
-I haven't won anything all day.[.][A][NL]
-Well, Lady Luck has spoken.[.][NL]
-Guess I'm on your side now.[.][A][OpenMidLeft]Are you serious?[A][OpenMidRight]Yeah. Sure, I might cheat, but I never[NL]
-worm out of a bet. It's a rule of mine.[.][A][OpenMidLeft]Oh, thank heaven! Thank you, blessed[NL]
-light, for your protection![.][A][OpenMidRight]I got nothing against heaven, but I'm right[.][NL]
-here if you want someone to thank[.][ToggleMouthMove]...[.][ToggleMouthMove][A][NL]
-No? Well, get behind me then. I've[NL]
-got to take care of these fools.[A][X]
+[OpenMidLeft][LoadFace][0x02][0x01][OpenFarRight][LoadFace][0x0F][0x01][OpenFarRight]Urgh... You gotta help me...[A][OpenFarRight][MoveMidRight][OpenMidLeft]
+Okay, okay, easy pal! Let's[NL]
+take it easy.[A] Lean on me.[A][NL]
+I'll see if I have any medicine[NL]
+handy.[A][OpenMidRight][MoveLeft][OpenLeft][MoveLeft][OpenLeft]Grgh...[A]
+[OpenMidLeft]Alright, here we are.[A] This isn't[NL]
+a cure-all, but at least you aren't[NL]
+about to keel over.[A] Careful now.[A][OpenLeft][ClearFace][OpenMidRight]
+[LoadFace][0x0F][0x01][OpenMidRight]Oh that feels so much better[NL]
+already![A] You really saved my-[NL]
+Wait a minute![A] You're that[NL]
+merc from before! Daphne, right?[A]
+[OpenMidLeft]Yeah?[A] Oh! You were the one who[NL]
+paid for our drinks![A] What[NL]
+are you doing out here in this getup?[A][NL]
+Don't you run that tavern?[A]
+[OpenMidRight]Yeees, I own that place.[A] This[NL]
+whole 'getup' is a new thing.[A][NL]
+Y'see recently I joined up for[NL]
+the town guard.[A] The tavern is[NL]
+nice and all, but it just didn't feel[NL]
+like the thing I should be doing[NL]
+with my life.[A][NL]
+Protecting people feels like a step[NL]
+in the right direction.[A] Wasn't[NL]
+expecting to be needed like[NL]
+this so soon though, ha![A]
+[OpenMidLeft]I can imagine.[A] Well why[NL]
+don't we clear out the rabble[A], and[NL]
+we can talk more once we're done[NL]
+with the mayor, hm?[A]
+[OpenMidRight]I like the sound of that.[A][X]
 
 # 0x09CD
 [OpenMidLeft][LoadFace][0x58][0x01][OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft]Life in Serafew's been harder since the[.][NL]

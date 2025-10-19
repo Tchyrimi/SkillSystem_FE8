@@ -15,7 +15,7 @@
 
 	ALIGN 4
 	WindList:
-	BYTE Fimbulvetr WindSword /* Other tomes to be considered wind */ 0x00
+	BYTE Fimbulvetr WindSword Gust /* Other tomes to be considered wind */ 0x00
 	
 	
 #endif // ANIMA_TRIANGLE

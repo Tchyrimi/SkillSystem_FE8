@@ -2593,7 +2593,7 @@ their lesser brethren in speed and brutality.[.][X]
 //Link Arena text 
 
 # 0x0735
-Select Edit Teams to build a team.[X]
+Meanwhile...[X]
 
 # 0x0736
 Build or edit a multiplayer team.[.][X]
@@ -2635,13 +2635,13 @@ Select team for battle.[.][X]
 Select your own team.[.][X]
 
 # 0x0743
-Select team to battle.[X]
+ufihueil...[X]
 
 # 0x0744
 +Control Pad: move/B Button: back.[X]
 
 # 0x0745
-Set whether to hide enemy units.[X]
+mnenbkhfeb.[X]
 
 # 0x0746
 Set victory conditions.[.][X]

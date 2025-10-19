@@ -1,45 +1,49 @@
 //Death Quotes
 # 0x0C23
-[OpenMidRight][LoadFace][0x02][0x01]Everything...[....] for my family[ToggleMouthMove]...[....]
+[OpenMidRight][LoadFace][0x02][0x01]
+Everything...[....] for my family[ToggleMouthMove]...[....][NL]
 [ToggleMouthMove]Everyone...[....][A][CloseEyes] I'm sorry...[ToggleMouthMove]...[A][X]
 
 # 0x0C24
 [OpenMidRight][LoadFace][0x14][0x01][OpenMidRight]Forgive me, Eirika.[.][A][OpenMidRight][CloseEyes][X]
 
 # 0x0C25
-[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight][....]Urghk- honey[ToggleMouthMove]...[....][A] [ToggleMouthMove]I'll wait for you[ToggleMouthMove][CloseEyes]...[.][A]
-[X]
+[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight][....]Urghk- honey[ToggleMouthMove]...[....][A][NL]
+[ToggleMouthMove]I'll wait for you[ToggleMouthMove][CloseEyes]...[.][A][X]
 
 # 0x0C26
-[OpenMidRight][LoadFace][0x06][0x01]Bastards![A] Get back here![A]...[....]Get... back[ToggleMouthMove]...[....][CloseEyes][A][X]
+[OpenMidRight][LoadFace][0x06][0x01]Bastards![A] Get back here![A][ToggleMouthMove][NL]
+...[....][ToggleMouthMove]Get... back[ToggleMouthMove]...[....][CloseEyes][A][X]
 
 # 0x0C27
-[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]I could have done[ToggleMouthMove]...[....][A][ToggleMouthMove] So much more[ToggleMouthMove][CloseEyes]...[A][X]
+[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]I could have done[ToggleMouthMove]...[....][A][ToggleMouthMove][NL]
+So much more[ToggleMouthMove][CloseEyes]...[A][X]
 
 # 0x0C28
-[OpenMidRight][LoadFace][0x07][0x01]Heh,[....] I figured this would have 
-happened back in the army days[ToggleMouthMove]...[....][ToggleMouthMove][A]
+[OpenMidRight][LoadFace][0x07][0x01][ToggleSmile]Heh,[....] I figured this would have[NL]
+happened back in the army days[ToggleMouthMove]...[....][ToggleMouthMove][A][NL]
 Not-...[....][CloseEyes] not now...[....][A][X]
 
 # 0x0C29
-[OpenMidRight][LoadFace][0x08][0x01]Alto[ToggleMouthMove]...[.][ToggleMouthMove] I'm bleeding pretty bad.[ToggleMouthMove][....] Alto?[ToggleMouthMove][A][CloseEyes]
-[X]
+[OpenMidRight][LoadFace][0x08][0x01]Alto[ToggleMouthMove]...[.][ToggleMouthMove] I'm bleeding pretty bad.[NL]
+[ToggleMouthMove][....] Alto?[ToggleMouthMove][A][CloseEyes][X]
 
 # 0x0C2A
 [ToggleSmile][OpenMidRight][LoadFace][0x0E][0x01][OpenMidRight]I have no regrets.[NL]
 This was always my fate.[A][OpenMidRight][CloseEyes][X]
 
 # 0x0C2B
-[OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]I never found what I was 
-looking for...[....][A] Maybe...[....] this is
+[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I never found what I was[NL]
+looking for...[....][A] Maybe...[....] this is[NL]
 where I was meant to go[ToggleMouthMove]...[....][A][OpenMidRight][CloseEyes][X]
 
 # 0x0C2C
-[OpenMidRight][LoadFace][0x0C][0x01][OpenMidRight]Blood[ToggleMouthMove]...[....] [ToggleMouthMove]You want it?[....][ToggleMouthMove]... [ToggleMouthMove]It's yours, my friend[.][ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes]
-[X]
+[OpenMidRight][LoadFace][0x0C][0x01][OpenMidRight]Blood[ToggleMouthMove]...[....][NL]
+[ToggleMouthMove]You want it?[....][ToggleMouthMove]... [ToggleMouthMove]It's yours, my friend[.][ToggleMouthMove]...[.]
+[ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
 
 # 0x0C2D
-[OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]Look at me. I am on fucking 
+[OpenMidRight][LoadFace][0x0A][0x01][OpenMidRight]Look at me. I am on fucking[NL]
 dead guy right now.[ToggleMouthMove]...[.][ToggleMouthMove][A][OpenMidRight][CloseEyes][X]
 
 # 0x0C2E

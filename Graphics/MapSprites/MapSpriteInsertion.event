@@ -16,7 +16,9 @@ ALIGN 4
 ConduitStanding:
 #incext Png2Dmp "sms/Mage_F_Magistra_Brunette_Cynonstand.png" --lz77
 
-
+ALIGN 4
+BetaMercStanding:
+#incext Png2Dmp "sms/BetaMercStanding(IS).png" --lz77
 
 // mms/
 
@@ -36,3 +38,6 @@ ALIGN 4
 ConduitMoving:
 #incext Png2Dmp "mms/Mage_F_Magistra_Brunette_Cynonwalk.png" --lz77
 
+ALIGN 4
+BetaMercMoving:
+#incext Png2Dmp "mms/BetaMercMoving(IS).png" --lz77

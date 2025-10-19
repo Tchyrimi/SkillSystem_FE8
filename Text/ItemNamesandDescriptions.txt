@@ -189,15 +189,6 @@ Short Bow[.][X]
 # 0x0392 *
 Longbow[.][X]
 
-# 0x0393 *
-Iron Longbow[X]
-
-# 0x0394 *
-Steel Longbow[X]
-
-# 0x0395 *
-Silver Longbow[X]
-
 # 0x0396 *
 Nidhogg[.][X]
 
@@ -581,7 +572,7 @@ Coated in lethal poison.[X]
 
 # 0x040C
 Held longer than her husband.[.][NL]
-Def,Res,Con+2[.][X]
+Def/Res/Con+2[.][X]
 
 # 0x040D
 Can strike consecutively.[.][X]

@@ -24,6 +24,9 @@ Alto_SalvCav:
 Kan_ArchDer:
 	#incbin "./_palettes/Kan_ArchDer.lzpal" 
 
+Kan_WSniper:
+	#incbin "./_palettes/Kan_WSniper.lzpal" 
+
 Ernest_Knight:
 	#incbin "./_palettes/Ernest_Knight.lzpal" 
 

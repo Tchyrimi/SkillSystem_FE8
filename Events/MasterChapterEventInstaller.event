@@ -4,3 +4,4 @@
 //Chapters
 #include "myPrologue.event"
 #include "myCH1.event"
+#include "myCH2.event"

@@ -35,3 +35,39 @@
   #include "MonkVarNinobyMikey_Seregon/Magic/MagicInstaller.event"
   }
   
+  {
+  #include "CavFGenericSALVAGED/Sword/SwordInstaller.event"
+  #include "CavFGenericSALVAGED/Lance/LanceInstaller.event"
+  #include "CavFGenericSALVAGED/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "CavMGenericSALVAGED/Sword/SwordInstaller.event"
+  #include "CavMGenericSALVAGED/Lance/LanceInstaller.event"
+  #include "CavMGenericSALVAGED/Unarmed/UnarmedInstaller.event"
+  }
+
+  {
+  #include "ArchDer_F/Bow/BowInstaller.event"
+  #include "ArchDer_F/Unarmed/UnarmedInstaller.event"
+  }
+
+  {
+  #include "ArchDer_M/Bow/BowInstaller.event"
+  #include "ArchDer_M/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "SniperMWilVar/Bow(Alt)/BowInstaller.event"
+  #include "SniperMWilVar/Unarmed/UnarmedInstaller.event"
+  }
+  
+  {
+  #include "VanillaMercenaryM/Sword/MercenarySwordInstaller.event"
+  #include "VanillaMercenaryM/Unarmed/MercenaryUnarmedInstaller.event"
+  }
+  
+  {
+  #include "FEDSThiefDer/Sword/SwordInstaller.event"
+  #include "FEDSThiefDer/Unarmed/UnarmedInstaller.event"
+  }

@@ -89,7 +89,7 @@ UNIT Badguy Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [St
 UNIT
 
 BensonCrew:
-UNIT Badguy Shaman Morris Level(11,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Luna,Flux] [0x00,0x00,0x04,0x00]
+UNIT Badguy Mage Morris Level(11,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Elfire] [0x00,0x00,0x04,0x00]
 UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow] [0x00,0x00,0x04,0x00]
 UNIT
 
@@ -239,7 +239,7 @@ EVBIT_T 9
 CUMO Daphne
 STAL 60
 CURE
-//MUSC whatever ID I set DotR World Map to
+MUSC 0x04
 SetBackground(0x2A)
 Text(0x903)
 EndConvo
@@ -309,11 +309,13 @@ MUSC 0x18 //Envoy from the Dark
 CAM1 [14,6]
 LOAD1 1 MysteryFigure
 ENUN
+STAL 20
 Text(0x90B)
 CAM1 [6,13]
-STAL 60
+STAL 90
 CAM1 [14,6]
 Text(0x90C)
+STAL 20
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW 0x927

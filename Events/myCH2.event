@@ -1,4 +1,4 @@
-﻿//Made by Camtech075 of SerenesForest
+//Made by Camtech075 of SerenesForest
 //Modified by Nintenlord
 
 #include EAstdlib.event
@@ -17,13 +17,17 @@ POIN $0 $0 $0 $0 $0 $0
 POIN Ch2BeginningScene Ch2EndingScene
 
 Ch2TurnBasedEvents:
+TurnEventPlayer(07,LoadMiniboss,2)
 END_MAIN
 ALIGN 32 //For some reason, Ch2CharacterBasedEvents have to be 32-Aligned?
 
 Ch2CharacterBasedEvents:
+CharacterEvent(10,RecruitingGen,Daphne,Gen)
 END_MAIN
 
 Ch2LocationBasedEvents:
+House(09,Housekito,18,6)
+Village(08,RecruitmentVillage,17,12)
 END_MAIN
 
 Ch2MiscBasedEvents:
@@ -76,7 +80,7 @@ UNIT
 EnemiesInHiding:
 UNIT Saboteurs2 Pirate Invicil Level(5,Enemy,True) [19,11] 0x0 0x0 0x1 REDA19R13 [Hammer,HandAxe] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [19,10] 0x0 0x0 0x1 REDA19R9 [Thunder] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [9,11] 0x0 0x0 0x1 REDA8R12 [Fire] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [9,11] 0x0 0x0 0x1 REDA9R12 [Fire] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Myrmidon Invicil Level(6,Enemy,True) [0,13] 0x0 0x0 0x1 REDA4R13 [Lancereaver,Armorslayer] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Archer_F Invicil Level(4,Enemy,True) [1,6] 0x0 0x0 0x1 REDA0R6 [IronBow] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Fighter Invicil Level(6,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronAxe] [0x00,0x00,0x04,0x00]
@@ -90,16 +94,16 @@ UNIT Bazba Cavalier Invicil Level(8,Enemy,False) [7,0] 0x0 0x0 0x1 REDA4R3 [Stee
 UNIT
 
 ChainGang:
-UNIT Saboteurs2 Sage Invicil Level(10,Enemy,True) [4,4] 0x0 0x0 0x0 0x0 [Elfire] NoAI
+UNIT Saboteurs1 Sage Invicil Level(10,Enemy,True) [4,4] 0x0 0x0 0x0 0x0 [Elfire] NoAI
 UNIT Saboteurs2 Cavalier Invicil Level(8,Enemy,False) [5,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
-UNIT Saboteurs4 Mercenary Invicil Level(1,Enemy,False) [7,6] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
+UNIT Saboteurs3 Mercenary Invicil Level(1,Enemy,False) [7,6] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
 UNIT Saboteurs2 Soldier Invicil Level(1,Enemy,True) [11,8] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
 UNIT Saboteurs2 Soldier Invicil Level(1,Enemy,True) [13,4] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
 UNIT Saboteurs2 Cavalier Invicil Level(1,Enemy,True) [15,4] 0x0 0x0 0x0 0x0 [SteelSword] NoAI
 UNIT Saboteurs2 Cavalier Invicil Level(1,Enemy,True) [16,7] 0x0 0x0 0x0 0x0 [SteelSword] NoAI
 UNIT FakeGen Civilian_3 Invicil Level(1,Enemy,True) [9,6] 0x0 0x0 0x0 0x0 [IronSword] NoAI
 UNIT RiverFolk Civilian_3 Invicil Level(1,Enemy,True) [10,6] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
-UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [11,6] 0x0 0x0 0x0 0x0 [Thunder] NoAI
+UNIT RiverFolk_F Civilian_F_3 Invicil Level(1,Enemy,True) [11,6] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
 UNIT RiverFolk Civilian_F_3 Invicil Level(1,Enemy,True) [12,6] 0x0 0x0 0x0 0x0 [Javelin] NoAI
 UNIT
 
@@ -118,13 +122,13 @@ UNIT Invicil Mage Invicil Level(7,Enemy,False) [6,5] DropItem 0x0 0x0 0x0 [Fire,
 UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
 UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
 UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs3 Mage Invicil Level(5,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
 UNIT
 
 NPCBardolph:
-UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [6,8] 0x0 0x0 0x0 0x0 [SilverAxe,Vulnerary] [0x03,0x03,0x02,0x20]
+UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [6,8] 0x0 0x0 0x0 0x0 [SilverAxe,Vulnerary] [0x03,0x03,0x02,0x00]
 UNIT
 
 PlayerParty:
@@ -138,7 +142,7 @@ UNIT Ernest Knight Daphne Level(1,Ally,False) [5,13] 0x0 0x0 0x0 0x0 [IronLance]
 UNIT
 
 GenBlock:
-UNIT Gen Myrmidon Gen Level(1,NPC,False) [9,0] 0x0 0x0 0x1 REDA9R2 [IronSword,KillingEdge] [0x03,0x03,0x04,0x20]
+UNIT Gen Vagabond Gen Level(1,NPC,False) [9,0] 0x0 0x0 0x1 REDA9R2 [IronSword,KillingEdge] [0x03,0x03,0x04,0x20]
 UNIT
 
 JamParty:
@@ -146,11 +150,50 @@ UNIT Jam Shaman Daphne Level(4,Ally,False) [17,12] 0x0 0x0 0x1 REDA16R13 [Flux,V
 UNIT Mercius Monk Daphne Level(4,Ally,False) [17,12] 0x0 0x0 0x1 REDA18R13 [Lightning,Vulnerary] NoAI
 UNIT
 
+RecruitingGen:
+MUSC 0x30
+Text(0x94D)
+CUSA Gen
+NoFade
+ENDA
+
+LoadMiniboss:
+CAM1 [6,2]
+LOAD1 1 ExtraBoss
+ENUN
+CUMO Bazba
+STAL 60
+CURE
+Text(0x94F)
+NoFade
+ENDA
+
+RecruitmentVillage:
+SetBackground(0x2)
+MUSC 0x30
+Text(0x94C)
+EndConvo
+LOAD1 1 JamParty
+ENUN
+TILECHANGE 0x1
+NoFade
+ENDA
+
+Housekito:
+//It would probably be funny to have a secret event happen if you visit with every character. Not fucking with it now though.
+MUSI
+SetBackground(0x0)
+Text(0x94E)
+EndConvo
+MUNO
+NoFade
+ENDA
+
 Ch2BeginningScene:
 LOMA 0x3D //first cutscene back at the Black Cat hideout
 FADU 16
 MUSC 0x48 //birds and wind sfx
-LOAD1 2 FirstCutscenePlayerUnits
+LOAD1 1 FirstCutscenePlayerUnits
 ENUN
 CUMO Daphne
 STAL 60
@@ -168,11 +211,10 @@ SetBackground(0x1B)
 Text(0x939)
 EndConvo
 STAL 10
-MOVE Daphne 60 [14,9]
-MOVE Arturo 60 [14,9]
-MOVE Octavia 60 [14,9]
-STAL 5
-MOVE Li 60 [14,9]
+MOVE 60 Daphne [14,9]
+MOVE 60 Arturo [14,9]
+MOVE 60 Octavia [14,9]
+MOVE 60 Li [14,9]
 ENUN
 CLEA Daphne
 MUSC 0x7FFF
@@ -180,7 +222,7 @@ FADI 16
 STAL 10
 LOMA 0x3E //second set of cutscenes where the actual chapter map is expanded
 CAM1 [6,30]
-LOAD1 2 SecondCutscenePlayerUnits
+LOAD1 1 SecondCutscenePlayerUnits
 ENUN
 STAL 10
 FADU 16
@@ -195,7 +237,7 @@ Text(0x93A)
 STAL 20
 MOVE 60 ShadowFigure [6,15]
 ENUN
-MOVE 0xFF ShadowFigure [6,22]
+MOVE 0xFFFF ShadowFigure [6,22]
 ENUN //command to instantly move to [6,22]
 LOAD1 1 SecondCutsceneEnemyUnits
 ENUN
@@ -229,9 +271,9 @@ CURE
 Text(0x93E)
 MOVE 60 Daphne [6,21]
 ENUN
-SOUN 0xD3
 FADI 16
-//SetBackground(0x36) loading the CG and displaying the CG convo
+SOUN 0xD3
+SetBackground(0x0) //loading the CG and displaying the CG convo
 CGTEXTSTART 
 TEXTSHOW 0x93F
 TEXTEND
@@ -239,17 +281,18 @@ FADI 16
 CLEAN
 STAL 120
 CAM1 [8,7]
-LOAD1 0 ChainGang
+LOAD1 1 ChainGang
 ENUN
 STAL 10
 FADU 16
-//BROWNBOXTEXT 0x735 figure out how to auto set it to top right corner
+BROWNBOX 0x735 [0,0]
 CUMO [4,4]
 STAL 60
 CURE
 Text(0x940)
 MOVE 60 FakeGen [8,6]
 ENUN
+STAL 5
 MoveByCoords(60, 10, 6, 9, 6)
 ENUN
 MoveByCoords(60, 11, 6, 10,6)
@@ -268,14 +311,16 @@ SetBackground(0x1D)
 Text(0x942)
 EndConvo
 STAL 10
-RECLASS_FROMCHAR Gen
+RECLASS_FROMCHAR FakeGen Gen
 CUSN FakeGen
 //Battle script here
 StartBattle
 CriticalHit(0,21)
 EndAttack
-FIGHT FakeGen Saboteurs4 IronSword 0
-KILL [7,6]
+FIGHT FakeGen Saboteurs3 IronSword 0
+SVAL sB 0x00060007
+KILL 0xFFFE
+EVBIT_F 9
 STAL 20
 MOVE 60 FakeGen [8,16]
 ENUN
@@ -286,14 +331,22 @@ STAL 60
 CURE
 Text(0x943)
 //battle script for killing the villagers
-KILL [9,6]
-KILL [11,6]
+StartBattle
+CriticalHit(0,30)
+EndAttack
+FIGHT_MAP Saboteurs1 RiverFolk_F Elfire 0
+SVAL sB 0x00060009
+KILL 0xFFFE
+SVAL sB 0x0006000B
+KILL 0xFFFE
 STAL 10
 Text(0x944)
 FADI 16
 CLEE Invicil
 CLEA Daphne
-LOMA 0x02 //the actual map
+CLEN ShadowFigure
+LOMA 0x02 //the actual play map
+STAL 5
 LOAD1 2 PlayerParty
 ENUN
 LOAD1 1 NPCBardolph
@@ -302,11 +355,13 @@ LOAD1 1 Cutscene3EnemyUnits
 ENUN
 CAM1 [6,9]
 STAL 10
-FADU 120
+FADU 90
 STAL 30
-Text(0x945)
-MOVE 60 Daphne [6,8]
+Text(0x945) 
 MOVE 60 ShadowFigure [6,9]
+ENUN
+MOVE 60 Daphne [6,8]
+ENUN
 LOAD1 1 EnemiesInHiding
 ENUN
 CAM1 Octavia
@@ -318,9 +373,15 @@ EVBIT_T 9
 MOVE 60 Invicil [0,3]
 ENUN
 EVBIT_F 9
-//still need to find out how to make a unit play their map select animation, then put that here instead of the torch effect
-UseTorch(Invicil, 1)
+//still need to find out how to make a unit play their map select animation, then put that here instead of this brokeass fix
+FAWI 16
+//ASMC 0x80790A5
 //warping commands for the knights
+MoveByCoords(0xFFFF, 5, 6, 5, 11)
+ENUN
+MoveByCoords(0xFFFF, 7, 6, 6, 11)
+ENUN
+FAWU 10
 MoveByCoords(60, 5, 4, 4, 4)
 ENUN
 CAM1 [15,12]
@@ -347,6 +408,12 @@ SetBackground(0x1D)
 Text(0x94A)
 EndConvo
 //map battle script where Gen kills the dude
+StartBattle
+CriticalHit(0,30)
+EndAttack
+FIGHT_MAP Gen Saboteurs3 IronSword 0
+SVAL sB 0x0A000200
+KILL 0xFFFE
 STAL 30
 MOVE 60 Gen [14,6]
 ENUN
@@ -357,7 +424,7 @@ NoFade
 ENDA
 
 Ch2EndingScene:
-MoveToChapter(NextChapter)
+MoveToChapter(Ch3)
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

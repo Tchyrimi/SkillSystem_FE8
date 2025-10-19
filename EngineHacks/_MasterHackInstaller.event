@@ -246,6 +246,7 @@ POP
   #include "QualityOfLife/FE8New_CHAI/New_CHAI.event"
   #include "QualityOfLife/FE8ShowHealAmount/ShowHealAmountFE8.event"
   #include "QualityOfLife/LimitlessTrading.event"
+  #include "QualityOfLife/UnlimitedRescueTrading.event"
   #include "LongerClassName.event"
   #include "addlucktohitrate.txt"
   #include "minimumcritedit.txt"

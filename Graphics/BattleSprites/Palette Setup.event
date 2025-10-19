@@ -32,6 +32,10 @@
 	setPalette(0x07,Kan_ArchDer)
 	setCBSP(0x07,Kan, 0x1, Archer)
 
+// Kan_WSniper
+	setPalette(0x0B,Kan_WSniper)
+	setCBSP(0x0B,Kan, 0x3, Sniper)
+
 // Ernest_Knight
 	setPalette(0x08,Ernest_Knight)
 	setCBSP(0x08,Ernest, 0x1, Knight)

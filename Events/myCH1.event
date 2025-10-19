@@ -1,4 +1,4 @@
-﻿//Made by Camtech075 of SerenesForest
+//Made by Camtech075 of SerenesForest
 //Modified by Nintenlord
 
 #include EAstdlib.event
@@ -84,7 +84,7 @@ UNIT Saboteurs2 Fighter Warren Level(4,Enemy,True) [1,4] 0x0 0x0 0x0 0x0 [IronAx
 UNIT Saboteurs2 Shaman Warren Level(3,Enemy,True) [8,9] 0x0 0x0 0x0 0x0 [Flux] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Monk Warren Level(3,Enemy,True) [7,8] 0x0 0x0 0x0 0x0 [Lightning] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Shaman Warren Level(1,Enemy,True) [0,6] 0x0 0x0 0x0 0x0 [Flux] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs2 Mercenary Warren Level(3,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [SteelSword,DoorKey] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Mercenary Warren Level(3,Enemy,True) [11,12] 0x0 0x0 0x0 0x0 [SteelSword] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Archer Warren Level(1,Enemy,True) [13,19] 0x0 0x0 0x0 0x0 [IronLongbow] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Myrmidon Warren Level(1,Enemy,True) [8,0] 0x0 0x0 0x0 0x0 [Armorslayer,Vulnerary] [0x00,0x00,0x02,0x00]
 UNIT Saboteurs2 Knight Warren Level(2,Enemy,True) [14,12] 0x0 0x0 0x0 0x0 [Javelin] [0x03,0x03,0x04,0x00]
@@ -108,7 +108,7 @@ UNIT CityGuardExtra Soldier Navarro Level(4,NPC,True) [8,0] 0x0 0x0 0x1 REDA8R1 
 UNIT
 
 RaiderGroup:
-UNIT Saboteurs1 Fighter Warren Level(4,Enemy,True) [19,6] 0x0 0x0 0x0 0x0 [SteelAxe] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs1 Fighter Warren Level(4,Enemy,True) [19,6] 0x0 0x0 0x0 0x0 [PoisonAxe] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Fighter Warren Level(3,Enemy,True) [7,19] 0x0 0x0 0x1 REDA7R18 [IronAxe] [0x00,0x00,0x04,0x00]
 UNIT CityGuardExtra Myrmidon Navarro Level(1,NPC,True) [8,19] 0x0 0x0 0x0 0x0 [IronSword] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs4 Pirate Warren Level(4,Enemy,True) [0,10] 0x0 0x0 0x1 REDA1R12 [SteelAxe] [0x06,0x05,0x04,0x00]
@@ -139,9 +139,9 @@ CUMO Ernest
 STAL 60
 CURE
 Text(0x919)
-SVAL s1 0x00000000
+SVAL s1 0x00040000
 CHAI CityGuardFighter
-SVAL s1 0x00000000
+SVAL s1 0x00040000
 CHAI CityGuardKnight
 SetToPursue(CityGuardMage)
 NoFade
@@ -155,7 +155,7 @@ BNE 4 sC s0 //if he's alive, skip to label 4 and do nothing, else keep reading
 LOAD1 0 ScrubSoldier
 ENUN
 LABEL 4
-SVAL s1 0x00001200
+SVAL s1 0x00041200
 CHAI [18,1]
 NoFade
 ENDA
@@ -179,11 +179,13 @@ NoFade
 ENDA
 
 ConditionalThief:
-//CALL 0x815E72D
-//BNE 5 sC s0 //if the player has a Door Key, jump to LABEL 5 and do nothing, else keep reading and load the thief
+ItemCheck(DoorKey)
+BNE 5 sC s0 //if the player has a Door Key, jump to LABEL 5 and do nothing, else keep reading and load the thief
+EVBIT_T 9
 LOAD1 0 Turn10CleanupThief
 ENUN
-//LABEL 5
+LABEL 5
+EVBIT_F 9
 NoFade
 ENDA
 
@@ -312,12 +314,15 @@ STAL 60
 CURE
 SetBackground(0x5)
 Text(0x91F)
+EndConvo
+NoFade
 ENDA
 
 Ch1EndingScene:
 FADI 16
 CLEN Navarro
 CLEA Daphne
+CLEE Warren
 CAM1 [13,3]
 FADU 20
 STAL 60

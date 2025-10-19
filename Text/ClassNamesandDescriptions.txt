@@ -225,16 +225,16 @@ Queen[.][X]
 # 0x0308
 Statesman[.][X]
 
-#0x1000
+# 0x1000
 Opportunist[.][X]
 
-#0x1001
+# 0x1001
 Brawler[.][X]
 
-#0x1002
+# 0x1002
 Mender[.][X]
 
-#0x1003
+# 0x1003
 Conduit[.][X]
 
 //#0x1004
@@ -249,21 +249,24 @@ Conduit[.][X]
 //#0x1007
 //ConduitT2[.][X]
 
+# 0x1019
+Vagabond[.][X]
+
 //Class descriptions
 
-#0x1008
+# 0x1008
 Mercenaries who hold their lances[NL]
 high, and their aspirations higher.[.][X]
 
-#0x1009
+# 0x1009
 Gritty axe wielders with a good[NL]
 arm and a grudge.[.][X]
 
-#0x100A
+# 0x100A
 Battlefield medics with the steel[NL]
 to protect their wards.[.][X]
 
-#0x100B
+# 0x100B
 Powerful spellcasters blunted, yet[NL]
 freed by their inexperience.[.][X]
 
@@ -278,6 +281,11 @@ freed by their inexperience.[.][X]
 
 //#0x100F
 //ConduitT2 class desc
+
+# 0x101A
+Wandering vagrants wielding[NL]
+anything they can get their[NL]
+hands on. Usually cheap swords.[.][X]
 
 # 0x0309
 Noble heirs to a ruling house.[NL]

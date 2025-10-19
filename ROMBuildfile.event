@@ -45,6 +45,10 @@
     #include "Maps/MasterMapInstaller.event"
     //#endif // USE_TEST_MAP
 	
+	//Music
+	#include "Tools/Sappy2EA/MPlayDef.event"
+	#include "Tools/Sappy2EA/MusicInstaller.event"
+	#include "Music/MasterMusicInstaller.event"
 
 	
 	//ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace

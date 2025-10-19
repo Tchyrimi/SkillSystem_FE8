@@ -1,6 +1,6 @@
 //random bullshit and macros
-#define SetToPursue(UnitID) "SVAL s1 0x00000000; CHAI UnitID"
-#define SetToPursue(x,y) "SVAL s1 0x00000000; CHAI [x,y]"
+#define SetToPursue(UnitID) "SVAL s1 0x00040000; CHAI UnitID"
+#define SetToPursue(x,y) "SVAL s1 0x00040000; CHAI [x,y]"
 #define EndConvo "CALL $9EE2C4"
 //Characters
 #define Daphne 0x01
@@ -121,6 +121,7 @@
 #define Brawler 0x81
 #define Mender 0x82
 #define Conduit 0x83
+#define Vagabond 0x84
 //#define EphraimLord 0x01
 //#define EirikaLord 0x02
 //#define EphraimMasterLord 0x03
