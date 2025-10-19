@@ -2,6 +2,7 @@
 //Install with Event Assembler
 PUSH
 
+#include "QualityOfLife/RemoveLinkArena.event"
 //crit and luck stuff (both Dragz I'm pretty sure, double check)
 #include "minimumcritedit.txt"
 #include "addlucktohitrate.txt"

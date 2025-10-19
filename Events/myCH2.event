@@ -81,12 +81,12 @@ EnemiesInHiding:
 UNIT Saboteurs2 Pirate Invicil Level(5,Enemy,True) [19,11] 0x0 0x0 0x1 REDA19R13 [Hammer,HandAxe] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [19,10] 0x0 0x0 0x1 REDA19R9 [Thunder] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Mage Invicil Level(5,Enemy,True) [9,11] 0x0 0x0 0x1 REDA9R12 [Fire] [0x00,0x03,0x04,0x00]
-UNIT Saboteurs2 Myrmidon Invicil Level(6,Enemy,True) [0,13] 0x0 0x0 0x1 REDA4R13 [Lancereaver,Armorslayer] [0x00,0x03,0x04,0x00]
+UNIT Saboteurs2 Cavalier Invicil Level(6,Enemy,True) [0,10] 0x0 0x0 0x1 REDA0R12 [Lancereaver,Armorslayer] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Archer_F Invicil Level(4,Enemy,True) [1,6] 0x0 0x0 0x1 REDA0R6 [IronBow] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Fighter Invicil Level(6,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronAxe] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Myrmidon Invicil Level(3,Enemy,True) [11,8] 0x0 0x0 0x1 REDA9R7 [IronSword] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [1,6] 0x0 0x0 0x1 REDA2R7 [IronSword] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [16,6] 0x0 0x0 0x1 REDA14R7 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [16,6] 0x0 0x0 0x1 REDA14R8 [IronSword] [0x00,0x00,0x04,0x00]
 UNIT
 
 ExtraBoss:
@@ -263,6 +263,12 @@ CUMO Daphne
 STAL 30
 CURE
 Text(0x93C)
+//they move up
+MOVE 60 Daphne [6,26]
+ENUN
+MOVE 60 Arturo [6,27]
+MOVE 60 Kan [7,27]
+ENUN
 Text(0x93D)
 CAM1 Daphne
 CUMO Daphne
@@ -359,9 +365,7 @@ FADU 90
 STAL 30
 Text(0x945) 
 MOVE 60 ShadowFigure [6,9]
-ENUN
 MOVE 60 Daphne [6,8]
-ENUN
 LOAD1 1 EnemiesInHiding
 ENUN
 CAM1 Octavia
@@ -377,6 +381,7 @@ EVBIT_F 9
 FAWI 16
 //ASMC 0x80790A5
 //warping commands for the knights
+STAL 10
 MoveByCoords(0xFFFF, 5, 6, 5, 11)
 ENUN
 MoveByCoords(0xFFFF, 7, 6, 6, 11)
@@ -404,6 +409,7 @@ CAM1 [10,1]
 STAL 5
 LOAD1 0 GenBlock
 ENUN
+SetUnitStatus(Gen, Skill, 30)
 SetBackground(0x1D)
 Text(0x94A)
 EndConvo
@@ -412,11 +418,12 @@ StartBattle
 CriticalHit(0,30)
 EndAttack
 FIGHT_MAP Gen Saboteurs3 IronSword 0
-SVAL sB 0x0A000200
+SVAL sB 0x000A0002
 KILL 0xFFFE
 STAL 30
 MOVE 60 Gen [14,6]
 ENUN
+SetUnitStatus(Gen, Skill, 8)
 Text(0x94B)
 STAL 10
 //also double check all the dead units actually don't get loaded when skipping events

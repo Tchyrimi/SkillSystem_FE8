@@ -127,11 +127,11 @@ INLINE Class_Level_Cap_Table,Level Cap
 0x7D Elder Bael 2,20
 0x7E Journeyman (2),20
 0x7F Invalid,20
-NULL,20
-NULL,20
-NULL,20
-NULL,20
-NULL,20
+0x80,20
+0x81,20
+0x82,20
+0x83,20
+0x84 Vagabond,10
 NULL,20
 NULL,20
 NULL,20

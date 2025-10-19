@@ -1,0 +1,5 @@
+//writes over the code to display the Link Arena option
+PUSH
+ORG 0x0AB90E
+BYTE 0x00 0x00 0x00 0x20
+POP
