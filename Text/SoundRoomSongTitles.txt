@@ -10,7 +10,7 @@ Main Theme[X]
 Prologue[X]
 
 # 0x078E
-The Beginning[.][X]
+World Map (Yugioh: DotR)[.][X]
 
 # 0x078F
 Treasured Memories[X]
@@ -25,7 +25,7 @@ Ties of Friendship[X]
 Ray of Hope[.][X]
 
 # 0x0793
-Distant Roads[.][X]
+V.S. Cipher Admin(Pkmn: C)[.][X]
 
 # 0x0794
 Rise Above[X]
@@ -112,7 +112,7 @@ Advance[.][X]
 Tension[.][X]
 
 # 0x07B0
-Raid![.][X]
+Confrontation (SC II)[.][X]
 
 # 0x07B1
 Reunion[.][X]
@@ -127,7 +127,7 @@ Sorrow[X]
 Laughter[X]
 
 # 0x07B5
-Legacy[X]
+Dangoro's Theme (LoZ:TP)[X]
 
 # 0x07B6
 Lyon[X]
@@ -142,13 +142,13 @@ Lyon (Organ Arrangement)[X]
 The Final Battle[X]
 
 # 0x07BA
-Solve the Riddle[X]
+Pirate's Fortress (LoZ:MM)[X]
 
 # 0x07BB
 Lights in the Dark[X]
 
 # 0x07BC
-Comrades[X]
+Together We Ride (FE7)[X]
 
 # 0x07BD
 Victory[.][X]
@@ -160,7 +160,7 @@ Into the Shadow of Victory[X]
 Main Theme (Reprise)[X]
 
 # 0x07C0
-Combat Preparation[X]
+History Unfolds (SC II)[X]
 
 # 0x07C1
 Shops[.][X]

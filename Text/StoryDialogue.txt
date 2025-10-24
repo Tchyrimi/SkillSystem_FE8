@@ -499,7 +499,13 @@ discussion.[A][X]
 [OpenFarFarRight][LoadFace][0x50][0x01][OpenFarFarRight]they'd probably be holed up in...[A][X]
 
 # 0x0925
-xxxxxx3[A][X]
+[OpenMidLeft][LoadFace][0x04][0x01][OpenFarRight][LoadFace][0x09][0x01][OpenMidLeft]
+Now I am recruiting you.[A]
+The Ombalan military must be[NL]
+doing worse to recruit someone[NL]
+so emaciated.[A][OpenFarRight]
+I'm no soldier. I'm an escaped[NL]
+slave, and I'm not going back![A][X]
 
 # 0x0926
 [OpenMidLeft][LoadFace][0x35][0x01][OpenMidLeft]Uuough...[.....][A] Bastards thought they could[NL]
@@ -733,8 +739,8 @@ Come on out everyone![A][X]
 [OpenMidLeft][LoadFace][0x32][0x01][OpenMidLeft]Whatever, go, my red units![A][X]
 
 # 0x0949
-[OpenMidRight][LoadFace][0x04][0x01][OpenMidRight]we have to get back to my[NL]
-sexy wife[A][X]
+[OpenMidRight][LoadFace][0x05][0x01][OpenMidRight]we have to get back to my[NL]
+mom[A][X]
 
 # 0x094A
 [OpenMidLeft][LoadFace][0x09][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidLeft]sorry, but I need to be free[A][X]

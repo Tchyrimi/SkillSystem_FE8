@@ -124,7 +124,7 @@ Warren[.][X]
 Invicil[X]
 
 # 0x023B *
-Bazba[.][X]
+Gautier[.][X]
 
 # 0x023C *
 Saar[X]
@@ -445,10 +445,14 @@ Mogepsian commander tasked with[NL]
 razing the city of Iridas.[X]
 
 # 0x0295
-description for Invicil.[X]
+Head of an artifact retrieval[NL]
+taskforce. Given in to blind[NL]
+hate of Mogepsians.[X]
 
 # 0x0296
-The leader of Bazba's Bandits.[X]
+Subordinate of an Ombalan[NL]
+commander. Dislikes cleaning[NL]
+up after people. Shame, really.[X]
 
 # 0x0297
 Commander of Grado's border guard.[NL]
