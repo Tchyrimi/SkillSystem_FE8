@@ -2,6 +2,12 @@
 #include AnimationInstaller.event
 
 ALIGN 4
+FortExpansion:
+#incext compress "NewPurpFort.mapchip_config"
+
+EventPointerTable(0x3E, FortExpansion)
+
+ALIGN 4
 NewMtnObjects:
 #incext Png2Dmp "AlteredMountainousObject.png" --lz77 //A bit of a note: This isn't the tileset you see in Tiled when making a map; it's the compressed image for the metatiles used for the bigger scope. (Thanks to Snakey1 for pointing out)
 

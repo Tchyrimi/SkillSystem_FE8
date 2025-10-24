@@ -14,7 +14,7 @@
 #define Mercius 0x09
 #define Martin 0x0A
 #define Ernest 0x0B
-//#define Lute 0x0C
+#define Olena 0x0C
 //#define Natasha 0x0D
 //#define Cormag 0x0E
 //#define Ephraim 0x0F
@@ -58,7 +58,7 @@
 //#define Valter_Prologue 0x45
 #define Warren 0x46
 #define Invicil 0x47
-//#define Bazba 0x48
+#define Gautier 0x48
 //#define Entombed_boss 0x49
 //#define Saar 0x4A
 //#define Novala 0x4B
@@ -109,12 +109,16 @@
 #define Saboteurs2 0x82
 #define Saboteurs3 0x8E
 #define Saboteurs4 0x7E
+#define Saboteurs5 0x76
+#define Saboteurs6 0x7D
 #define CityGuardFighter 0x8D
 #define CityGuardKnight 0x90
 #define CityGuardMage 0x8F
 #define CityGuardExtra 0x91
 #define Badguy 0x80
 #define FakeGen 0xA6
+#define Scientist 0xA7
+#define Monster1 0xAA
 
 //Classes
 #define LanceMerc 0x80
@@ -567,3 +571,25 @@
 //#define Anotherpath 0x4C
 //#define Gradoshrine_Present 0x4D
 //#define Ch5town_Past 0x4E
+
+//Name          Default Value   Notes
+//-----------------------------------------------------------------------------
+//Main                          Required when there are multiple layers.
+//ChapterID     ChapterID       The chapter number/row in the chapter data editor
+//ObjectType1   ObjectType      The object set to use. Can also use ObjectType
+//ObjectType2   0               FE7 only
+//PaletteID     PaletteID       The palette to use
+//TileConfig    TileConfig      The tile configuration to use
+//MapID         map_id          The index of the map in the Event Pointer Table
+//MapChangesID  map_changes     The index of the map changes in the Event Pointer Table
+//Anims1        0               Tile Animation to use. Can also use Anims
+//Anims2        0               FE8 only
+//
+//Required for tile change layers:
+//Name          Notes
+//-------------------------------------------------------------
+//ID            Warning: the actual layer order matters too. Lower layers should have lower IDs.
+//X             X coordinate of the top left tile
+//Y             Y coordinate of the top left tile
+//Height        Height of the tile change
+//Width         Width of the tile change

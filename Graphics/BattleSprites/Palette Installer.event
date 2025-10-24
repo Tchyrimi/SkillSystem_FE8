@@ -36,3 +36,18 @@ Warren_Fighter:
 Benson_Sniper:
 	#incbin "./_palettes/Benson_Sniper.lzpal" 
 
+Jam_Shaman:
+	#incbin "./_palettes/Jam_Shaman.lzpal" 
+
+Mercius_Monk:
+	#incbin "./_palettes/Mercius_Monk.lzpal" 
+
+Gen_Vagabond:
+	#incbin "./_palettes/Gen_Vagabond.lzpal" 
+
+FakeGen_Vagabond:
+	#incbin "./_palettes/FakeGen_Vagabond.lzpal" 
+
+GautierSalvCav:
+	#incbin "./_palettes/GautierSalvCav.lzpal" 
+

@@ -34,7 +34,7 @@ Martin[X]
 Ernest[.][X]
 
 # 0x021D *
-Lute[X]
+Olena[X]
 
 # 0x021E *
 Natasha[.][X]
@@ -154,7 +154,7 @@ Carlyle[.][X]
 Caellach[X]
 
 # 0x0245 *
-Deni[X]
+Scientist[X]
 
 # 0x0246 *
 Riev[X]
@@ -253,7 +253,7 @@ Citizen[.][X]
 Renais Cit.[.][X]
 
 # 0x0266 *
-River Folk[X]
+Slaves[X]
 
 # 0x0267 *
 Enemy[.][X]
@@ -332,8 +332,9 @@ hats, the latest of which being[NL]
 a town guard. Hunting purpose.[X]
 
 # 0x0279
-A young mage of Renais. She[.][NL]
-believes she is a prodigy.[X]
+A hard working Ombalan researcher[NL]
+at the forefront of magical[NL]
+construct technology. No-nonsense.[X]
 
 # 0x027A
 A beautiful cleric from the Grado[.][NL]
@@ -531,8 +532,8 @@ The well-paid, yet shortstaffed[NL]
 guardsmen of the city of Iridas.[X]
 
 # 0x02AB
-A mercenary fighting as part of[.][NL]
-Binks's force.[X]
+Researchers conducting[NL]
+Groundbreaking top-secret tests.[X]
 
 # 0x02AC
 One of the treasure hunters who[.][NL]
@@ -602,5 +603,5 @@ A resident of the capital of Renais,[NL]
 which was seized by Novala.[.][X]
 
 # 0x02BD
-A citizen living on the river Narube[NL]
-who has been caught up in the war.[X]
+A citizen of Doregai captured[NL]
+and forced into slavery.[X]

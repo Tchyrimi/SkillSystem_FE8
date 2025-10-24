@@ -1,15 +1,15 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,0x0
-Seth,0x0
-Gilliam,0x0
-Franz,0x0
+Eirika,SaviorID
+Seth,LiveToServeID
+Gilliam,DefiantMagID
+Franz,WardingBlowID
 Moulder,0x0
 Vanessa,0x0
 Ross,0x0
-Neimi,0x0
-Colm,0x0
-Garcia,0x0
+Neimi,SupplyID
+Colm,SupplyID
+Garcia,SupplyID
 Innes,0x0
 Lute,0x0
 Natasha,0x0

@@ -3,3 +3,24 @@ SongTable(0x30,TogetherWeRideFE7,1)
 
 SongTable(0x04,WorldMapDOTR,1)
 #include "WorldMapDOTR.event"
+
+SongTable(0x22,CuringFE7,1)
+#include "CuringFE7.event"
+
+SongTable(0x35,ShopsFE7,1)
+#include "ShopsFE7.event"
+
+SongTable(0x26,ConfrontationSC2,1)
+#include "ConfrontationSC2.event"
+
+SongTable(0x2E,PirateFortressMM,1)
+#include "PirateFortressMM.event"
+
+SongTable(0x1B,DangorosThemeTP,1)
+#include "DangorosThemeTP.event"
+
+SongTable(0x09,vsCipherAdminPC,1)
+#include "vsCipherAdminPC.event"
+
+SongTable(0x34,HistoryUnfoldsSC2,1)
+#include "HistoryUnfoldsSC2.event"

@@ -87,3 +87,21 @@ setMugEntry(0x50,ShadowPortrait,2,5,3,3) //portrait slot, pointer or label to po
 ALIGN 4
 ShadowPortrait:
 #incext PortraitFormatter "Faceless(AmBrosiac).png"
+
+setMugEntry(0x10,OlenaPortrait,3,6,3,4)
+
+ALIGN 4
+OlenaPortrait:
+#incext PortraitFormatter "Olena.png"
+
+setMugEntry(0x33,GautierPortrait,3,5,3,3)
+
+ALIGN 4
+GautierPortrait:
+#incext PortraitFormatter "Gautier.png"
+
+setMugEntry(0x32,InvicilPortrait,2,5,2,3)
+
+ALIGN 4
+InvicilPortrait:
+#incext PortraitFormatter "Cultist2RandomWizard.png"

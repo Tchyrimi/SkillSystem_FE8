@@ -1,5 +1,6 @@
 ﻿//Made by Camtech075 of SerenesForest
 //Modified by Nintenlord
+//XXXX
 
 #include EAstdlib.event
 EventPointerTable(EventTableID,ThisChapter)

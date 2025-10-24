@@ -1771,19 +1771,19 @@ Label_563F2D:
 
 song26_003:
 @  #03 @000   ----------------------------------------
- .byte   VOL , 48*song26_mvl/mxv
+ .byte   VOL , 13*song26_mvl/mxv
  .byte   KEYSH , song26_key+0
  .byte   VOICE , 61
  .byte   W96
 @  #03 @001   ----------------------------------------
  .byte   W48
- .byte   TIE ,Ds4 ,v100
+ .byte   TIE ,Ds4 ,v090
  .byte   TIE ,Gs4
  .byte   W96
 @  #03 @002   ----------------------------------------
  .byte   W24
  .byte   EOT
- .byte   Ds4 ,v080
+ .byte   Ds4 ,v070
  .byte   N06 ,As3
  .byte   N06 ,Ds4
  .byte   W12
@@ -1816,7 +1816,7 @@ song26_003:
 @  #03 @005   ----------------------------------------
  .byte   W24
  .byte   EOT
- .byte   As3 ,v075
+ .byte   As3 ,v065
  .byte   N06 ,As3
  .byte   N06 ,Ds4
  .byte   W12
@@ -1849,7 +1849,7 @@ song26_003:
 @  #03 @008   ----------------------------------------
  .byte   W48
  .byte   EOT
- .byte   Ds4 ,v080
+ .byte   Ds4 ,v070
  .byte   W96
 @  #03 @009   ----------------------------------------
  .byte   W48
@@ -1862,10 +1862,10 @@ song26_003:
  .byte   N12 ,Gs2
  .byte   W12
 Label_010D3DAF:
- .byte   N12 ,As2 ,v100
+ .byte   N12 ,As2 ,v090
  .byte   W12
 Label_010D3DB3:
- .byte   N12 ,Bn2 ,v100
+ .byte   N12 ,Bn2 ,v090
  .byte   W12
  .byte   As2
  .byte   W12
@@ -1885,7 +1885,7 @@ Label_010D3DB3:
  .byte   PEND 
 @  #03 @013   ----------------------------------------
 Label_010D3DC9:
- .byte   N12 ,Gs2 ,v100
+ .byte   N12 ,Gs2 ,v090
  .byte   W12
  .byte   Ds3
  .byte   W12
@@ -1902,7 +1902,7 @@ Label_010D3DC9:
   .word Label_010D3DB3
 @  #03 @016   ----------------------------------------
 Label_010D3DDC:
- .byte   N12 ,Bn2 ,v100
+ .byte   N12 ,Bn2 ,v090
  .byte   W12
  .byte   As2
  .byte   W12
@@ -1919,7 +1919,7 @@ Label_010D3DDC:
   .word Label_010D3DB3
 @  #03 @019   ----------------------------------------
 Label_010D3DEF:
- .byte   N24 ,Gs2 ,v100
+ .byte   N24 ,Gs2 ,v090
  .byte   W24
  .byte   Fs3
  .byte   W24
@@ -1938,7 +1938,7 @@ Label_010D3DEF:
   .word Label_010D3DB3
 @  #03 @022   ----------------------------------------
 Label_010D3E05:
- .byte   TIE ,Gs2 ,v100
+ .byte   TIE ,Gs2 ,v090
  .byte   W96
 @  #03 @023   ----------------------------------------
  .byte   W24
@@ -1949,7 +1949,7 @@ Label_010D3E0D:
  .byte   W96
 @  #03 @024   ----------------------------------------
  .byte   W24
- .byte   N12 ,Gs2 ,v100
+ .byte   N12 ,Gs2 ,v090
  .byte   W12
  .byte   As2
  .byte   W12
@@ -2009,7 +2009,7 @@ Label_010D3E0D:
 Label_010D3E51:
  .byte   W72
 @  #03 @042   ----------------------------------------
- .byte   N12 ,Cs4 ,v100
+ .byte   N12 ,Cs4 ,v090
  .byte   N12 ,Fs4
  .byte   W24
  .byte   Cs4
@@ -2020,7 +2020,7 @@ Label_010D3E51:
  .byte   W24
  .byte   PEND 
 Label_010D3E61:
- .byte   N06 ,Bn3 ,v100
+ .byte   N06 ,Bn3 ,v090
  .byte   N06 ,En4
  .byte   W12
  .byte   Bn3
@@ -2045,7 +2045,7 @@ Label_010D3E61:
  .byte   PEND 
 @  #03 @044   ----------------------------------------
 Label_010D3E81:
- .byte   N12 ,Ds4 ,v100
+ .byte   N12 ,Ds4 ,v090
  .byte   N12 ,Gs4
  .byte   W36
  .byte   Ds4
@@ -3499,7 +3499,7 @@ Label_564058:
 
 song26_007:
 @  #07 @000   ----------------------------------------
- .byte   VOL , 48*song26_mvl/mxv
+ .byte   VOL , 28*song26_mvl/mxv
  .byte   KEYSH , song26_key+0
  .byte   VOICE , 48
  .byte   W96

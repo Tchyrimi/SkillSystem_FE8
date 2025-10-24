@@ -763,7 +763,7 @@
 
 //Blue Flame: Attack +2. When adjacent to an ally, Attack +4.
 //By Sme
-#define BlueFlameID 211
+#define BlueFlameID 255
 
 //Double Lion: All weapons are treated as brave.
 //By Sme
@@ -838,11 +838,11 @@
 
 // Flank: If an ally is on the opposite side of an adjacent target, deal 25% more damage.
 // By Vesly 
-#define FlankID 255 
+#define FlankID 14 
 
 //Swarm: If an adjacent target is surrounded, deal 50% more damage.
 // By Vesly 
-#define SwarmID 255 
+#define SwarmID 211 
 
 //Lady Blade: If the unit is female, double weapon might
 //By Snerdels
@@ -854,7 +854,7 @@
 
 //Adept: Gain a consecutive attack. (Speed % activation)
 //Author Unknown (Initial Commit)
-#define AdeptID 14
+#define AdeptID 255
 
 //Aegis: Nullify a magic attack. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -1104,7 +1104,7 @@
 //Defiant Skills: When HP is 25% or lower, gain +4 to the given stat.
 //By Sme
 #define DefiantStrID 255
-#define DefiantMagID 255
+#define DefiantMagID 154
 #define DefiantSklID 255
 #define DefiantSpdID 255
 #define DefiantLckID 255
@@ -1125,7 +1125,7 @@
 
 //Life and Death: Grants +5 Atk/Mag/Spd, -5 Def/Res.
 //By Leonarth
-#define HeroesLifeAndDeathID 154
+#define HeroesLifeAndDeathID 255
 
 //Push Skills: When HP is full, gain +5 to the given stat.
 //By Sme

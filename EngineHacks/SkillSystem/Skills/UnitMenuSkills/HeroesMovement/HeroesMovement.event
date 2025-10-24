@@ -129,7 +129,7 @@ BYTE Cavalier Cavalier_F Paladin Paladin_F GreatKnight GreatKnight_F Troubadour 
 BYTE 0
 
 ShoveClassList:
-BYTE LanceMerc Mender Conduit Brawler Myrmidon Myrmidon_F Swordmaster Swordmaster_F Archer Archer_F Sniper Sniper_F Revenant Entombed Thief Rogue Assassin Recruit_1 Pupil_1 Journeyman_1 Recruit_2 Pupil_2 Journeyman_2 Recruit_3 Pupil_3 Journeyman_3 Mercenary Mercenary_F Fighter Soldier Brigand Pirate Berserker Warrior Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Priest Cleric Bishop Bishop_F Summoner Summoner_F
+BYTE LanceMerc Mender Conduit Brawler Vagabond Myrmidon Myrmidon_F Swordmaster Swordmaster_F Archer Archer_F Sniper Sniper_F Revenant Entombed Thief Rogue Assassin Recruit_1 Pupil_1 Journeyman_1 Recruit_2 Pupil_2 Journeyman_2 Recruit_3 Pupil_3 Journeyman_3 Mercenary Mercenary_F Fighter Soldier Brigand Pirate Berserker Warrior Mage Mage_F Sage Sage_F Monk Shaman Shaman_F Druid Druid_F Priest Cleric Bishop Bishop_F Summoner Summoner_F
 BYTE 0
 
 SmiteClassList:

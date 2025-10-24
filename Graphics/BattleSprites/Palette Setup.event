@@ -47,3 +47,23 @@
 // Benson_Sniper
 	setPalette(0x0A,Benson_Sniper)
 	setCBSP(0x0A,Benson, 0x3, Sniper)
+
+// Jam_Shaman
+	setPalette(0x0C,Jam_Shaman)
+	setCBSP(0x0C,Jam, 0x1, Shaman)
+
+// Mercius_Monk
+	setPalette(0x0D,Mercius_Monk)
+	setCBSP(0x0D,Mercius, 0x1, Monk)
+
+// Gen_Vagabond
+	setPalette(0x0E,Gen_Vagabond)
+	setCBSP(0x0E,Gen, 0x0, Vagabond)
+
+// FakeGen_Vagabond
+	setPalette(0x0E,FakeGen_Vagabond)
+	setCBSP(0x0E,FakeGen, 0x0, Vagabond)
+
+// GautierSalvCav
+	setPalette(0x0F,GautierSalvCav)
+	setCBSP(0x0F,Gautier, 0x1, Cavalier)

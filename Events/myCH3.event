@@ -1,0 +1,97 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+EventPointerTable(0x14,Ch3Events)
+
+Ch3Events:
+POIN Ch3TurnBasedEvents
+POIN Ch3CharacterBasedEvents
+POIN Ch3LocationBasedEvents
+POIN Ch3MiscBasedEvents
+POIN Ch3Dunno Ch3Dunno Ch3Dunno
+POIN Ch3Tutorial
+POIN Ch3TrapData Ch3TrapData
+POIN PlayerStartBlock PlayerStartBlock
+POIN $0 $0 $0 $0 $0 $0
+POIN Ch3BeginningScene Ch3EndingScene
+
+Ch3TurnBasedEvents:
+END_MAIN
+ALIGN 32 //For some reason, Ch3CharacterBasedEvents have to be 32-Aligned?
+
+Ch3CharacterBasedEvents:
+CharacterEvent(07,RecruitOlena,Daphne,Olena)
+END_MAIN
+
+Ch3LocationBasedEvents:
+Seize(20,20)
+Chest(Mend,18,3)
+ChestMoney(1200,20,3)
+Chest(Elixir,22,3)
+Door(6,11)
+Door(13,11)
+END_MAIN
+
+Ch3MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Ch3Dunno:
+END_MAIN
+
+Ch3Tutorial:
+END_MAIN
+
+Ch3TrapData:
+ENDTRAP
+
+ALIGN 4
+
+PlayerStartBlock:
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [4,4] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [5,3] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [4,3] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [3,3] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [2,2] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [6,2] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [4,2] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [3,1] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [4,1] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT Arturo Mender Daphne Level(1,Ally,False) [5,1] 0x0 0x0 0x0 0x0 [Heal] NoAI
+UNIT
+
+Scientists:
+UNIT Olena Mage_F Olena Level(6,NPC,False) [9,12] 0x0 0x0 0x0 0x0 [Fire,Vulnerary] [0x03,0x03,0x04,0x00]
+UNIT Scientist Civilian_2 Olena Level(1,NPC,False) [8,11] 0x0 0x0 0x0 0x0 NoItems [0x03,0x03,0x00,0x00]
+UNIT Scientist Civilian_F_2 Olena Level(3,NPC,False) [10,11] 0x0 0x0 0x0 0x0 NoItems [0x03,0x03,0x00,0x00]
+UNIT
+
+RecruitOlena:
+SetToPursue(Olena)
+CUSA Olena
+NoFade
+ENDA
+
+Ch3BeginningScene:
+TILECHANGE 0x04
+STAL 10
+FADU 16
+STAL 10
+LOAD3 0 PlayerStartBlock
+ENUN
+LOAD1 1 Scientists
+ENUN
+TILECHANGE 0x03
+TILEREVERT 0x04
+STAL 20
+FADI 16
+EVBIT_T 4
+PREP
+ENDA
+
+Ch3EndingScene:
+MoveToChapter(Ch4)
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET

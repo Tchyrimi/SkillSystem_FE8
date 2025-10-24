@@ -1,0 +1,289 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	CuringFE7_grp  voicegroup000
+	#define	CuringFE7_pri  10
+	#define	CuringFE7_rev  128
+	#define	CuringFE7_mvl  127
+	#define	CuringFE7_key  0
+	#define	CuringFE7_tbs  1
+	#define	CuringFE7_exg  0
+	#define	CuringFE7_cmp  1
+
+	// .rodata
+	//	CuringFE7
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+CuringFE7_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   CuringFE7_key+0
+Label_561C5E:
+ BYTE   TEMPO   90*CuringFE7_tbs/2
+ BYTE   VOICE   85
+ BYTE   VOL   46*CuringFE7_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   N11  Gn3  v064
+ BYTE   N11  Bn3  v068
+ BYTE   W12
+ BYTE   Gn3  v024
+ BYTE   N11  Bn3  v028
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v072
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v032
+ BYTE   W12
+ BYTE   Gn3  v072
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Gn3  v032
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v068
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v028
+ BYTE   W12
+//  #01 //001   ----------------------------------------
+ BYTE   Gn3  v068
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Gn3  v028
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v068
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v028
+ BYTE   W12
+ BYTE   Gn3  v056
+ BYTE   N11  Bn3  v068
+ BYTE   W12
+ BYTE   Gn3  v016
+ BYTE   N11  Bn3  v028
+ BYTE   W12
+ BYTE   Fn3  v056
+ BYTE   N11  An3  v072
+ BYTE   W12
+ BYTE   Fn3  v016
+ BYTE   N11  An3  v032
+ BYTE   W12
+//  #01 //002   ----------------------------------------
+ BYTE   Gn3  v064
+ BYTE   N11  Bn3  v068
+ BYTE   W12
+ BYTE   Gn3  v024
+ BYTE   N11  Bn3  v028
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v072
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v032
+ BYTE   W12
+ BYTE   Gn3  v072
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Gn3  v032
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v068
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v028
+ BYTE   W12
+//  #01 //003   ----------------------------------------
+ BYTE   Gn3  v068
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Gn3  v028
+ BYTE   N11  Bn3
+ BYTE   W12
+ BYTE   Fn3  v064
+ BYTE   N11  An3  v068
+ BYTE   W12
+ BYTE   Fn3  v024
+ BYTE   N11  An3  v028
+ BYTE   W12
+ BYTE   An3  v056
+ BYTE   N11  Cn4  v068
+ BYTE   W12
+ BYTE   An3  v016
+ BYTE   N11  Cn4  v028
+ BYTE   W12
+ BYTE   Gn3  v056
+ BYTE   N11  Bn3  v072
+ BYTE   W12
+ BYTE   Gn3  v016
+ BYTE   N11  Bn3  v032
+ BYTE   W12
+//  #01 //004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_561C5E
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+CuringFE7_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   CuringFE7_key+0
+Label_56183E:
+ BYTE   VOICE   49
+ BYTE   VOL   47*CuringFE7_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   TIE  Gn2  v080
+ BYTE   W96
+//  #02 //001   ----------------------------------------
+ BYTE   W92
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W01
+//  #02 //002   ----------------------------------------
+ BYTE   N92  Fn2
+ BYTE   W96
+//  #02 //003   ----------------------------------------
+ BYTE   N44  Bn2
+ BYTE   W48
+ BYTE   An2
+ BYTE   W48
+//  #02 //004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_56183E
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+CuringFE7_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   CuringFE7_key+0
+Label_56185E:
+ BYTE   VOICE   9
+ BYTE   VOL   32*CuringFE7_mvl/mxv
+ BYTE   PAN   c_v+21
+ BYTE   N05  Bn4  v076
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   Bn4
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+//  #03 //001   ----------------------------------------
+Label_561876:
+ BYTE   N05  Bn4  v076
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   Bn4
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   PEND 
+//  #03 //002   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_561876
+//  #03 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_561876
+//  #03 //004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_56185E
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+CuringFE7_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   CuringFE7_key+0
+Label_56189E:
+ BYTE   VOICE   9
+ BYTE   VOL   26*CuringFE7_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   W02
+ BYTE   N09  Bn4  v048
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   Bn4
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W10
+//  #04 //001   ----------------------------------------
+Label_5618B7:
+ BYTE   W02
+ BYTE   N09  Bn4  v048
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W12
+ BYTE   Bn4
+ BYTE   W12
+ BYTE   Dn5
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Cn5
+ BYTE   W10
+ BYTE   PEND 
+//  #04 //002   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5618B7
+//  #04 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5618B7
+//  #04 //004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_56189E
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+CuringFE7:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	CuringFE7_pri	// Priority
+	BYTE	CuringFE7_rev	// Reverb.
+    
+	POIN2	CuringFE7_grp
+    
+	POIN2	CuringFE7_001
+	POIN2	CuringFE7_002
+	POIN2	CuringFE7_003
+	POIN2	CuringFE7_004
+
+	

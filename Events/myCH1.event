@@ -289,6 +289,7 @@ Text(0x913)
 STAL 10
 MoveByCoords(60, 12, 19, 13, 7)
 ENUN
+MUSC 0x2E
 SetBackground(0x5)
 Text(0x914)
 EndConvo
@@ -334,7 +335,7 @@ GOTO 3
 LABEL 1
 CHECK_ALLEGIANCE Ernest
 BEQ 2 sC s0 // if Ernest is allied, jump to LABEL 2, otherwise keep reading
-Text(0x9F7) //alive but not allied
+Text(0x91D) //alive but not allied
 GOTO 3
 LABEL 2
 Text(0x937) //alive and allied

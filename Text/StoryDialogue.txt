@@ -367,7 +367,8 @@ these creeps we don't play![A][OpenMidRight][MoveMidRight][OpenMidLeft][ClearFac
 kind of energy...[....][A][X]
 
 # 0x091D
-xxxxxxxxxxx7[A][X]
+[OpenMidLeft][LoadFace][0x07][0x01][OpenMidRight][LoadFace][0x02][0x01]
+He's alive but not allied.[A][X]
 
 # 0x091E
 [OpenFarLeft][LoadFace][0x06][0x01][OpenMidLeft][LoadFace][0x04][0x01][OpenRight][LoadFace][0x05][0x01][OpenMidRight][LoadFace][0x02][0x01]
@@ -439,15 +440,15 @@ finished anyway.[A] It's not like[NL]
 I was drinking on the job.[A] I'm[NL]
 in top form! Now let's get to[NL]
 protectin'![A]
-[OpenMidRight]I wish Miss Daphne was here to[NL]
+[OpenMidRight][ToggleSmile]I wish Miss Daphne was here to[NL]
 give us a hand.[A] It'd m-make[NL]
 things a lot easier.[A]
-[OpenMidLeft]Who knows?[A] Maybe they had[NL]
+[OpenMidLeft][ToggleSmile]Who knows?[A] Maybe they had[NL]
 it easy finding that thing for the[NL]
 mayor.[A] If we see 'em, we should[NL]
 go ahead and give her the supplies[NL]
 we bought.[A] I'm not about to[NL]
-start swinging her lance around.[A][NL]
+start swinging her lance around.[A][OpenMidRight][ClearFace][OpenMidLeft][NL]
 Come on, Mirabella![A][X]
 
 # 0x0920
@@ -518,24 +519,12 @@ Give it a read some time.[NL]
 ~Love, Tchyrimi[A][X]
 
 # 0x0928
-You've received a rapier from Seth.[.][A][NL]
-All weapons have a [.][ToggleRed]durability[ToggleRed] rating.[NL]
-The rapier's durability is 40.[A][NL]
-Once the rapier has been used[.][NL]
-40 times, it will break.[A][NL]
-Pay close attention to how many uses[NL]
-your weapons have remaining.[A][X]
+[OpenMidRight][LoadFace][0x02][0x01][OpenMidRight]
+What the fuck are those!?[A][X]
 
 # 0x0929
-[OpenMidLeft][LoadFace][0x6A][0x01][OpenMidRight][LoadFace][0x2C][0x01][OpenMidLeft]Princess Tana! Grado's[NL]
-forces are approaching![.][A][OpenMidRight]What? So soon?[NL]
-Ah, we've had no time![A][OpenMidLeft]Milady, we lack the arms to defend this[.][NL]
-place. You must return to Castle Frelia.[A][OpenMidRight]I can't! Not yet. We haven't found[NL]
-Eirika and her companions yet.[A][NL]
-Eirika is my friend, and she needs[NL]
-my help. I won't abandon her.[.][A][NL]
-Oh, I know! Go and ask Father[.][ToggleMouthMove]--[ToggleMouthMove][NL]
-I mean King Hayden for more troops.[.][A][OpenMidLeft]Yes, Your Highness![.][A][OpenMidLeft][ClearFace][OpenMidRight]Eirika, please be safe.[.][A][CloseSpeechSlow][X]
+[OpenMidLeft][LoadFace][0x33][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]
+Sir, we made it![A][X]
 
 # 0x092A
 [OpenMidLeft][LoadFace][0x6B][0x01][OpenMidRight][LoadFace][0x31][0x01][OpenMidLeft]Commander Breguet, the enemy appears to[.][NL]
@@ -646,13 +635,13 @@ your plan all along?[A][NL]
 Dgh-[.....]Death to Ombala[ToggleMouthMove]...[....][A][CloseEyes][X]
 
 # 0x0937
-[OpenMidLeft][LoadFace][0x09][0x01][OpenRight][LoadFace][0x05][0x01][OpenFarFarRight][LoadFace][0x02][0x01]
+[OpenMidLeft][LoadFace][0x0F][0x01][OpenRight][LoadFace][0x05][0x01][OpenFarFarRight][LoadFace][0x02][0x01]
 [OpenRight]HES ALIVE and allied.[A]
 [OpenMidLeft][ToggleMouthMove]...[.][ToggleMouthMove]Eirika?!?[.][A][NL]
 Is that really you?[.][A][X]
 
 # 0x0938
-[OpenFarFarLeft][LoadFace][0x09][0x01][OpenRight][LoadFace][0x02][0x01][OpenFarFarLeft][MoveMidLeft][OpenMidLeft]HES DEAD or not here![.][A][X]
+[OpenFarFarLeft][LoadFace][0x0F][0x01][OpenRight][LoadFace][0x02][0x01][OpenFarFarLeft][MoveMidLeft][OpenMidLeft]HES DEAD or not here![.][A][X]
 
 # 0x0939
 [OpenMidLeft][LoadFace][0x05][0x01][OpenMidRight][LoadFace][0x02][0x01][OpenMidLeft]There's the guy from before![A][X]
@@ -716,7 +705,7 @@ Stay out of this![A][X]
 [OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]enemy spotted![A][X]
 
 # 0x0942
-[OpenMidLeft][LoadFace][0x6C][0x01][OpenMidRight][LoadFace][0x0F][0x01][OpenMidLeft]time to go fight[A][OpenMidRight]YYYAAA!![A][X]
+[OpenMidLeft][LoadFace][0x6C][0x01][OpenMidRight][LoadFace][0x09][0x01][OpenMidLeft]time to go fight[A][OpenMidRight]YYYAAA!![A][X]
 
 # 0x0943
 [OpenMidRight][LoadFace][0x6B][0x01][OpenMidRight]that guy died[A]
@@ -748,10 +737,10 @@ Come on out everyone![A][X]
 sexy wife[A][X]
 
 # 0x094A
-[OpenMidLeft][LoadFace][0x0F][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidLeft]sorry, but I need to be free[A][X]
+[OpenMidLeft][LoadFace][0x09][0x01][OpenMidRight][LoadFace][0x6B][0x01][OpenMidLeft]sorry, but I need to be free[A][X]
 
 # 0x094B
-[OpenMidRight][LoadFace][0x0F][0x01][OpenMidRight]I am not going to move[A][NL]
+[OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]I am not going to move[A][NL]
 just defend myself[A][X]
 
 # 0x094C
@@ -762,14 +751,15 @@ Both of us have Supply access.[A]
 [X]
 
 # 0x094D
-[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x0F][0x01][OpenMidLeft]Join us.[A]
+[OpenMidLeft][LoadFace][0x02][0x01][OpenMidRight][LoadFace][0x09][0x01][OpenMidLeft]
+Join us.[A][NL]
 Don't worry, we'll protect you.[A][X]
 
 # 0x094E
 [OpenMidLeft][LoadFace][0xFF][0xFF][OpenMidRight][LoadFace][0x61][0x01][OpenMidRight]I have something to say.[A][X]
 
 # 0x094F
-[OpenMidRight][LoadFace][0x38][0x01]
+[OpenMidRight][LoadFace][0x33][0x01]
 [OpenMidRight]If I see that sword dude imma kill[NL]
 him.[A] Might as well just sit here.[A][X]
 

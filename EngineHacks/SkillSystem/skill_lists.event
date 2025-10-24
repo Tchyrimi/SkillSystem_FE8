@@ -211,6 +211,16 @@ ManaketeMSkillList:
 BYTE 00 00
 ALIGN 4
 
+BaelSkillList:
+BYTE 255 FlankID
+BYTE 00 00
+ALIGN 4 
+
+ElderBaelSkillList:
+BYTE 255 FlankID
+BYTE 00 00
+ALIGN 4 
+
 DemonKingSkillList:
 BYTE 00 00
 ALIGN 4
