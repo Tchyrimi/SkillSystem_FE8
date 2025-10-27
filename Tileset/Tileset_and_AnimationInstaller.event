@@ -5,7 +5,12 @@ ALIGN 4
 FortExpansion:
 #incext compress "NewPurpFort.mapchip_config"
 
+ALIGN 4
+NightFortRecolor:
+#incext Png2Dmp --palette-only "NightPurpleFortPalette.png" 
+
 EventPointerTable(0x3E, FortExpansion)
+EventPointerTable(0x3D, NightFortRecolor)
 
 ALIGN 4
 NewMtnObjects:

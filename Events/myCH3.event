@@ -25,6 +25,7 @@ CharacterEvent(07,RecruitOlena,Daphne,Olena)
 END_MAIN
 
 Ch3LocationBasedEvents:
+Stairs(01, 24, 4, 25, 20)
 Seize(20,20)
 Chest(Mend,18,3)
 ChestMoney(1200,20,3)

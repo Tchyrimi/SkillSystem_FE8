@@ -10,7 +10,7 @@ ALIGN 4
 ArturoPortrait:
 #incext PortraitFormatter "Arturo.png"
 
-setMugEntry(0x5,OctaviaPortrait,4,5,4,3) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
+setMugEntry(0x5,OctaviaPortrait,4,6,4,4) //portrait slot, pointer or label to portrait, mouth x, mouth y, eye x, eye y
 
 ALIGN 4
 OctaviaPortrait:

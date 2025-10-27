@@ -242,6 +242,7 @@ POP
   #include "ExternalHacks/ASMCs/UNCMv2/UNCMv2Installer.event"
   #include "ExternalHacks/ASMCs/SetStatus/Installer.event"
   #include "ExternalHacks/ASMCs/UseItemEffect/Installer.event"
+  #include "ExternalHacks/ModularSummon/Installer.event"
   #include "QualityOfLife/ModularMinimugBox/Installers/MMBInstallerCatball_1.event"
   #include "QualityOfLife/FE8New_CHAI/New_CHAI.event"
   #include "QualityOfLife/FE8ShowHealAmount/ShowHealAmountFE8.event"

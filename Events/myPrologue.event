@@ -49,7 +49,7 @@ ALIGN 4
 
 StartingCutsceneUnits:
 UNIT Daphne LanceMerc Daphne Level(3,Ally,False) [4,13] 0x0 0x0 0x0 0x0 [IronLance] NoAI
-UNIT Arturo Mender Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+UNIT Arturo Mender Daphne Level(3,Ally,False) [13,3] 0x0 0x0 0x0 0x0 [Heal,Unlock,Vulnerary] NoAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [13,11] 0x0 0x0 0x0 0x0 [Gust] NoAI
 UNIT Li Brawler Daphne Level(2,Ally,False) [6,14] 0x0 0x0 0x0 0x0 [IronAxe,RushdownBlow] NoAI
 UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [4,5] 0x0 0x0 0x0 0x0 [IronLance,IronSword] NoAI
@@ -58,7 +58,7 @@ UNIT Cutthroat FallenPrince Morris Level(1,Enemy,False) [5,16] 0x0 0x0 0x0 0x0 [
 UNIT
 
 ActualPlayerUnits:
-UNIT Arturo Mender Daphne Level(3,Ally,False) [0,13] 0x0 0x0 1 ArturoREDA [Heal,Vulnerary] NoAI
+UNIT Arturo Mender Daphne Level(3,Ally,False) [0,13] 0x0 0x0 1 ArturoREDA [Heal,Unlock,Vulnerary] NoAI
 UNIT Badguy Archer Morris Level(1,Enemy,True) [15,10] 0x0 0x0 0x1 Archer1REDA [IronBow] GroupThreeAI
 UNIT Badguy Brigand Morris Level(1,Enemy,True) [2,2] 0x0 0x0 0x1 Brig1REDA [IronAxe] GroupOneAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [0,12] 0x0 0x0 1 OctaviaREDA [Gust] NoAI
@@ -89,8 +89,8 @@ UNIT Badguy Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [St
 UNIT
 
 BensonCrew:
-UNIT Badguy Mage Morris Level(11,Enemy,True) [7,16] 0x0 0x0 0x1 REDA9R16 [Elfire] [0x00,0x00,0x04,0x00]
-UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow] [0x00,0x00,0x04,0x00]
+UNIT Badguy Mage Morris Level(11,Enemy,True) [6,16] 0x0 0x0 0x1 REDA9R16 [Elfire] [0x00,0x00,0x04,0x00]
+UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow,GoddessIcon] [0x00,0x00,0x04,0x00]
 UNIT
 
 MysteryFigure:

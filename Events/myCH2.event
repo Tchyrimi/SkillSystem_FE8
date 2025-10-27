@@ -18,8 +18,8 @@ POIN Ch2BeginningScene Ch2EndingScene
 
 Ch2TurnBasedEvents:
 TurnEventPlayer(07,LoadMiniboss,2)
-TurnEventPlayer(11,OutsideReinforcements,3)
-TurnEventPlayer(12,OtherOutsideReinforcements,4)
+TurnEventPlayer(11,OutsideReinforcements,4)
+TurnEventPlayer(12,OtherOutsideReinforcements,5)
 TurnEventPlayer(13,MonsterReinforcements,6)
 END_MAIN
 ALIGN 32 //For some reason, Ch2CharacterBasedEvents have to be 32-Aligned?
@@ -69,13 +69,13 @@ UNIT Li Brawler Daphne Level(1,Ally,False) [11,31] 0x0 0x0 0x0 0x0 [IronAxe] NoA
 UNIT
 
 SecondCutsceneEnemyUnits:
-UNIT Invicil Mage Invicil Level(8,Enemy,False) [6,19] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [5,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [7,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [7,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [6,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Invicil Mage Invicil Level(8,Enemy,False) [5,19] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [4,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(10,Enemy,True) [6,20] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [4,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [6,18] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [5,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [7,17] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
 UNIT
 
 SecondCutsceneBardolph:
@@ -89,9 +89,10 @@ UNIT Saboteurs2 Mage Invicil Level(8,Enemy,True) [19,10] 0x0 0x0 0x1 REDA19R9 [T
 UNIT Saboteurs2 Mage Invicil Level(8,Enemy,True) [9,11] 0x0 0x0 0x1 REDA11R12 [Fire] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs1 Cavalier Invicil Level(7,Enemy,True) [0,10] 0x0 0x0 0x1 REDA0R12 [SteelLance,Armorslayer] [0x00,0x03,0x04,0x00]
 UNIT Saboteurs2 Archer_F Invicil Level(6,Enemy,True) [1,6] 0x0 0x0 0x1 REDA0R6 [IronBow] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Archer Invicil Level(6,Enemy,True) [1,6] 0x0 0x0 0x1 REDA2R5 [IronBow] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Fighter Invicil Level(8,Enemy,True) [17,6] 0x0 0x0 0x0 0x0 [IronAxe] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs2 Myrmidon Invicil Level(6,Enemy,True) [11,8] 0x0 0x0 0x1 REDA9R7 [IronSword] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs2 Fighter Invicil Level(6,Enemy,True) [1,6] 0x0 0x0 0x1 REDA2R7 [IronAxe] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Myrmidon Invicil Level(6,Enemy,True) [10,8] 0x0 0x0 0x1 REDA9R7 [IronSword] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs2 Fighter Invicil Level(6,Enemy,True) [10,6] 0x0 0x0 0x1 REDA9R5 [IronAxe] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Mercenary Invicil Level(6,Enemy,True) [16,6] 0x0 0x0 0x1 REDA14R8 [IronSword] [0x00,0x00,0x04,0x00]
 UNIT Saboteurs2 Archer Invicil Level(5,Enemy,True) [19,1] 0x0 0x0 0x1 REDA19R0 [IronLongbow] [0x00,0x03,0x04,0x00]
 UNIT
@@ -127,21 +128,21 @@ UNIT Ernest Knight Daphne Level(1,Ally,False) [6,32] 0x0 0x0 0x1 REDA5R27 [IronL
 UNIT
 
 Cutscene3EnemyUnits:
-UNIT Invicil Mage Invicil Level(8,Enemy,False) [6,5] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(11,Enemy,True) [5,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Knight Invicil Level(11,Enemy,True) [7,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
-UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [5,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs3 Mage Invicil Level(6,Enemy,True) [7,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(6,Enemy,True) [6,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
-UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [8,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Invicil Mage Invicil Level(8,Enemy,False) [5,5] DropItem 0x0 0x0 0x0 [Fire,SecretBook] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(11,Enemy,True) [4,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Knight Invicil Level(11,Enemy,True) [6,6] 0x0 0x0 0x0 0x0 [IronLance] [0x03,0x03,0x04,0x20]
+UNIT Saboteurs4 Mage Invicil Level(5,Enemy,True) [4,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs3 Mage Invicil Level(6,Enemy,True) [6,4] 0x0 0x0 0x0 0x0 [Fire] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(6,Enemy,True) [5,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
+UNIT Saboteurs4 Soldier Invicil Level(5,Enemy,True) [7,3] 0x0 0x0 0x0 0x0 [IronLance] [0x00,0x00,0x04,0x00]
 UNIT
 
 NPCBardolph:
-UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [6,8] 0x0 0x0 0x0 0x0 [HandAxe,SilverAxe,Vulnerary] [0x03,0x03,0x02,0x20]
+UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [5,8] 0x0 0x0 0x0 0x0 [HandAxe,SilverAxe,Vulnerary] [0x03,0x03,0x02,0x20]
 UNIT
 
 PlayerParty:
-UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [6,7] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Daphne LanceMerc Daphne Level(1,Ally,False) [5,7] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT Arturo Mender Daphne Level(1,Ally,False) [7,13] 0x0 0x0 0x0 0x0 [Heal] NoAI
 UNIT Octavia Conduit Daphne Level(1,Ally,False) [7,12] 0x0 0x0 0x0 0x0 [Fire] NoAI
 UNIT Li Brawler Daphne Level(1,Ally,False) [5,12] 0x0 0x0 0x0 0x0 [IronAxe] NoAI
@@ -305,8 +306,8 @@ Text(0x93A)
 STAL 20
 MOVE 60 ShadowFigure [6,15]
 ENUN
-MOVE 0xFFFF ShadowFigure [6,22]
-ENUN //command to instantly move to [6,22]
+MOVE 0xFFFF ShadowFigure [5,22]
+ENUN //command to instantly move to [5,22]
 LOAD1 1 SecondCutsceneEnemyUnits
 ENUN
 STAL 5
@@ -345,7 +346,7 @@ CUMO Daphne
 STAL 60
 CURE
 Text(0x93E)
-MOVE 60 Daphne [6,21]
+MOVE 60 Daphne [5,21]
 ENUN
 FADI 16
 SOUN 0xD3
@@ -440,8 +441,8 @@ FADU 20
 MUSC 0x26
 STAL 30
 Text(0x945) 
-MOVE 60 ShadowFigure [8,9]
-MOVE 60 Daphne [7,9]
+MOVE 60 ShadowFigure [7,9]
+MOVE 60 Daphne [6,9]
 LOAD1 1 EnemiesInHiding
 ENUN
 CAM1 Octavia
@@ -453,26 +454,25 @@ EVBIT_T 9
 MOVE 60 Invicil [0,3]
 ENUN
 EVBIT_F 9
-MOVE 60 Arturo [6,9]
+MOVE 60 Arturo [5,9]
 GLOWINGCROSS Invicil
-STAL 5
-GLOWINGCROSS_END
+STAL 10
 //still need to find out how to make a unit play their map select animation, then put that here instead of this brokeass fix
 FAWI 16
 //ASMC 0x80790A5
 //warping commands for the knights
 STAL 10
-MoveByCoords(0xFFFF, 5, 6, 5, 11)
+MoveByCoords(0xFFFF, 4, 6, 5, 11)
 ENUN
-MoveByCoords(0xFFFF, 7, 6, 6, 11)
+MoveByCoords(0xFFFF, 6, 6, 6, 11)
 ENUN
 FAWU 10
-MoveByCoords(60, 5, 4, 4, 4)
-ENUN
+STAL 10
+GLOWINGCROSS_END
 CAM1 [15,12]
-MoveByCoords(60, 7, 4, 10, 2)
+MoveByCoords(60, 6, 4, 10, 2)
 MoveByCoords(60, 6, 3, 5, 6)
-MoveByCoords(60, 8, 3, 16, 2)
+MoveByCoords(60, 7, 3, 16, 2)
 MOVE 60 Octavia [14,11]
 MOVE 60 Li [13,11]
 MOVE 60 Alto [14,12]
@@ -497,14 +497,16 @@ StartBattle
 CriticalHit(0,30)
 EndAttack
 FIGHT_MAP Gen Saboteurs3 IronSword 0
-KillByCoords(10,2)
+SVAL sB 0x0002000A
+KILL 0xFFFE
+SVAL sB 0x0002000A
+AWAIT_KILL 0xFFFE
 STAL 30
-MOVE 60 Gen [14,6]
+MOVE 60 Gen [13,5]
 ENUN
 SetUnitStatus(Gen, Skill, 8)
 Text(0x94B)
 STAL 10
-KillByCoords(10,2)
 //also double check all the dead units actually don't get loaded when skipping events
 NoFade
 ENDA

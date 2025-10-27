@@ -1,5 +1,4 @@
 
-//#define RealTrap Lucius
 
 #ifdef _FE7_
 #define Ballista(XX,YY) "BLST 0x34 [XX,YY]"

@@ -1,0 +1,43 @@
+//#include "Extensions/Hack Installation.txt"
+
+PUSH
+ORG 0x2C534
+gotoHack(expRoutine)
+PROTECT $2c534 $2c534+7
+
+ORG $2B9F4
+jumpToHack(CanGainExpVesly) 
+PROTECT $2b9f4 $2b9f4+7
+POP
+
+ALIGN 4
+expRoutine:
+#include "Fates Exp Approximation.lyn.event" 
+// #incbin "Fates EXP Approximation.dmp"
+
+
+ALIGN 4 
+PUSH ; ORG CurrentOffset+1; 
+CanGainExpVesly: ; POP 
+#include "CanGainExpVesly.lyn.event" 
+
+ALIGN 4 
+maxLevelTableHard:
+BYTE 14 // Boulderbadge 
+BYTE 20
+BYTE 28
+BYTE 35 
+BYTE 40
+BYTE 45 
+BYTE 50 
+BYTE 55  
+BYTE 100 
+
+
+
+
+ALIGN 4 
+BadgeFlagLink:
+BYTE BoulderbadgeObtained CascadebadgeObtained ThunderbadgeObtained SoulbadgeObtained RainbowbadgeObtained MarshbadgeObtained VolcanobadgeObtained EarthbadgeObtained
+
+

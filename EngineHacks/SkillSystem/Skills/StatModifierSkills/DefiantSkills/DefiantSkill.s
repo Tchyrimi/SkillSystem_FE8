@@ -15,9 +15,9 @@ push {r4-r6, lr}
 mov r4, r0 @stat
 mov r5, r1 @unit
 
-ldrb r0,[r5,#0x12]
-ldrb r1,[r5,#0x13]
-lsl r1,r1,#2
+ldrb r0,[r5,#0x12] @stores max hp
+ldrb r1,[r5,#0x13] @stores current hp
+lsl r1,r1,#1
 cmp r1,r0
 bgt GoBack
 

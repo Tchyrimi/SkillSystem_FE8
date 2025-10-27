@@ -1,6 +1,6 @@
 
 ## SD_Savior
-Savior: Can rescue[N]
+Savior: Can carry[N]
 without penalties.[X]
 
 ## SD_Adept
@@ -958,7 +958,7 @@ Defiant Str: When HP is 25%[N]
 or lower, gain +4 Strength.[X]
 
 ## SD_DefiantMag
-Defiant Mag: When HP is 25%[N]
+Defiant Mag: When HP is 50%[N]
 or lower, gain +4 Magic.[X]
 
 ## SD_DefiantSkl
