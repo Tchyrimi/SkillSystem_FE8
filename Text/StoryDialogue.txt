@@ -356,7 +356,7 @@ Hurry![A][X]
 
 # 0x091C
 [OpenMidLeft][LoadFace][0x07][0x01][OpenMidRight][LoadFace][0x02][0x01]Alto![A]
-[OpenMidLeft]Boss![A] Good to see you in one[NL]
+[OpenMidLeft][ToggleSmile]Boss![A] Good to see you in one[NL]
 piece.[A] How'd the hunt go?[A]
 [OpenMidRight]Awful, but we can catch up later.[A][NL]
 Did you get my lance fixed?[A]
@@ -462,7 +462,7 @@ with mercenaries, no siree![A][NL]
 I'm outta here![A][X]
 
 # 0x0921
-[OpenMidRight][LoadFace][0x02][0x01][OpenFarFarLeft][LoadFace][0x08][0x01][MoveFarLeft][OpenFarLeft][MoveLeft]
+[OpenMidRight][LoadFace][0x02][0x01][OpenFarFarLeft][LoadFace][0x08][0x01][ToggleSmile][MoveFarLeft][OpenFarLeft][MoveLeft]
 [OpenLeft]Boss boss boss!![A][OpenMidRight][MoveMidRight]
 [OpenMidRight]Heyyy, Kan![A] Glad to see you[NL]
 boys safe.[A] Did you guys[NL]
@@ -499,11 +499,9 @@ discussion.[A][X]
 [OpenFarFarRight][LoadFace][0x50][0x01][OpenFarFarRight]they'd probably be holed up in...[A][X]
 
 # 0x0925
-[OpenMidLeft][LoadFace][0x04][0x01][OpenFarRight][LoadFace][0x09][0x01][OpenMidLeft]
+[OpenMidLeft][LoadFace][0x08][0x01][OpenFarRight][LoadFace][0x09][0x01][OpenMidLeft]
 Now I am recruiting you.[A]
-The Ombalan military must be[NL]
-doing worse to recruit someone[NL]
-so emaciated.[A][OpenFarRight]
+[OpenFarRight]
 I'm no soldier. I'm an escaped[NL]
 slave, and I'm not going back![A][X]
 
@@ -533,11 +531,8 @@ What the fuck are those!?[A][X]
 Sir, we made it![A][X]
 
 # 0x092A
-[OpenMidLeft][LoadFace][0x6B][0x01][OpenMidRight][LoadFace][0x31][0x01][OpenMidLeft]Commander Breguet, the enemy appears to[.][NL]
-be fortifying its position in the castle.[.][A][OpenMidRight]Hmph.[.][A][NL]
-They're tenacious, but they have[NL]
-no hope of stopping our advance.[A][OpenMidLeft]What are your orders, sir?[A][OpenMidRight]Ha! Orders? You just stand here and[.][NL]
-watch. I'll crush them myself![A][OpenMidLeft]As you command, sir.[A][CloseSpeechSlow][X]
+[OpenMidLeft][LoadFace][0x33][0x01]I found you![.][A][ClearFace]
+[OpenMidRight][LoadFace][0x09][0x01]I'm not going back![A][X]
 
 # 0x092B
 [OpenMidLeft][LoadFace][0x31][0x01][OpenMidLeft]Ha! That's what happens[.][NL]
@@ -632,7 +627,14 @@ Let me give it to you.[A][X]
 # 0x0935
 [OpenMidLeft][LoadFace][0x31][0x01]
 [OpenMidLeft]So you're the group[NL]
-we're looking for![A][X]
+we're looking for![A][NL]
+You must posess some[NL]
+passable skill[A] to get[NL]
+him this worried about[NL]
+a third party.[A] Shame[NL]
+I have to cut your lives[NL]
+short,[A] but business is[NL]
+business, ha![A][X]
 
 # 0x0936
 [OpenMidLeft][LoadFace][0x31][0x01]

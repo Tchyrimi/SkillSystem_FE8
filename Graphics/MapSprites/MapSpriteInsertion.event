@@ -20,6 +20,14 @@ ALIGN 4
 BetaMercStanding:
 #incext Png2Dmp "sms/BetaMercStanding(IS).png" --lz77
 
+ALIGN 4
+FireMageStanding:
+#incext Png2Dmp "sms/Mage(M)Beret(Leif)stand.png" --lz77
+
+ALIGN 4
+WindMageStanding:
+#incext Png2Dmp "sms/Mage(M)Hatless(Pikmin)stand.png" --lz77
+
 // mms/
 
 ALIGN 4
@@ -41,3 +49,11 @@ ConduitMoving:
 ALIGN 4
 BetaMercMoving:
 #incext Png2Dmp "mms/BetaMercMoving(IS).png" --lz77
+
+ALIGN 4
+FireMageMoving:
+#incext Png2Dmp "mms/Mage(M)Beret(Leif)walk.png" --lz77
+
+ALIGN 4
+WindMageMoving:
+#incext Png2Dmp "mms/Mage(M)Hatless(Pikmin)walk.png" --lz77

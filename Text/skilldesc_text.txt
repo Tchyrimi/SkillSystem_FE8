@@ -124,7 +124,7 @@ Darting Blow: +5 Attack Speed[N]
 when initiating battle.[X]
 
 ## SD_WardingBlow
-Warding Blow: +4 Res[N]
+Warding Blow: +6 Res[N]
 when initiating battle.[X]
 
 ## SD_CertainBlow
@@ -959,7 +959,7 @@ or lower, gain +4 Strength.[X]
 
 ## SD_DefiantMag
 Defiant Mag: When HP is 50%[N]
-or lower, gain +4 Magic.[X]
+or lower, gain +6 Magic.[X]
 
 ## SD_DefiantSkl
 Defiant Skl: When HP is 25%[N]

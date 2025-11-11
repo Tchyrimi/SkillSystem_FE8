@@ -33,7 +33,7 @@
 //#define Duessel 0x1D
 //#define Myrrh 0x1E
 //#define Knoll 0x1F
-//#define Joshua 0x20
+#define ShadowFigure 0x20
 //#define Syrene 0x21
 //#define Tana 0x22
 //#define LyonCC 0x23
@@ -81,7 +81,7 @@
 //#define Deathgoyle_boss 0x5E
 #define Cutthroat 0x66
 #define Morris 0x68
-#define ShadowFigure 0x69
+//#define Glen 0x69
 #define Benson 0x6A
 //#define Vigarde 0x6B
 //#define Lyon_Final 0x6C
@@ -126,6 +126,10 @@
 #define Mender 0x82
 #define Conduit 0x83
 #define Vagabond 0x84
+#define FireMage 0x85
+#define FireMage_F 0x86
+#define WindMage 0x87
+#define WindMage_F 0x88
 //#define EphraimLord 0x01
 //#define EirikaLord 0x02
 //#define EphraimMasterLord 0x03
@@ -162,8 +166,8 @@
 //#define WyvernLord_F 0x22
 //#define WyvernKnight 0x23
 //#define WyvernKnight_F 0x24
-//#define Mage 0x25
-//#define Mage_F 0x26
+#define ThunderMage 0x25
+#define ThunderMage_F 0x26
 //#define Sage 0x27
 //#define Sage_F 0x28
 //#define MageKnight 0x29

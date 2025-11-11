@@ -131,3 +131,7 @@ Brawler,BrawlerMoving|IsPointer,0x81c3d7c
 Mender,MenderMoving|IsPointer,0x81c3d7c
 Conduit,ConduitMoving|IsPointer,0x81c3d7c
 Vagabond,BetaMercMoving|IsPointer,0x81c3d7c
+FireMage,FireMageMoving|IsPointer,0x81d8668
+FireMage_F,0x81e189c,0x81e2088
+WindMage,WindMageMoving|IsPointer,0x81d8668
+WindMage_F,0x81e189c,0x81e2088

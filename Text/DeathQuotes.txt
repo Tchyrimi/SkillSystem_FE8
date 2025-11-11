@@ -29,7 +29,7 @@ Not-...[....][CloseEyes] not now...[....][A][X]
 [ToggleMouthMove][....] Alto?[ToggleMouthMove][A][CloseEyes][X]
 
 # 0x0C2A
-[ToggleSmile][OpenMidRight][LoadFace][0x0E][0x01][OpenMidRight]I have no regrets.[NL]
+[ToggleSmile][OpenMidRight][LoadFace][0x09][0x01][OpenMidRight]I have no regrets.[NL]
 This was always my fate.[A][OpenMidRight][CloseEyes][X]
 
 # 0x0C2B

@@ -2596,10 +2596,14 @@ their lesser brethren in speed and brutality.[.][X]
 Meanwhile...[X]
 
 # 0x0736
-Build or edit a multiplayer team.[.][X]
+Mages who have specialized[NL]
+in taming dame flame. Average[NL]
+in all but collateral damage.[.][X]
 
 # 0x0737
-Battle the computer.[X]
+Weak, yet nimble casters who[NL]
+have broken wind, weaponizing[NL]
+it to further their own aims.[.][X]
 
 # 0x0738
 Set team [.]no. with + Control Pad.[X]

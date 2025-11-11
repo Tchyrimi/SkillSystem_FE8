@@ -757,7 +757,7 @@ A stone imbued with mysterious might.[.][NL]
 Myrrh draws strength from it.[.][X]
 
 # 0x0449
-DUMMY[.][X]
+Fire Mage[.][X]
 
 # 0x044A
 A malefic flash that destroys[.][NL]
@@ -1318,5 +1318,5 @@ when he's ready.[X]
 # 0x04E3
 Use this, and...[X]
 
-# 0x04E4
-Dummy[.][X]
+# 0x04E4 *
+Wind Mage[.][X]

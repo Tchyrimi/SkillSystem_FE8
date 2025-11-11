@@ -91,7 +91,7 @@ ldr r0, =0x203a4ec
 @testing
 add r0, #0x5c @attacker defense
 ldrh r3, [r0]
-add r3, #4
+add r3, #6 @boost attacker res by 6
 strh r3, [r0]
 
 b       SkillReturn

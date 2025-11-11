@@ -124,7 +124,10 @@ SHORT $46c0
   ORG $794ee
   SHORT 0
 
-  
+//Stop system from auto setting Rout flag when all enemies are defeated
+  ORG $83ED6
+  BYTE 0x1F 0xE0
+
 //Skip Nintendo logo
   ORG $CBDE2
   BYTE 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00

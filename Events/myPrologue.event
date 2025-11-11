@@ -74,7 +74,7 @@ UNIT Badguy Mercenary Morris Level(1,Enemy,True) [6,0] 0x0 0x0 0x0 0x0 [IronSwor
 UNIT Badguy Myrmidon_F Morris Level(1,Enemy,True) [13,2] 0x0 0x0 0x0 0x0 [IronSword] GroupThreeAI
 UNIT Badguy Soldier Morris Level(1,Enemy,True) [9,1] 0x0 0x0 0x0 0x0 [IronLance] GroupThreeAI
 UNIT Badguy Brigand Morris Level(1,Enemy,True) [10,2] 0x0 0x0 0x0 0x0 [IronAxe] GroupTwoAI
-UNIT Badguy Mage Morris Level(2,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Thunder] GroupTwoAI
+UNIT Badguy ThunderMage Morris Level(2,Enemy,True) [12,3] 0x0 0x0 0x0 0x0 [Thunder] GroupTwoAI
 UNIT Badguy Archer_F Morris Level(2,Enemy,True) [0,0] 0x0 0x0 0x0 0x0 [IronBow] GroupOneAI
 UNIT Badguy Soldier Morris Level(2,Enemy,True) [11,7] 0x0 0x0 0x0 0x0 [IronLance] GroupTwoAI
 UNIT
@@ -89,13 +89,18 @@ UNIT Badguy Brigand Morris Level(6,Enemy,True) [15,13] 0x0 0x0 0x1 REDA15R10 [St
 UNIT
 
 BensonCrew:
-UNIT Badguy Mage Morris Level(11,Enemy,True) [6,16] 0x0 0x0 0x1 REDA9R16 [Elfire] [0x00,0x00,0x04,0x00]
+UNIT Badguy FireMage Morris Level(11,Enemy,True) [6,16] 0x0 0x0 0x1 REDA9R16 [Elfire] [0x00,0x00,0x04,0x00]
 UNIT Benson Sniper Morris Level(4,Enemy,False) [1,16] 0x0 0x0 0x1 REDA0R16 [SteelBow,GoddessIcon] [0x00,0x00,0x04,0x00]
 UNIT
 
 MysteryFigure:
 UNIT ShadowFigure Warrior ShadowFigure Level(1,NPC,False) [15,4] 0x0 0x0 0x1 BardolphREDA [SilverAxe] [0x03,0x03,0x04,0x20]
 UNIT
+
+//TestMages:
+//UNIT Badguy FireMage Morris Level(1,Ally,False) [8,9] 0x0 0x0 0x0 0x0 [Fire] NoAI
+//UNIT Saboteurs2 WindMage Morris Level(1,Ally,False) [9,9] 0x0 0x0 0x0 0x0 [Gust] NoAI
+//UNIT
 
 DaphneREDA:
 REDA [7,11] 0x0 0x0 0x0 0x0
@@ -322,6 +327,8 @@ TEXTSHOW 0x927
 TEXTEND
 REMA
 STAL 10
+//LOAD1 1 TestMages
+//ENUN
 ENUF $11
 ENDA
 

@@ -252,6 +252,7 @@ POP
   #include "addlucktohitrate.txt"
   #include "minimumcritedit.txt"
   #include "VulneraryHealChange.event"
+  #include "SupportGainRange.event"
 
   // Save/Suspend Expansion
     #include "Necessary/ExpandedModularSave/ExModularSave.event"

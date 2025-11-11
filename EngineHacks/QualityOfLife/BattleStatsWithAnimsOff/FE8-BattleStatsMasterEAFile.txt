@@ -5,10 +5,10 @@
 	
 	#include "Extensions/Hack Installation.txt"
 	
-	#ifndef Free_Space
-		#define Free_Space 0xB2B000
-		ORG Free_Space
-	#endif
+	//#ifndef Free_Space
+	//	#define Free_Space 0xB2B000
+	//	ORG Free_Space
+	//#endif
 	
 	PUSH
 	
@@ -42,8 +42,8 @@
 	
 	ALIGN 4
 	New_Battle_Anims_Off_Graphics:
-	//#incext Png2Dmp "Anims_Off_Battle_Graphic New.png" --lz77
-	#incbin "Anims_Off_Battle_Graphic New.dmp"
+	//#incext Png2Dmp "Anims_Off_Battle_Graphic-New.png" --lz77
+	#incbin "Anims_Off_Battle_Graphic-New.dmp"
 	
 	ALIGN 4
 	New_Battle_Anims_Off_Right_TSA:

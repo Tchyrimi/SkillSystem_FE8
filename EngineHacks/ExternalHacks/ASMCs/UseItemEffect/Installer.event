@@ -41,10 +41,10 @@ POIN FireAnime
 //傷薬を使ったエフェクトでHPを回復する (実際には、傷薬と同じ砦の回復モーションを呼び出します)
 //s1 Unit
 //s6 HealValue
-ALIGN 4
-ASMC_HealLikeVulnerary:
-#incbin "ASMC_HealLikeVulnerary.dmp"
-POIN WaitForMotionEndProc
+//ALIGN 4
+//ASMC_HealLikeVulnerary:
+//#incbin "ASMC_HealLikeVulnerary.dmp"
+//POIN WaitForMotionEndProc
 
 #define UseVulnerary(UnitID) "SVAL 1 UnitID; ASMC ASMC_HealLikeVulnerary|1;" 
 #define UseVulnerary(UnitID, HealValue) "SVAL 1 UnitID; SVAL 6 HealValue; ASMC ASMC_HealLikeVulnerary|1;" 
@@ -73,10 +73,10 @@ POIN WaitForMotionEndProc
 //ダメージに0xFFを指定すると、HP1で踏みとどまります。
 //s1 Unit
 //s6 DamageValue
-ALIGN 4
-ASMC_SelfDamageLikeBomb:
-#incbin "ASMC_SelfDamageLikeBomb.dmp"
-POIN WaitForMotionEndProc
+//ALIGN 4
+//ASMC_SelfDamageLikeBomb:
+//#incbin "ASMC_SelfDamageLikeBomb.dmp"
+//POIN WaitForMotionEndProc
 
 #define SelfDamageLikeBomb(UnitID, DamageValue) "SVAL 1 UnitID; SVAL 6 DamageValue; ASMC ASMC_SelfDamageLikeBomb|1;" 
 
@@ -92,20 +92,20 @@ ASMC_HealBadStatusLikeBoon:
 
 //Wait until the end of a particular motion.
 //Procs->0x2C  WaitProcs
-ALIGN 4
-WaitForMotionEnd:
-#incbin "WaitForMotionEnd.dmp"
+//ALIGN 4
+//WaitForMotionEnd:
+//#incbin "WaitForMotionEnd.dmp"
 
 #include "ProcDefinitions.event"
-ALIGN 4
-WaitForMotionEndProc:	//HINT=PROCS
-PROC_SET_NAME(WaitForMotionEndName)
-PROC_LOOP_ROUTINE(WaitForMotionEnd|1)
-PROC_END
+//ALIGN 4
+//WaitForMotionEndProc:	//HINT=PROCS
+//PROC_SET_NAME(WaitForMotionEndName)
+//PROC_LOOP_ROUTINE(WaitForMotionEnd|1)
+//PROC_END
 
-ALIGN 4
-WaitForMotionEndName:
-String(WaitForMotionEnd);	BYTE 0x0
+//ALIGN 4
+//WaitForMotionEndName:
+//String(WaitForMotionEnd);	BYTE 0x0
 
 //指定したアイテムアニメーションを実行する汎用関数
 //アニメーションを実行するだけで、補正とかをするわけではない

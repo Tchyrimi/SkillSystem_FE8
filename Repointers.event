@@ -9,7 +9,15 @@
 //0x807110 vanilla class table offset
 #define ClassAnimTable NewClassAnimTable
 //0xC00008 vanilla ClassAnimTable offset
+#define BattleQuoteTable NewBattleQuoteTable
+//0x9EC6BC vanilla battle quote table offset
+#define SupportPointerTable NewSupportPointerTable
+//0x8aebac vanilla SupportPointerTable offset
+
 PUSH
+
+ORG $803D90
+POIN SupportPointerTable
 
 ORG $16410
 POIN ItemTable
@@ -246,8 +254,8 @@ POIN MovingMapSpriteTable
 //ORG $8472C
 //POIN DeathQuoteTable
 
-//ORG $846AC
-//POIN BattleQuoteTable
+ORG $846AC
+POIN BattleQuoteTable
 
 //ORG $5B3F8
 //POIN SpellTable

@@ -50,6 +50,24 @@ BYTE HardCharLock
 BYTE Li
 BYTE EndLockArray
 
+FireMageArray:
+BYTE HardClassLock
+BYTE Conduit
+BYTE FireMage
+BYTE EndLockArray
+
+ThunderMageArray:
+BYTE HardClassLock
+BYTE Conduit
+BYTE ThunderMage
+BYTE EndLockArray
+
+WindMageArray:
+BYTE HardClassLock
+BYTE Conduit
+BYTE WindMage
+BYTE EndLockArray
+
 OldFriendWepBuffs:
 BYTE 0x00 0x00 0x00 0x00 0x02 0x02 0x00 0x00 0x02 0x00
 BYTE 0

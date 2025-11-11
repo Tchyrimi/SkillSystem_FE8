@@ -57,8 +57,8 @@ Wyvern Lord[.][X]
 # 0x02D0
 Wyvern Kn.[X]
 
-# 0x02D1
-Mage[X]
+# 0x02D1 *
+Thunder Mage[X]
 
 # 0x02D2
 Sage[X]
@@ -368,8 +368,9 @@ Wyvern riders who can pierce enemy[NL]
 defenses. Equip: Lances. Skill: Pierce.[.][X]
 
 # 0x031D
-Magic wielders with solid skills but low[NL]
-physical strength. Equip: Anima.[X]
+Powerful spellcasters who's lightning[NL]
+will kill you if you're struck. If being[NL]
+the operative word. Harder to take down.[X]
 
 # 0x031E
 Advanced scholars of magical codices.[.][NL]

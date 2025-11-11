@@ -1,5 +1,12 @@
 //Chapter goals
 
+# 0x101B
+Rout and Talk[X]
+
+# 0x101C
+Clear all enemies[NL]
+and talk to Navarro[X]
+
 # 0x019C
 Survive[.][X]
 
