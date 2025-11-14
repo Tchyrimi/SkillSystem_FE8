@@ -158,8 +158,8 @@ UNIT Gen Vagabond Gen Level(1,NPC,False) [18,0] 0x0 0x0 0x1 REDA16R1 [IronSword,
 UNIT
 
 JamParty:
-UNIT Jam Shaman Daphne Level(4,Ally,False) [3,2] 0x0 0x0 0x1 REDA4R3 [Flux,Vulnerary,Vulnerary] NoAI
-UNIT Mercius Monk Daphne Level(4,Ally,False) [3,2] 0x0 0x0 0x1 REDA3R4 [Lightning,Vulnerary,Vulnerary] NoAI
+UNIT Jam Shaman Daphne Level(4,Ally,False) [3,2] 0x0 0x0 0x1 REDA4R3 [Flux,Vulnerary,StrawberryJam] NoAI
+UNIT Mercius Monk Daphne Level(4,Ally,False) [3,2] 0x0 0x0 0x1 REDA3R4 [Lightning,Vulnerary,StrawberryJam] NoAI
 UNIT
 
 ReinforcementChainGang1:

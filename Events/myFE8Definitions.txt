@@ -262,6 +262,7 @@
 #define IronLongbow 0xCE
 #define SteelLongbow 0xCF
 #define SilverLongbow 0xD0
+#define StrawberryJam 0xA2
 //#define IronSword 0x01
 //#define SlimSword 0x02
 //#define SteelSword 0x03

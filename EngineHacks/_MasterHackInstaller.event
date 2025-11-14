@@ -234,6 +234,8 @@ POP
   
   #include "Necessary/CalcLoops/CalcLoops.event"
   
+//  #include "ExternalHacks/
+  #include "ExternalHacks/MultiVulnerary/Installer.event"
   #include "ExternalHacks/StatscreenTerrainBonus/Installer.event"
   #include "ExternalHacks/ExtendWeaponDescBox/Installer.event"
   #include "ExternalHacks/ASMCs/BadStatus/BadStatusInstaller.event"
@@ -251,7 +253,7 @@ POP
   #include "LongerClassName.event"
   #include "addlucktohitrate.txt"
   #include "minimumcritedit.txt"
-  #include "VulneraryHealChange.event"
+  //#include "VulneraryHealChange.event"
   #include "SupportGainRange.event"
 
   // Save/Suspend Expansion
