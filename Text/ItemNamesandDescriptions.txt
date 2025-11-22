@@ -478,7 +478,7 @@ Master Seal[.][X]
 Metis's Tome[X]
 
 # 0x03F6 *
-Ocean Seal[X]
+Fruit Preserves[X]
 
 # 0x03F7 *
 Lunar Brace[.][X]
@@ -1094,8 +1094,8 @@ Gives a little treat to the[.][NL]
 unit that uses it.[X]
 
 # 0x04A7
-For use by thieves and[NL]
-pirates Lv. 10 and up.[X]
+Strawberry jam fresh from the[NL]
+fields. So good it can heal you.[X]
 
 # 0x04A8
 For use by Eirika,[NL]
@@ -1304,8 +1304,8 @@ Give this to a[NL]
 unit you like.[X]
 
 # 0x04E0
-Use this on a worthy[NL]
-thief or pirate.[X]
+Consume to restore[NL]
+10 HP, and boost sales.[X]
 
 # 0x04E1
 Have Eirika use this[NL]

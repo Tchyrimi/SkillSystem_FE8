@@ -3,6 +3,7 @@
 PUSH
 
 #include "QualityOfLife/RemoveLinkArena.event"
+//#include "QualityOfLife/FE8StaffRangeFix/FE8StaffRangeFix.event"
 //crit and luck stuff (both Dragz I'm pretty sure, double check)
 #include "minimumcritedit.txt"
 #include "addlucktohitrate.txt"
@@ -123,6 +124,10 @@ SHORT $46c0
 //Hold A to speed up movement (credit Gryz)
   ORG $794ee
   SHORT 0
+  
+//remove the a/an text from item pop-ups
+  ORG $01619C
+  BYTE 0x04 0xE1
 
 //Stop system from auto setting Rout flag when all enemies are defeated
   ORG $83ED6

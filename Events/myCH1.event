@@ -210,7 +210,7 @@ KanSupply:
 MUSI
 Text(0x921)
 MUNO
-SVAL s3 0x6C //change this to whatever the strawberry jam is
+SVAL s3 StrawberryJam
 GIVEITEMTO Daphne
 NoFade
 ENDA
